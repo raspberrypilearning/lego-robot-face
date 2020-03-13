@@ -1,11 +1,15 @@
 ## Introduction
 
-Add project description here. What will learners be making?
+Over the course of this project you will construct controllable face from a combination of Lego, craft material and electronic components. You'll then make use of an existing machine learning model to help your face recognise objects and react to them. 
 
 ### What you will make
 
 --- no-print ---
-Add instructions for using the embedded content here.
+Your robot face will be able to imitate a degree of intelligence by recognising and reacting to a range of objects. Here you can see our example of a robot face.
+
+![Demo Video](https://toppng.com/uploads/preview/youtube-frame-youtube-115632313738m78qtckwq.png)
+
+Thoughout the project we'll work towards this example robot face and model how it was built. You should build your robot face using whatever lego and other materials you have available.
 
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
@@ -22,17 +26,22 @@ title: What you will need
 ---
 ### Hardware
 
-+ Describe hardware here
++ A Raspberry Pi Computer
++ A Raspberry Pi *XXXXX* Hat
++ A Raspberry Pi Camera
++ 2 Small Lego Motors (Semi - optional)
++ 2 LED matrices (optional)
++ Assortment of Lego, we used the spike prime kit
 
 ### Software
 
-+ Scratch 2.0 (either [online](http://rpf.io/scratchon) or [offline](http://rpf.io/scratchoff))
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
++ *XXXXXX* python library for controlling the *XXXX* Hat
++ TensorFlow Lite library and sample model
++ Additional Libraries for controlling LED matrices
 
 ### Downloads
 
-+ [rpf.io/project-name-go](http://rpf.io/project-name-go){:target="_blank"}
++ [rpf.io/robot-face-go](http://rpf.io/project-name-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -41,8 +50,9 @@ title: What you will need
 title: What you will learn
 ---
 
-+ Two or three learning objectives
-+ ...should go here
++ To build simple mechanisms using lego
++ What a machine learning model is and how to use one
++ To use dictioanry data structures to map inputs to outputs (facial expressions)
 
 --- /collapse ---
 
@@ -51,8 +61,8 @@ title: What you will learn
 title: Additional information for educators
 ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/project-name/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/robot-face/print){:target="_blank"}.
 
-[Here is a link to the resources for this project](http://rpf.io/project-name-go).
+[Here is a link to the resources for this project](http://rpf.io/robot-face-go).
 
 --- /collapse ---
