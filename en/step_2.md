@@ -5,7 +5,10 @@ Your first step will be understand and test how we can use a machine learning mo
  - [Setting up your Pi](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up)
  - [Getting started with the Camera Module](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera)
 
- ## Machine Learning
+
+## Machine Learning
+
+
 
  Unlike most animals, computers do not have a natural ability to learn. Most behaviours that computers display have been directly programmed by a human. These make them great for tasks involving a few clearly defined rules, but struggle with more human like tasks such as recognising objects. Here the number and complexity of the rules that would be need make such a task impracticle if not impossible. For machines to be able to recognise objects we need to help them to learn usually using re-inforcement learning, similar to how humans learn from a young age.
 
