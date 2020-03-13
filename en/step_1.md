@@ -41,7 +41,7 @@ title: What you will need
 
 ### Downloads
 
-+ [rpf.io/robot-face-go](http://rpf.io/project-name-go){:target="_blank"}
++ [rpf.io/p/en/robot-face-go](http://rpf.io/p/en/project-name-go){:target="_blank"}
 
 --- /collapse ---
 
