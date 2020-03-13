@@ -7,13 +7,10 @@ Over the course of this project you will construct controllable face from a comb
 --- no-print ---
 Your robot face will be able to imitate a degree of intelligence by recognising and reacting to a range of objects. Here you can see our example of a robot face.
 
-![Demo Video](https://toppng.com/uploads/preview/youtube-frame-youtube-115632313738m78qtckwq.png)
+![Demo Video](https://i.ytimg.com/vi/OCWj5xgu5Ng/maxresdefault.jpg)
 
 Thoughout the project we'll work towards this example robot face and model how it was built. You should build your robot face using whatever lego and other materials you have available.
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
 --- /no-print ---
 
 --- print-only ---

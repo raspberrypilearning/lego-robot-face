@@ -5,7 +5,7 @@ Your first step will be understand and test how we can use a machine learning mo
  - [Setting up your Pi](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up)
  - [Getting started with the Camera Module](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera)
 
- ### Machine Learning
+ ## Machine Learning
 
  Unlike most animals, computers do not have a natural ability to learn. Most behaviours that computers display have been directly programmed by a human. These make them great for tasks involving a few clearly defined rules, but struggle with more human like tasks such as recognising objects. Here the number and complexity of the rules that would be need make such a task impracticle if not impossible. For machines to be able to recognise objects we need to help them to learn usually using re-inforcement learning, similar to how humans learn from a young age.
 
@@ -15,7 +15,7 @@ Your first step will be understand and test how we can use a machine learning mo
 
  The end result of this process in callled a **model** and once sufficietly trained can be used in the real world to perform a task. One important consideration is that the model is only as good as the variety and quatity of inputs it was trained on. If a model is only tested on a small sample of inputs it will have few opportunities to be refined and therefore likely be less good it's job. Likewise if a model had only every seen examples of siamese cats then it would also struggle to recognise other varieties of cat that look quite different.
 
- ### Testing a model
+ ## Testing a model
 
  For this project you won't be creating and training your own model but using an example model that can recognise a range of objects.
 
@@ -33,4 +33,4 @@ Your first step will be understand and test how we can use a machine learning mo
  - `fileB` - Text labels for each object the model can recognise
  - `fileC` - A python program to test the model
 
- 
+
