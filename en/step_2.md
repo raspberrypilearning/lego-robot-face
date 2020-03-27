@@ -36,4 +36,18 @@ Your first step will be understand and test how we can use a machine learning mo
  - `fileB` - Text labels for each object the model can recognise
  - `fileC` - A python program to test the model
 
+ Open Mu on your Raspberry Pi and the `fileC` program, which will display what the camera is "seeing", the name of the main object in view that it recognises and how confident it is about the object as a percentage.
+
+ ![Image of recogniser project running](images/placeholder.png)
+
+ Try presenting the camera with different objects and investigate which it can recognise with confidence. Whilst doing this experiment with:
+   - **The background** -  A busy scene may cause your camera to recognise other objects instead of your target.
+   - **Object position** - where and how you hold the object may effect how well it is detected, experiment with the distance from the camera as well as the orientation.
+   - **Lighting** - the lighting in your environment may impact on how well your object is detected. Experiment with different light sources, levels and locations.
+   - **Images** - You may find it beneficial to show the camera images of objects rather than the object themselves.
+
+### Challenge
+
+Can you find approximately 5 objects (or images) that your camera can recognise reliably?
+
 
