@@ -38,7 +38,7 @@ Your first step will be understand and test how we can use a machine learning mo
 
  Open Mu on your Raspberry Pi and the `fileC` program, which will display what the camera is "seeing", the name of the main object in view that it recognises and how confident it is about the object as a percentage.
 
- ![Image of recogniser project running](images/placeholder.png)
+ ![Image of recogniser project running](images/classifier.png)
 
  Try presenting the camera with different objects and investigate which it can recognise with confidence. Whilst doing this experiment with:
    - **The background** -  A busy scene may cause your camera to recognise other objects instead of your target.
