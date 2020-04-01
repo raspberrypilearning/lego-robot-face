@@ -34,6 +34,8 @@ The next step is to think about which objects will trigger which facial expressi
 
 | Objects | Reaction |
 | ------- | -------- |
-| Brocoli
-Chocolate | ![](images/happy.png) - Happy |
-| Spider | ![](images/sad.png) - Sad |
+| Brocoli, Chocolate | ![](images/happy.png)|
+| Spider | ![](images/sad.png) |
+| Cat | ![](images/love.png)
+| Banana | ![](images/laugh.png) |
+| Moon | ![](images/sleep.png) |
