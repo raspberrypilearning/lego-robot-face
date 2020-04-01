@@ -22,12 +22,18 @@ To keep it relatively simple we could look a range of simple emojis and select 5
 
 These are just a sample of the wide range of emojis available, some of which will be harder to represent that others. Most of the emojis rely on using the eyes and mouth to represent their expression with a few using additional props, colour or hands to enhance their meaning. If we were to choose 5 face to try and represent we might select:
 
-| ![](imges/placeholder.png) | ![](imges/placeholder.png) | ![](imges/placeholder.png) | ![](imges/placeholder.png) | ![](imges/placeholder.png) |
+| ![](images/happy.png) | ![](images/sad.png) | ![](images/love.png) | ![](images/sleep.png) | ![](images/laugh.png) |
 | -------------------------- | -------------------------- | -------------------------- | -------------------------- | -------------------------- |
-| Name | Name | Name | Name | Name | 
+| Happy | Sad | Love | Sleep | Laugh | 
 
+# Connecting objects to expressions
 
+From your experiments in the previous step you will have hopefully identified some objects that your camera and machine learning model can reliably detect. 
 
-# Choosing objects
+The next step is to think about which objects will trigger which facial expressions in your robot. Each expression can have multiple objects associated with it but not the other way around.
 
-From your experiments in the previous step you will have hopefully identified some objects that your camera and machine learning model can reliably detect
+| Objects | Reaction |
+| ------- | -------- |
+| Brocoli
+Chocolate | ![](images/happy.png) - Happy |
+| Spider | ![](images/sad.png) - Sad |
