@@ -14,7 +14,7 @@ Thoughout the project we'll work towards this example robot face and model how i
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/showcase_static.png)
+![Complete project](images/placeholder.png)
 --- /print-only ---
 
 --- collapse ---
@@ -24,7 +24,7 @@ title: What you will need
 ### Hardware
 
 + A Raspberry Pi Computer
-+ A Raspberry Pi *XXXXX* Hat
++ A Raspberry Pi Build Hat
 + A Raspberry Pi Camera
 + 2 Small Lego Motors (Semi - optional)
 + 2 LED matrices (optional)

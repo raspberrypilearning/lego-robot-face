@@ -15,16 +15,16 @@ For the project your going to need:
 
   ![Image of step 1](images/placeholder.png)
 
-1. Next some horizontal supports were added to help the face stand up. Here some technic panels were used but, beams or frames would have worked just as well.
+2. Next some horizontal supports were added to help the face stand up. Here some technic panels were used but, beams or frames would have worked just as well.
 
   ![Image of step 2](images/placeholder.png)
 
   ![step 2 alternatives](images/placeholder.png)
 
-1. Two small motors were added to the rear of the model to control the corners of the mouth. Importantly for the next step the motors' position was set to 0.
+3. Two small motors were added to the rear of the model to control the corners of the mouth. Importantly for the next step the motors' position was set to 0.
 
   ![Image of step 3](images/placeholder.png)
 
-1. Round the front of the model short axles were attached to 90&deg connectors before being joined with a flexible hose and then mounted in the motors holes.
+4. Round the front of the model short axles were attached to 90&deg connectors before being joined with a flexible hose and then mounted in the motors holes.
 
   ![Image of step 4](images/placeholder.png)
