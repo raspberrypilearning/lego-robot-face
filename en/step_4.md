@@ -30,3 +30,28 @@ For the project your going to need:
   ![Image of step 4](images/build_04.jpg)
 
   ![Image of step 4](images/build_05.jpg)
+
+5. Next for the eyes a pair of 8x8 LED matrices were used. The 4 connection pins were carefuly bent to 90&deg and then both mounted to the face using 4 double length connector pegs and a pair of 3x5 L shaped beams.
+
+  ![Image of step 4](images/build_06.jpg)
+
+  ![Image of step 4](images/build_07.jpg)
+
+6. To mount the Raspberry Pi Camera in the model a custom Lego compatible [part](https://www.thingiverse.com/thing:3273396) was found and 3D printed.  
+
+  ![Image of step 4](images/build_08.jpg)
+
+  This could then be mounted on top of the Lego face
+
+  ![Image of step 4](images/build_09.jpg)
+
+  ![Image of step 4](images/build_10.jpg)
+
+  7. The LED matrices were connected via 4 jumper wires to the Raspberry Pi with the cables held in pace by Lego cable clips.
+
+  ![Image of step 4](images/build_11.jpg)
+
+  8. The LED matrices were connected to the I2C bus on the Raspberry Pi
+
+  ![Image of step 4](images/build_12.jpg)
+
