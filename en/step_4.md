@@ -47,11 +47,6 @@ For the project your going to need:
 
   ![Image of step 4](images/build_10.jpg)
 
-  7. The LED matrices were connected via 4 jumper wires to the Raspberry Pi with the cables held in pace by Lego cable clips.
+This completes the construction of our example face model, however you may wish to add other features suchs a ears, a nose or hair. There are also many other materials you might use including cardboard, paper, string, tape etc.
 
-  ![Image of step 4](images/build_11.jpg)
-
-  8. The LED matrices were connected to the I2C bus on the Raspberry Pi
-
-  ![Image of step 4](images/build_12.jpg)
-
+In the next step we'll connect up each component of the face to the Raspberry Pi computer and build hat.
