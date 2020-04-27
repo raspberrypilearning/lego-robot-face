@@ -56,10 +56,10 @@ Use 8 Male-Female jumper wires to connect the 4 pins from each eye together on t
 
 Using 4 more Male-Female wires connect the 4 pins from the boards to the following GPIO pins on the Build Hat.
 
-- **VCC** to pin ****
-- **GND** to pin ****
-- **SDA** to pin ****
-- **SCL** to pin ****
+- **VCC** to pin **5V**
+- **GND** to pin **GND**
+- **SDA** to pin **2**
+- **SCL** to pin **3**
 
 ![I2C Diagram](images/gpio_pins.jpg)
 
