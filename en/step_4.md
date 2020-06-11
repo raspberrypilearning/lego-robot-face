@@ -11,6 +11,18 @@ For the project your going to need:
 - Raspberry Pi Camera
 - Assortment of Lego elements to constuct the face itself.
 
+1. First do X
+<iframe class="responsive-embed__iframe" src="https://sketchfab.com/models/849e3892cc3444b6a86c9444460e5b11/embed" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+2. Then do Y
+
+<iframe class="responsive-embed__iframe" src="https://sketchfab.com/models/849e3892cc3444b6a86c9444460e5b11/embed" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+
+
+
+
 1. Our first step was to build the main part of the face for which we used 2 panel plates, connected with a series of pins.
 
   ![Image of step 1](images/build_01.jpg)
