@@ -12,7 +12,7 @@ For the project your going to need:
 - Assortment of Lego elements to constuct the face itself.
 
 1. First do X
-<iframe class="responsive-embed__iframe" src="https://sketchfab.com/models/849e3892cc3444b6a86c9444460e5b11/embed" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe class="responsive-embed__iframe" src="https://sketchfab.com/models/98a2497577ef4c2eb109030af48a13c3/embed" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 2. Then do Y
 
