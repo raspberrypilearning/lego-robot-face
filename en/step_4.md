@@ -9,7 +9,9 @@
     </p>
 </div>
 
+
 Now that we know which object will trigger whgich responses we need robotic face to animate them with. In this step we're going to walk through an example model, but you can adapt to suit your needs, available resources and ideas.
+
 
 ## Equipment 
 To build this robot face we used parts from the (Spike Prime)[] and (Spike expansion)[] sets. However most of the parts can be found in many existing Lego sets.
