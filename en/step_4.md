@@ -1,8 +1,8 @@
 # Making a face
 
-<iframe class="responsive-embed__iframe" src="https://sketchfab.com/models/0eb783a971794dae9f7bb4ee63debff0/embed" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+This is what your model will look like
 
-<iframe width=640px height=480px class="responsive-embed__iframe" src="https://sketchfab.com/models/d0e78282ad3c4436a2ac7a5326983d8b/embed?autospin=0.2&amp;autostart=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe class="responsive-embed__iframe" src="https://sketchfab.com/models/d0e78282ad3c4436a2ac7a5326983d8b/embed?autospin=0.2&amp;autostart=1" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 Now that we know which object will trigger whgich responses we need robotic face to animate them with. In this step we're going to walk through an example model, but you can adapt to suit your needs, available resources and ideas.
 
