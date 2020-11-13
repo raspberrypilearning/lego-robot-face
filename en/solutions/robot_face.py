@@ -3,11 +3,17 @@ from time import sleep
 from build_hat import BuildHAT
 from adafruit_ht16k33.matrix import Matrix8x8
 from PIL import Image
+from random import randint
+
+neutral = Image.open("neutral.png").rotate(90)
+wide = Image.open("wide.png").rotate(90)
+angry = Image.open("angry.png").rotate(90)
+look_down = Image.open("look_down.png").rotate(90)
 
 
 i2c = board.I2C()
-left_eye = Matrix8x8(i2c, address=0x71)
-right_eye = Matrix8x8(i2c, address=0x70)
+left_eye = Matrix8x8(i2c, address=0x70)
+right_eye = Matrix8x8(i2c, address=0x71)
 bh = BuildHAT()
 
 
@@ -25,22 +31,23 @@ def move_eb (pos,speed=100):
   eb.run_to_position(pos,speed)
 
 def move_mouth (l_pos,r_pos, speed=100):
+    print(l_pos,r_pos)
     mouth_l.run_to_position(l_pos*-1,speed,blocking=False)
     mouth_r.run_to_position(r_pos,speed,blocking=False)
 
 def change_eyes(left,right):
-    left_eye.image(Image.open("neutral.png"))
- #   left_eye[0, 0] = 1
-    right_eye[7,7] = 1
+    left_eye.image(left)
+    right_eye.image(right)
     left_eye.show()
     right_eye.show()
   
 
 
 faces = {
-  "neutral":{"mouth_r":0,"mouth_l":0,"eye_r":"happy.png","eye_l":"happy.png","eyebrows":0},
-  "happy":{"mouth_r":45,"mouth_l":45,"eye_r":"happy.png","eye_l":"happy.png","eyebrows":40},
-  "sad":{"mouth_r":-45,"mouth_l":-45,"eye_r":"happy.png","eye_l":"happy.png","eyebrows":-40}
+  "neutral":{"mouth_r":0,"mouth_l":0,"eye_r":neutral,"eye_l":neutral,"eyebrows":0},
+  "happy":{"mouth_r":45,"mouth_l":45,"eye_r":wide,"eye_l":wide,"eyebrows":40},
+  "angry":{"mouth_r":-20,"mouth_l":-20,"eye_r":angry,"eye_l":angry,"eyebrows":-100},
+  "sad":{"mouth_r":-45,"mouth_l":-45,"eye_r":look_down,"eye_l":look_down,"eyebrows":-40}
 }
 
 def set_face (face):
@@ -51,9 +58,14 @@ def set_face (face):
 set_face(faces["neutral"])
 input()
 
-
-#while True:
-#  set_face(faces["happy"])
-#  sleep(5)
-#  set_face(faces["sad"])
-#  sleep(5)
+while True:
+#  x = randint(-170,170)
+ # print(x)
+ # move_eb(x)
+ # sleep(0.5)
+  set_face(faces["angry"])
+  sleep(5)
+  set_face(faces["sad"])
+  sleep(5)
+  set_face(faces["happy"])
+  sleep(5)
