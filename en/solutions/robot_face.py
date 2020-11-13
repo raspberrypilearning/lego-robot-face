@@ -24,8 +24,9 @@ def change_eye(side,img):
 
 
 faces = {
-  "happy":{"mouth_r":45,"mouth_l":45,"right_eye":"happy.png","left_eye":"happy.png","eyebrows":40}
-  "sad":{"mouth_r":-45,"mouth_l":-45,"right_eye":"happy.png","left_eye":"happy.png","eyebrows":-40}
+  "neutral":{"mouth_r":0,"mouth_l":0,"eye_r":"happy.png","eye_l":"happy.png","eyebrows":0},
+  "happy":{"mouth_r":45,"mouth_l":45,"eye_r":"happy.png","eye_l":"happy.png","eyebrows":40},
+  "sad":{"mouth_r":-45,"mouth_l":-45,"eye_r":"happy.png","eye_l":"happy.png","eyebrows":-40}
 }
 
 def set_face (face):
@@ -34,7 +35,12 @@ def set_face (face):
   move_mouth(face["mouth_l"],face["mouth_r"])
   move_eb(face["eyebrows"])
 
+set_face(faces["neutral"])
+input()
 
-set_face(faces[happy])
-sleep(5)
-set_face(faces[sad])
+
+while True:
+  set_face(faces["happy"])
+  sleep(5)
+  set_face(faces["sad"])
+  sleep(5)
