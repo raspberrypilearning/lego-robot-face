@@ -1,4 +1,5 @@
 from build_hat import BuildHAT
+from time import sleep
 bh = BuildHAT()
 
 mouth_r = bh.port.C.motor
@@ -23,7 +24,8 @@ def change_eye(side,img):
 
 
 faces = {
-  "happy":{"mouth_r":-45,"mouth_l":-45,"eye_r":"happy.png","eye_l":"happy.png","eyebrows":-1000}
+  "happy":{"mouth_r":45,"mouth_l":45,"right_eye":"happy.png","left_eye":"happy.png","eyebrows":40}
+  "sad":{"mouth_r":-45,"mouth_l":-45,"right_eye":"happy.png","left_eye":"happy.png","eyebrows":-40}
 }
 
 def set_face (face):
@@ -33,4 +35,6 @@ def set_face (face):
   move_eb(face["eyebrows"])
 
 
-set_face(faces["happy"])
+set_face(faces[happy])
+sleep(5)
+set_face(faces[sad])
