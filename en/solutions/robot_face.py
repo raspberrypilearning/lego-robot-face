@@ -14,32 +14,23 @@ def move_eb (pos,speed=100):
   current_pos = eb.get()[2]
   eb.run_to_position(pos,speed)
 
-def move_mouth (side, pos, speed=100):
-  if pos > 45:
-    pos = 45
-  elif pos < -45:
-    pos = -45
-
-  if side == "l":
-    pos = pos * -1
-    mouth_l.run_to_position(pos,speed)
-  elif side == "r":
-    mouth_r.run_to_position(pos,speed)
+def move_mouth (l_pos,r_pos, speed=100):
+    mouth_l.run_to_position(l_pos*-1,speed,blocking=False)
+    mouth_r.run_to_position(r_pos,speed,blocking=False)
 
 def change_eye(side,img):
   pass
 
 
 faces = {
-  "happy":{"mouth_r":-45,"mouth_l":-45,"right_eye":"happy.png","left_eye":"happy.png","eyebrows":0}
+  "happy":{"mouth_r":-45,"mouth_l":-45,"eye_r":"happy.png","eye_l":"happy.png","eyebrows":-1000}
 }
 
 def set_face (face):
   change_eye("l",face["eye_l"])
   change_eye("r",face["eye_r"])
-  move_mouth("l",face["mouth_l"])
-  move_mouth("r",face["mouth_r"])
-  move_eb("0")
+  move_mouth(face["mouth_l"],face["mouth_r"])
+  move_eb(face["eyebrows"])
 
 
-set_face(faces[happy])
+set_face(faces["happy"])
