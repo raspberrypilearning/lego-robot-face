@@ -21,11 +21,11 @@ def move_mouth (side, pos, speed=100):
   elif pos < -45:
     pos = -45
 
-  if side = "l":
+  if side == "l":
     pos = pos * -1
     mouth_l.run_to_position(pos,speed)
-  elif side = "r":
-    mouth_l.run_to_position(pos,speed)
+  elif side == "r":
+    mouth_r.run_to_position(pos,speed)
 
 move_mouth("l",45)
 input()
