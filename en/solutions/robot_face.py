@@ -12,22 +12,30 @@ def move_eb (pos,speed):
     pos = -170
 
   current_pos = eb.get()[2]
-#  if abs(pos - current_pos) > 170:
- #   eb.run_to_position(0,speed)
-
   eb.run_to_position(pos,speed)
 
-move_eb(0,100)
-input()
-move_eb(300,100)
-input()
-move_eb(40,100)
-input()
-move_eb(170,100)
-input()
-move_eb(-170,100)
 
+def move_mouth (side, pos, speed=100):
+  if pos > 45:
+    pos = 45
+  elif pos < -45:
+    pos = -45
 
+  if side = "l":
+    pos = pos * -1
+    mouth_l.run_to_position(pos,speed)
+  elif side = "r":
+    mouth_l.run_to_position(pos,speed)
 
-mouth_r.run_to_position(0,100)
-mouth_l.run_to_position(0,100)
+move_mouth("l",45)
+input()
+move_mouth("l",-45)
+input()
+move_mouth("l",450)
+input()
+move_mouth("r",45)
+input()
+move_mouth("r",-45,10)
+input()
+move_mouth("R",45)
+input()
