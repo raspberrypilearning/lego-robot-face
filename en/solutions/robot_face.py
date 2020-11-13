@@ -1,6 +1,15 @@
-from build_hat import BuildHAT
+import board
 from time import sleep
+from build_hat import BuildHAT
+from adafruit_ht16k33.matrix import Matrix8x8
+from PIL import Image
+
+
+i2c = board.I2C()
+left_eye = Matrix8x8(i2c, address=0x71)
+right_eye = Matrix8x8(i2c, address=0x70)
 bh = BuildHAT()
+
 
 mouth_r = bh.port.C.motor
 mouth_l = bh.port.D.motor
@@ -19,8 +28,13 @@ def move_mouth (l_pos,r_pos, speed=100):
     mouth_l.run_to_position(l_pos*-1,speed,blocking=False)
     mouth_r.run_to_position(r_pos,speed,blocking=False)
 
-def change_eye(side,img):
-  pass
+def change_eyes(left,right):
+    left_eye.image(Image.open("neutral.png"))
+ #   left_eye[0, 0] = 1
+    right_eye[7,7] = 1
+    left_eye.show()
+    right_eye.show()
+  
 
 
 faces = {
@@ -30,8 +44,7 @@ faces = {
 }
 
 def set_face (face):
-  change_eye("l",face["eye_l"])
-  change_eye("r",face["eye_r"])
+  change_eyes(face["eye_r"],face["eye_l"])
   move_mouth(face["mouth_l"],face["mouth_r"])
   move_eb(face["eyebrows"])
 
@@ -39,8 +52,8 @@ set_face(faces["neutral"])
 input()
 
 
-while True:
-  set_face(faces["happy"])
-  sleep(5)
-  set_face(faces["sad"])
-  sleep(5)
+#while True:
+#  set_face(faces["happy"])
+#  sleep(5)
+#  set_face(faces["sad"])
+#  sleep(5)
