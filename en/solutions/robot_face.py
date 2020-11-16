@@ -4,12 +4,13 @@ from build_hat import BuildHAT
 from adafruit_ht16k33.matrix import Matrix8x8
 from PIL import Image
 from random import randint
+from classifier import Classifier
 
 neutral = Image.open("neutral.png").rotate(90)
 wide = Image.open("wide.png").rotate(90)
 angry = Image.open("angry.png").rotate(90)
 look_down = Image.open("look_down.png").rotate(90)
-
+seen_items = Classifier(label_file="labels.txt",model_file="model.tflite",threshold=0.5)
 
 i2c = board.I2C()
 left_eye = Matrix8x8(i2c, address=0x70)
@@ -63,9 +64,12 @@ while True:
  # print(x)
  # move_eb(x)
  # sleep(0.5)
-  set_face(faces["angry"])
-  sleep(5)
-  set_face(faces["sad"])
-  sleep(5)
-  set_face(faces["happy"])
-  sleep(5)
+  
+  print(seen_items.item)
+  sleep(1)
+  #set_face(faces["angry"])
+  #sleep(5)
+  #set_face(faces["sad"])
+  #sleep(5)
+  #set_face(faces["happy"])
+  #sleep(5)
