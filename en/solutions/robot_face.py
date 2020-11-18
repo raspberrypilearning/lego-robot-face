@@ -17,7 +17,6 @@ left_eye = Matrix8x8(i2c, address=0x70)
 right_eye = Matrix8x8(i2c, address=0x71)
 bh = BuildHAT()
 
-
 mouth_r = bh.port.C.motor
 mouth_l = bh.port.D.motor
 eb = bh.port.A.motor
@@ -51,25 +50,20 @@ faces = {
   "sad":{"mouth_r":-45,"mouth_l":-45,"eye_r":look_down,"eye_l":look_down,"eyebrows":-40}
 }
 
+reactions = {"broccoli":"sad","teapot":"happy","thunder snake":"angry","hotdog":"happy"}
+
+
 def set_face (face):
   change_eyes(face["eye_r"],face["eye_l"])
   move_mouth(face["mouth_l"],face["mouth_r"])
   move_eb(face["eyebrows"])
 
 set_face(faces["neutral"])
-input()
 
 while True:
-#  x = randint(-170,170)
- # print(x)
- # move_eb(x)
- # sleep(0.5)
-  
-  print(seen_items.item)
   sleep(1)
-  #set_face(faces["angry"])
-  #sleep(5)
-  #set_face(faces["sad"])
-  #sleep(5)
-  #set_face(faces["happy"])
-  #sleep(5)
+  if seen_items.item != seen_items.last_item:
+    item = seen_items.item
+    if item in reactions:
+      set_face(faces[reactions[item]])
+  sleep(1)

@@ -79,7 +79,7 @@ class Classifier(object):
     _, height, width, _ = interpreter.get_input_details()[0]['shape']
 
     with picamera.PiCamera(resolution=(640, 480), framerate=30) as camera:
-      camera.start_preview()
+      camera.start_preview(fullscreen=False, window = (100, 20, 640, 480))
       try:
         stream = io.BytesIO()
         for _ in camera.capture_continuous(
@@ -109,7 +109,7 @@ class Classifier(object):
 
 
 if __name__ == '__main__':
-  classifier = Classifier(label_file="labels.txt",model_file="model.tflite",threshold=0.7)
+  classifier = Classifier(label_file="labels.txt",model_file="model.tflite",threshold=0.5)
   while True:
 #    print(classifier.object,classifier.last_object)
     time.sleep(1) 
