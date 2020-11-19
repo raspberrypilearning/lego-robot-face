@@ -7,14 +7,14 @@ Over the course of this project you will construct controllable face from a comb
 --- no-print ---
 Your robot face will be able to imitate a degree of intelligence by recognising and reacting to a range of objects. Here you can see our example of a robot face.
 
-![Demo Video](https://i.ytimg.com/vi/OCWj5xgu5Ng/maxresdefault.jpg)
+![Demo Video](images/robot_face.gif)
 
 Thoughout the project we'll work towards this example robot face and model how it was built. You should build your robot face using whatever lego and other materials you have available.
 
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/placeholder.png)
+![Complete project](images/robot_face.gif)
 --- /print-only ---
 
 --- collapse ---
@@ -26,13 +26,17 @@ title: What you will need
 + A Raspberry Pi Computer
 + A Raspberry Pi Build Hat
 + A Raspberry Pi Camera
-+ 2 Small Lego Motors (Semi - optional)
-+ 2 LED matrices (optional)
++ A 30cm Raspberry Pi Camera Ribbon Cable
++ 2 Small Lego Motors
++ 1 Large Lego Motor
++ 1 Mini Breadboard
++ 12 Male-to-Female Jumper wires (20cm)
++ 2 Adafruit 8x8 LED matrices
 + Assortment of Lego, we used the spike prime kit
 
 ### Software
 
-+ *XXXXXX* python library for controlling the *XXXX* Hat
++ BuildHAT python library for controlling the Build Hat
 + TensorFlow Lite library and sample model
 + Additional Libraries for controlling LED matrices
 
