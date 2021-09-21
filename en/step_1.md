@@ -1,6 +1,6 @@
 ## Introduction
 
-Over the course of this project you will construct controllable face from a combination of Lego, craft material and electronic components. You'll then make use of an existing machine learning model to help your face recognise objects and react to them. 
+Over the course of this project you will construct a controllable face from a combination of Lego, craft material and electronic components. You'll then make use of an existing machine learning model to help your face recognise objects and react to them. 
 
 ### What you will make
 
@@ -9,12 +9,12 @@ Your robot face will be able to imitate a degree of intelligence by recognising 
 
 ![Demo Video](images/robot_face.gif)
 
-Thoughout the project we'll work towards this example robot face and model how it was built. You should build your robot face using whatever lego and other materials you have available.
+Thoughout the project we'll work towards this example robot face and model how it was built. You should build your robot face using whatever Lego and other materials you have available.
 
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/robot_face.gif)
+![Complete project](images/robot_face.jpg)
 --- /print-only ---
 
 --- collapse ---
