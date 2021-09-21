@@ -1,10 +1,10 @@
 # Making a face
 
-This is what your model will look like
+This is what your finished model will look like:
 
 <iframe class="responsive-embed__iframe" src="https://sketchfab.com/models/d0e78282ad3c4436a2ac7a5326983d8b/embed?autospin=0.2&amp;autostart=1" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-Now that we know which object will trigger whgich responses we need robotic face to animate them with. In this step we're going to walk through an example model, but you can adapt to suit your needs, available resources and ideas.
+Now that we know which object will trigger which responses we need robotic face to animate them with. In this step we're going to walk through an example model, but you can adapt to suit your needs, available resources and ideas.
 
 
 ## Equipment 
