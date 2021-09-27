@@ -8,19 +8,20 @@ Mount your Raspberry Pi to the Maker Plate using M2 bolts and nuts:
 
  ![Raspberry Pi bolted to a magenta LEGO build plate](images/build_11.jpg)
 
+--- /task ---
+
 Mounting the Raspberry Pi this way round enables easy access to the ports as well as the SD card slot.
 
 ### Mounting the camera and BuildHAT
-
 
 Before adding the BuildHAT you'll first need to attach the camera ribbon cable to the Raspberry Pi and thread it through the hole in the build hat. If you haven't already connected the Camera board to your Pi, you can do so by following these instructions: [Getting started with the Camera Module](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera)
 
 --- task ---
 Leave the camera ribbon connected to the Pi, but remove the camera board from the loose end of the ribbon by pushing up the small black clip and sliding the ribbon out:
 
-![Image of step 12](images/build_12.jpg)
+![Image showing rear of camera board with closed clip](images/build_12.jpg)
 
-![Image of step 13](images/build_13.jpg)
+![Image showing rear of camera board with open clip and ribbon removed](images/build_13.jpg)
 
 --- /task ---
 
