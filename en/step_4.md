@@ -7,7 +7,7 @@ This is what your finished model will look like:
 Now that we know which object will trigger which responses we need to build a robotic face to animate them with. In this step we're going to walk through an example model, but you can adapt the plan depending on what you have available.
 
 ## Equipment 
-To build this robot face we used parts from the [Spike Prime](https://education.lego.com/en-gb/product/spike-prime)) and [Spike expansion](https://education.lego.com/en-gb/products/lego-education-spike-prime-expansion-set/45680)) sets. However most of the parts can be found in many existing Lego sets.
+To build this robot face we used parts from the [Spike Prime](https://education.lego.com/en-gb/product/spike-prime){:target="_blank"} and [Spike expansion](https://education.lego.com/en-gb/products/lego-education-spike-prime-expansion-set/45680){:target="_blank"} sets. However most of the parts can be found in many existing Lego sets.
 
 ## Building
 To construct this model or inspire your own, follow our handy building guide

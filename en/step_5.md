@@ -23,7 +23,7 @@ Before adding the BuildHAT you'll first need to attach the camera ribbon cable t
 
 --- task ---
 
-Line up the BuildHAT making sure all the GPIO pins are covered, then attach the camera to the end of the ribbon cable.
+Line up the BuildHAT making sure all the GPIO pins are covered, then attach the camera to the end of the ribbon cable. (The example uses a [stacking header](https://www.adafruit.com/product/2223){:target="_blank"} which makes the pins longer.)
 
 ![Image of step 14](images/build_14.jpg)
 
@@ -34,6 +34,14 @@ Line up the BuildHAT making sure all the GPIO pins are covered, then attach the 
 Connect up your small LEGO Spike motors to ports A and B, ready to control the mouth.
 
 ![Image of step 11](images/build_15.jpg)
+
+--- /task ---
+
+--- task ---
+
+Connect up your large LEGO motor to port C, ready to control the eyebrows.
+
+![Image showing large LEGO motor connected to port C on buildHAT](images/placeholder.png)
 
 --- /task ---
 
