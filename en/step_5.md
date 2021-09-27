@@ -4,7 +4,7 @@
 
 --- task ---
 
-Before you connect them up you need to follow the relevant [assembly instructions](https://learn.adafruit.com/adafruit-led-backpack/0-8-8x8-matrix-assembly). Assembly of the LED arrays requires some soldering, so get permission from an adult before you use any tools. 
+Before you connect them up you need to follow the relevant [assembly instructions](https://learn.adafruit.com/adafruit-led-backpack/0-8-8x8-matrix-assembly){:target="_blank"}. Assembly of the LED arrays requires some soldering, so get permission from an adult before you use any tools. 
 
 --- /task ---
 

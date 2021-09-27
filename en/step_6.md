@@ -14,7 +14,7 @@ Mounting the Raspberry Pi this way round enables easy access to the ports as wel
 
 ### Mounting the camera and BuildHAT
 
-Before adding the BuildHAT you'll first need to attach the camera ribbon cable to the Raspberry Pi and thread it through the hole in the build hat. If you haven't already connected the Camera board to your Pi, you can do so by following these instructions: [Getting started with the Camera Module](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera)
+Before adding the BuildHAT you'll first need to attach the camera ribbon cable to the Raspberry Pi and thread it through the hole in the build hat. If you haven't already connected the Camera board to your Pi, you can do so by following these instructions: [Getting started with the Camera Module](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera){:target="_blank"}
 
 --- task ---
 Leave the camera ribbon connected to the Pi, but remove the camera board from the loose end of the ribbon by pushing up the small black clip and sliding the ribbon out:
