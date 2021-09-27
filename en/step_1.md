@@ -31,8 +31,9 @@ title: What you will need
 + 1 Large Lego Motor
 + 1 Mini Breadboard
 + 12 Male-to-Female Jumper wires (20cm)
-+ 2 [Adafruit 8x8 LED matrices](https://www.adafruit.com/product/1049) (or similar)
++ 2 [Adafruit 8x8 LED matrices](https://www.adafruit.com/product/1049) (or similar - requires some soldering to assemble and modify)
 + Assortment of Lego; we used a selection from the [LEGO Spike Prime kit](https://education.lego.com/en-gb/product/spike-prime)
++ Soldering kit
 
 ### Software
 

@@ -14,4 +14,4 @@ To construct this model or inspire your own, follow our handy building guide
 <embed src="https://raspberrypi-education.s3-eu-west-1.amazonaws.com/shortcake/robot_face/Robot_face.pdf" width="600" height="500" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
 
 
-In the next step we'll connect up each component of the face to the Raspberry Pi computer and build hat.
+In the next step we'll build and connect up our LED arrays for the eyes.
