@@ -42,7 +42,7 @@ title: What you will need
 
 ### Downloads
 
-+ [rpf.io/p/en/robot-face-go](http://rpf.io/p/en/project-name-go){:target="_blank"}
++ [Image Classifier Test files](http://rpf.io/p/en/robot-face-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -53,7 +53,7 @@ title: What you will learn
 
 + To build simple mechanisms using lego
 + What a machine learning model is and how to use one
-+ To use dictioanry data structures to map inputs to outputs (facial expressions)
++ To use dictionary data structures to map inputs to outputs (facial expressions)
 
 --- /collapse ---
 
@@ -64,6 +64,6 @@ title: Additional information for educators
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/robot-face/print){:target="_blank"}.
 
-[Here is a link to the resources for this project](http://rpf.io/robot-face-go).
+[Here is a link to the resources for this project](http://rpf.io/p/en/robot-face-go){:target="_blank"}.
 
 --- /collapse ---
