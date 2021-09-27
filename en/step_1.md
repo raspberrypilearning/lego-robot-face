@@ -9,7 +9,7 @@ Your robot face will be able to imitate a degree of intelligence by recognising 
 
 ![Demo Video](images/robot_face.gif)
 
-Thoughout the project we'll work towards this example robot face and model how it was built. You should build your robot face using whatever Lego and other materials you have available.
+This project works towards this example robot face and models how it was built. You should build your robot face using whatever Lego and other materials you have available. We used the [LEGO Spike Prime kit](https://education.lego.com/en-gb/product/spike-prime).
 
 --- /no-print ---
 
@@ -32,7 +32,7 @@ title: What you will need
 + 1 Mini Breadboard
 + 12 Male-to-Female Jumper wires (20cm)
 + 2 [Adafruit 8x8 LED matrices](https://www.adafruit.com/product/1049) (or similar)
-+ Assortment of Lego, we used the spike prime kit
++ Assortment of Lego; we used a selection from the [LEGO Spike Prime kit](https://education.lego.com/en-gb/product/spike-prime)
 
 ### Software
 
@@ -51,7 +51,7 @@ title: What you will need
 title: What you will learn
 ---
 
-+ To build simple mechanisms using lego
++ To build simple mechanisms using LEGO
 + What a machine learning model is and how to use one
 + To use dictionary data structures to map inputs to outputs (facial expressions)
 
