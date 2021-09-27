@@ -1,4 +1,4 @@
-# Making a face
+## Making a face
 
 This is what your finished model will look like:
 

@@ -1,4 +1,4 @@
-### Adding the Raspberry Pi
+## Adding the Raspberry Pi
 
 For this project you'll ideally want to use the BBE element to mount your Raspberry Pi and Build Hat. For the example model a magenta beam was added to the BBE, this means it fits perfectly between the stands of the face.
 
@@ -80,7 +80,8 @@ Using the adhesive pad on the bottom, stick a breadboard to the top of the frame
 
 --- task ---
 
-Mount the camera board in the holder on the top of the robot face, by passing the ribbon under the holder and wedging it between the rubber stoppers on either side. Secure it with an elastic band using the black lugs either side. 
+Mount the camera board in the holder on the top of the robot face, by passing the ribbon under the holder and wedging it between the rubber stoppers on either side. 
+Secure it with an elastic band using the black lugs either side. 
 
 ![Image showing camera board mounted using elastic bands, both front and rear.](images/build_21.jpg)
 
@@ -90,7 +91,7 @@ To connect the pair of eyes the the Raspberry Pi GPIO they first need to be conn
 
 --- task ---
 
-Use 8 Male-Female jumper wires to connect the 4 pins from each eye together on the breadboard, matching up each pin with its equivalent pin from the other board.
+Use 8 Male-Female jumper wires to connect the 4 pins from each eye together on the breadboard. Make sure that both VCC pins are in the same row of the breadboard, both GND pins are in the same row and so on. 
 
 ![I2C Diagram](images/breadboard_pins.jpg)
 
@@ -108,9 +109,7 @@ Using 4 more Male-Female wires connect the 4 pins from the boards to the followi
 ![I2C Diagram](images/gpio_pins.jpg)
 --- /task ---
 
-Once wired, the breadboard could either be let loose, connected using some additional Lego or even stuck using the self adhesive pad.
-
-![I2C Diagram](images/stick_breadboard.jpg)
+Your robot face is now built, connected and ready to be programmed!
 
 
 
