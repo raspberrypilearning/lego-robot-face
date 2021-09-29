@@ -6,7 +6,7 @@ For this project you'll ideally want to use the Build Plate element to mount you
 
 --- task ---
 
-Mount your Raspberry Pi to the Maker Plate using M2 bolts and nuts:
+Mount your Raspberry Pi to the Maker Plate using M2 bolts and nuts making sure the pi is on the side without the 'edge':
 
  ![Raspberry Pi bolted to a magenta LEGO build plate](images/build_11.jpg)
 
