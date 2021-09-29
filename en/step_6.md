@@ -1,6 +1,8 @@
 ## Adding the Raspberry Pi
 
-For this project you'll ideally want to use the BBE element to mount your Raspberry Pi and Build Hat. For the example model a magenta beam was added to the BBE, this means it fits perfectly between the stands of the face.
+For this project you'll ideally want to use the Build Plate element to mount your Raspberry Pi and Build Hat:
+
+![Image showing a magenta LEGO build plate](images/build_10.jpg)
 
 --- task ---
 
