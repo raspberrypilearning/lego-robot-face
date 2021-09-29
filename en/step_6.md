@@ -36,7 +36,7 @@ Poke the ribbon through the underside of the buildHAT and out through the top, k
 
 --- task ---
 
-Line up the BuildHAT making sure all the GPIO pins are covered, and press down firmly. (The example uses a [stacking header](https://www.adafruit.com/product/2223){:target="_blank"} which makes the pins longer.)
+Line up the BuildHAT with the Raspberry Pi, ensuring you can see the `This side up` label. Make sure all the GPIO pins are covered by the HAT, and press down firmly. (The example uses a [stacking header](https://www.adafruit.com/product/2223){:target="_blank"} which makes the pins longer.)
 
 ![Image of GPIO pins poking through the top of the buildHAT](images/build_15.jpg)
 
