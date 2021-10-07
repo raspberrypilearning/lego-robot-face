@@ -77,10 +77,8 @@ The Pi will display:
 
 --- task ---
 
-Find **at least ** 5 objects (or images) that your camera can recognise reliably - you'll need them for your machine learning model!
+Find **at least** 5 objects (or images) that your camera can recognise reliably - you'll need them for your machine learning model.
 
 --- /task ---
-
-In the next step, we will use emoji to create different expressions for your robot face, and link these faces to your five objects or images.
 
 --- save ---

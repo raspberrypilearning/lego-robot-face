@@ -1,26 +1,27 @@
 ## Use emoji for your robot face
 
-Before you delve straight into building and programming your robot face, consider how the project will work and think about what we'll need. 
+The goal is to build a robotic face that can respond to objects that it recognises. If we break that down into smaller steps we might say that our robot face will:
 
-The goal is to build a robotic face that can respond to objects that it recognises using machine learning. If we break that down into smaller steps we might say that our robot face will:
-
-1. Use the Raspberry Pi camera to look for objects that match those in a pre-trained machine learning model.
-2. If a object is detected with a degree of certainty, use that object to change the face.
-3. Match the object detected to an appropriate reaction or emotion
-4. Change to look of the face to represent the chosen reaction or emotion.
+1. Use the Raspberry Pi camera to look for objects.
+2. If an object is detected, use that object to change the face.
+3. Match the object detected to a reaction or emotion
+4. Change the look of the face to represent a reaction.
 5. Return to step 1 to look for the next object to react to.
 
-For the project to work it's going to need a selection of reactions and emotions that it can display using simple facial expressions... like emoji!
+For the project to work it's going to need a selection of reactions that it can display using simple facial expressions. Emojis are a great example of this.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">An emoji is an example of an <span style="color: #0faeb0">abstraction</span>, a simplified representation of a real face. All of the complexity has been removed and limited to the simple key parts of the face.</p>
 
 ![Range of emojis](images/emojis.png)
 
-In this project, we will represent these five emojis:
+In this project, you can use these five emojis:
 
 | ![](images/happy.png) | ![](images/sad.png) | ![](images/love.png) | ![](images/sleep.png) | ![](images/laugh.png) |
 | -------------------------- | -------------------------- | -------------------------- | -------------------------- | -------------------------- |
 | Happy | Sad | Love | Sleep | Laugh | 
+
+However, if you would like to create your own emojis, you can use [piskel](https://www.piskelapp.com) to create your own 8 x 8 emoji. Only use black and white pixels.
+
 
 ### Connecting objects to expressions
 
@@ -28,17 +29,17 @@ From your experiments in the previous step you will have identified at least fiv
 
 --- task ---
 
-Choose which objects will trigger which facial expressions in your robot. Each expression can have multiple objects associated with it but not the other way around.
+Choose which objects will trigger which reactions in your robot. Each expression should have a reaction associated with it.
 
 For our example we are using: 
 
 | Objects | Reaction |
 | ------- | -------- |
-| Brocoli, Chocolate | ![](images/happy.png)|
-| Spider | ![](images/sad.png) |
-| Cat | ![](images/love.png)
-| Banana | ![](images/laugh.png) |
-| Moon | ![](images/sleep.png) |
+| Brocoli | ![](images/happy.png)|
+| Spider  | ![](images/sad.png) |
+| Cat     | ![](images/love.png)
+| Banana  | ![](images/laugh.png) |
+| Moon    | ![](images/sleep.png) |
 
 --- /task ---
 
