@@ -112,4 +112,4 @@ if __name__ == '__main__':
   classifier = Classifier(label_file="labels.txt",model_file="model.tflite",threshold=0.5)
   while True:
 #    print(classifier.object,classifier.last_object)
-    time.sleep(1) 
+    time.sleep(0.1) 

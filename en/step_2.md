@@ -18,11 +18,11 @@ Connect a Raspberry Pi Camera Module to your Raspberry Pi, by following these in
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Unlike most animals, computers do not have a natural ability to learn. Most things that computers do have been <span style="color: #0faeb0">directly programmed by a human</span>. These make them great for tasks that have a few clearly defined rules, but they struggle with more human-like tasks such as recognising different objects.
+Computers do not have a natural ability to learn. Most things that computers do have been <span style="color: #0faeb0">directly programmed by a human</span>. These make them great for tasks that have a few clearly defined rules, but they struggle with more human-like tasks such as recognising different objects.
 
-During training, a computer is shown thousands and thousands of images, for each it makes it's best guess as to what the object is. It's guess is then either confirmed as correct or rejected as false, with each new guess helping make the computer guess the correct names much more likely.
+Using machine learning, a computer can be shown thousands and thousands of images each of which has a label. Gradually the program can learn the characteristics of a group of images and then give them the correct label.
 
-The end result of this process is called a <span style="color: #0faeb0">model</span>. Once sufficiently trained, models can be used in the real world to perform a task. 
+The end result of this process is called a <span style="color: #0faeb0">model</span>. Once trained, models can be used in the real world to perform tasks. 
 </p>
 
 ### Testing a model
@@ -33,17 +33,17 @@ The end result of this process is called a <span style="color: #0faeb0">model</s
 
  --- /task ---
  
+ --- task ---
+ 
+ Unzip the files and then move the unzipped directory to your `/home/pi` directory.
+ 
+ --- /task ---
+ 
  You'll find a range of files that will be useful for the project, but for this step we're going to use:
 
  - `model.tflite` - The machine learning model file.
- - `labels.txt` - Text labels for each object the model can recognise
+ - `labels.txt` - Labels for each object the model can recognise
  - `classifer.py` - A python program to test the model
-
---- task ---
-
-Make sure your new files are saved in `/home/pi` and not in your Downloads folder.
-
---- /task ---
 
 --- task ---
 
@@ -58,7 +58,6 @@ Open and Run the `classifier.py` program.
 The Pi will display: 
 + what the camera is "seeing", 
 + the name of the main object in view that it recognises
-+ how confident it is about the object, as a percentage.
 
  ![Image of recogniser project running](images/classifier.png)
 
@@ -69,10 +68,10 @@ The Pi will display:
  **Try** presenting the camera with different objects and investigate which ones it can recognise with confidence. 
  
  Whilst doing this, experiment with:
-   - **The background** -  A busy scene may cause your camera to recognise other objects instead of your target.
-   - **Object position** - where and how you hold the object may effect how well it is detected, experiment with the distance from the camera as well as the orientation.
-   - **Lighting** - the lighting in your environment may impact on how well your object is detected. Experiment with different light sources, levels and locations.
-   - **Images** - You may find it beneficial to show the camera images of objects rather than the object themselves.
+   - **The background** -  the camera may recognise objects instead of the object you are holding in front of the camera.
+   - **Object position** - where and how you hold the object may effect how well it is recognised, experiment with the distance from the camera and turn it in different directions.
+   - **Lighting** - the lighting in your room may effect how well an object is detected. Try turning on more lights, or turning some lights off.
+   - **Images** - You may find it helpful to show the camera printed images of objects rather than the object themselves.
 
 --- /task ---
 
