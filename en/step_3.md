@@ -16,9 +16,11 @@ For the project to work it's going to need a selection of reactions that it can 
 
 In this project, you can use these five emojis:
 
-| <img src="resources/neutral.png" alt="8 by 8 pixel art of a neutral face" width="200"/> | ![](images/sad.png) | ![](images/love.png) | ![](images/sleep.png) | ![](images/laugh.png) |
+| <img src="resources/neutral.png" alt="8 by 8 pixel art of a neutral face" width="100"/> | <img src="resources/wide.png" alt="8 by 8 pixel art of wide eyed face" width="100"/> | <img src="resources/angry.png" alt="8 by 8 pixel art of an angry face" width="100"/> | <img src="resources/look_down.png" alt="8 by 8 pixel art of a face looking down" width="100"/> |
 | -------------------------- | -------------------------- | -------------------------- | -------------------------- | -------------------------- |
-| Happy | Sad | Love | Sleep | Laugh | 
+| Neutral | Wide | Angry | Look down | 
+
+
 
 However, if you would like to create your own emojis, you can use [piskel](https://www.piskelapp.com) to create your own 8 x 8 emoji. Only use black and white pixels.
 
