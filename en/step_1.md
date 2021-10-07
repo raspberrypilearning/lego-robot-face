@@ -1,20 +1,23 @@
 ## Introduction
 
-Over the course of this project you will construct a controllable face from a combination of Lego, craft material and electronic components. You'll then make use of an existing machine learning model to help your face recognise objects and react to them. 
+Over the course of this project you will construct a robot face from a combination of Lego and electronic components. You'll then make use of an existing machine learning model to help your face recognise different objects and react to them. 
 
 ### What you will make
 
 --- no-print ---
-Your robot face will be able to imitate a degree of intelligence by recognising and reacting to a range of objects. Here you can see our example of a robot face.
+
+Your robot face will be able to recognise and react to a range of objects. Here you can see our example of a robot face.
 
 ![Demo Video](images/robot_face.gif)
 
-This project works towards this example robot face and models how it was built. You should build your robot face using whatever Lego and other materials you have available. We used the [LEGO Spike Prime kit](https://education.lego.com/en-gb/product/spike-prime).
+You should build your robot face using whatever Lego and other materials you have available. We used the [LEGO Spike Prime kit](https://education.lego.com/en-gb/product/spike-prime).
 
 --- /no-print ---
 
 --- print-only ---
+
 ![Complete project](images/robot_face.jpg)
+
 --- /print-only ---
 
 --- collapse ---
@@ -25,10 +28,10 @@ title: What you will need
 
 + A Raspberry Pi Computer
 + A Raspberry Pi Build Hat
-+ A Raspberry Pi Camera
++ A Raspberry Pi Camera module
 + A 30cm Raspberry Pi Camera Ribbon Cable
-+ 2 Small Lego Motors
-+ 1 Large Lego Motor
++ 2 Small Lego Technic Motors
++ 1 Large Lego Technic Motor
 + 1 Mini Breadboard
 + 12 Male-to-Female Jumper wires (20cm)
 + 2 [Adafruit 8x8 LED matrices](https://www.adafruit.com/product/1049) (or similar - requires some soldering to assemble and modify)
@@ -38,7 +41,7 @@ title: What you will need
 ### Software
 
 + BuildHAT python library for controlling the Build Hat
-+ TensorFlow Lite library and sample model
++ TensorFlow Lite library and sample model and labels
 + Additional Libraries for controlling LED matrices
 
 ### Downloads
@@ -52,9 +55,9 @@ title: What you will need
 title: What you will learn
 ---
 
-+ To build simple mechanisms using LEGO
-+ What a machine learning model is and how to use one
-+ To use dictionary data structures to map inputs to outputs (facial expressions)
++ To build more complex mechanisms using LEGO
++ Use a machine learning library to recognise images
++ Use dictionary data structures to control facial expressions
 
 --- /collapse ---
 
