@@ -35,7 +35,7 @@ For our example we are using:
 
 | Objects | Reaction |
 | ------- | -------- |
-| Brocoli | ![](images/happy.png)|
+| Brocoli | ![](resources/neutral.png)|
 | Spider  | ![](images/sad.png) |
 | Cat     | ![](images/love.png)
 | Banana  | ![](images/laugh.png) |
