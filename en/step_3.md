@@ -16,7 +16,7 @@ For the project to work it's going to need a selection of reactions that it can 
 
 In this project, you can use these five emojis:
 
-| ![](images/happy.png) | ![](images/sad.png) | ![](images/love.png) | ![](images/sleep.png) | ![](images/laugh.png) |
+| ![](resources/neutral.png) | ![](images/sad.png) | ![](images/love.png) | ![](images/sleep.png) | ![](images/laugh.png) |
 | -------------------------- | -------------------------- | -------------------------- | -------------------------- | -------------------------- |
 | Happy | Sad | Love | Sleep | Laugh | 
 
