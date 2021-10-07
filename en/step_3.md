@@ -16,7 +16,7 @@ For the project to work it's going to need a selection of reactions that it can 
 
 In this project, you can use these five emojis:
 
-| <img src="neutral.png" alt="8 by 8 pixel art of a neutral face" width="200"/> | ![](images/sad.png) | ![](images/love.png) | ![](images/sleep.png) | ![](images/laugh.png) |
+| <img src="resources/neutral.png" alt="8 by 8 pixel art of a neutral face" width="200"/> | ![](images/sad.png) | ![](images/love.png) | ![](images/sleep.png) | ![](images/laugh.png) |
 | -------------------------- | -------------------------- | -------------------------- | -------------------------- | -------------------------- |
 | Happy | Sad | Love | Sleep | Laugh | 
 
@@ -35,7 +35,7 @@ For our example we are using:
 
 | Objects | Reaction |
 | ------- | -------- |
-| Brocoli | <img src="neutral.png" alt="8 by 8 pixel art of a neutral face" width="200"/>|
+| Brocoli | <img src="resources/neutral.png" alt="8 by 8 pixel art of a neutral face" width="200"/>|
 | Spider  | ![](images/sad.png) |
 | Cat     | ![](images/love.png)
 | Banana  | ![](images/laugh.png) |
