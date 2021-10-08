@@ -35,6 +35,7 @@ line_highlights:
 
 seen_items = Classifier(label_file="labels.txt",model_file="model.tflite",threshold=0.5)
 --- /code ---
+
 --- /task ---
 
 --- task ---
@@ -74,5 +75,8 @@ while True:
         if item in reactions.keys():
             set_face(faces[reactions[item]])
     sleep(1)
+--- /code ---
 
 --- /task ---
+
+--- save ---
