@@ -37,10 +37,11 @@ For our example we are using:
 
 | Objects | Reaction |
 | ------- | -------- |
-| Brocoli | <img src="resources/neutral.png" alt="8 by 8 pixel art of a neutral face" width="25"/>|
-| Spider  | <img src="resources/wide.png" alt="8 by 8 pixel art of wide eyed face" width="25"/> |
-| Cat     | <img src="resources/angry.png" alt="8 by 8 pixel art of an angry face" width="25"/>
-| Banana  | <img src="resources/look_down.png" alt="8 by 8 pixel art of a face looking down" width="25"/> |
+| brocoli | <img src="resources/neutral.png" alt="8 by 8 pixel art of a neutral face" width="25"/>|
+| teapot  | <img src="resources/wide.png" alt="8 by 8 pixel art of wide eyed face" width="25"/> |
+| snake   | <img src="resources/angry.png" alt="8 by 8 pixel art of an angry face" width="25"/>
+| hotdog  | <img src="resources/look_down.png" alt="8 by 8 pixel art of a face looking down" width="25"/> |
 
 --- /task ---
 
+--- save ---
