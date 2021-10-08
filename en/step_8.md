@@ -34,7 +34,8 @@ Make sure that your large motor is positioned so that the **lolipop** and the **
 
 --- task ---
 
-Now set the motor to turn to the `0` position when the program starts. 
+Now set the motor to turn to the `0` position when the program starts.
+
 --- code ---
 ---
 language: python
