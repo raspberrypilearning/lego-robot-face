@@ -35,7 +35,7 @@ language: python
 filename: robot_face.py
 line_numbers: true
 line_number_start: 
-line_highlights: 3-4
+line_highlights: 3,4
 ---
 from buildhat import Motor
 
@@ -76,13 +76,11 @@ line_numbers: true
 line_number_start: 8
 line_highlights: 
 ---
-
---- /code ---
-
-
 def move_mouth (position, speed=100):
     mouth_l.run_to_position(position * -1, speed, blocking=False) #turn to negative position
     mouth_r.run_to_position(position, speed, blocking=False) #turn to positive position
+--- /code ---
+
 --- /task ---
 
 --- task ---
@@ -96,13 +94,12 @@ filename:
 line_numbers: false
 line_number_start: 
 line_highlights: 
+---
 >>> move_mouth(45)
 >>> move mouth(0)
----
+--- /code ---
 
 If your motors move in the wrong direction, try switching their ports.
-
---- /code ---
 
 --- /task ---
 
