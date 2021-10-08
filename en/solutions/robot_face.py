@@ -1,69 +1,67 @@
+from buildhat import Motor
 import board
-from time import sleep
-from build_hat import BuildHAT
 from adafruit_ht16k33.matrix import Matrix8x8
 from PIL import Image
-from random import randint
 from classifier import Classifier
+from time import sleep
+
+mouth_r = Motor('A')
+mouth_l = Motor('B')
+eyebrows = Motor('C')
+
+mouth_r.run_to_position(0)
+mouth_l.run_to_position(0)
+eyebrows.run_to_position(0)
+
+i2c = board.I2C()
+left_eye = Matrix8x8(i2c, address=0x70)
+right_eye = Matrix8x8(i2c, address=0x71)
 
 neutral = Image.open("neutral.png").rotate(90)
 wide = Image.open("wide.png").rotate(90)
 angry = Image.open("angry.png").rotate(90)
 look_down = Image.open("look_down.png").rotate(90)
+
+faces = {
+    "neutral":{"mouth":0, "right_eye":neutral, "left_eye":neutral, "eyebrows":0},
+    "happy":{"mouth":45, "right_eye":wide, "left_eye":wide, "eyebrows":150},
+    "angry":{"mouth":-20, "right_eye":angry, "left_eye":angry, "eyebrows":-150},
+    "sad":{"mouth":-45, "right_eye":look_down, "left_eye":look_down, "eyebrows":-40}
+    }
+
 seen_items = Classifier(label_file="labels.txt",model_file="model.tflite",threshold=0.5)
 
-i2c = board.I2C()
-left_eye = Matrix8x8(i2c, address=0x70)
-right_eye = Matrix8x8(i2c, address=0x71)
-bh = BuildHAT()
+reactions = {"broccoli":"sad","teapot":"happy","Indian cobra":"angry","hotdog":"happy"}
 
-mouth_r = bh.port.C.motor
-mouth_l = bh.port.D.motor
-eb = bh.port.A.motor
+def move_mouth (position):
+    mouth_l.run_to_position(position * -1, blocking=False)
+    mouth_r.run_to_position(position, blocking=False)
+    
+    
+def move_eyebrows (position):
+    current_position = eyebrows.get_aposition()
+    if position < current_position:
+        rotation = 'anticlockwise'
+    else:
+        rotation = 'clockwise'
+    eyebrows.run_to_position(position, direction = rotation)
 
-def move_eb (pos,speed=100):
-  if pos > 170:
-    pos = 170
-  elif pos < -170:
-    pos = -170
-
-  current_pos = eb.get()[2]
-  eb.run_to_position(pos,speed)
-
-def move_mouth (l_pos,r_pos, speed=100):
-    print(l_pos,r_pos)
-    mouth_l.run_to_position(l_pos*-1,speed,blocking=False)
-    mouth_r.run_to_position(r_pos,speed,blocking=False)
 
 def change_eyes(left,right):
     left_eye.image(left)
     right_eye.image(right)
-    left_eye.show()
-    right_eye.show()
-  
-
-
-faces = {
-  "neutral":{"mouth_r":0,"mouth_l":0,"eye_r":neutral,"eye_l":neutral,"eyebrows":0},
-  "happy":{"mouth_r":45,"mouth_l":45,"eye_r":wide,"eye_l":wide,"eyebrows":40},
-  "angry":{"mouth_r":-20,"mouth_l":-20,"eye_r":angry,"eye_l":angry,"eyebrows":-100},
-  "sad":{"mouth_r":-45,"mouth_l":-45,"eye_r":look_down,"eye_l":look_down,"eyebrows":-40}
-}
-
-reactions = {"broccoli":"sad","teapot":"happy","thunder snake":"angry","hotdog":"happy"}
 
 
 def set_face (face):
-  change_eyes(face["eye_r"],face["eye_l"])
-  move_mouth(face["mouth_l"],face["mouth_r"])
-  move_eb(face["eyebrows"])
+    change_eyes(face["right_eye"],face["left_eye"])
+    move_mouth(face["mouth"])
+    move_eyebrows(face["eyebrows"])
 
-set_face(faces["neutral"])
 
 while True:
-  sleep(1)
-  if seen_items.item != seen_items.last_item:
-    item = seen_items.item
-    if item in reactions:
-      set_face(faces[reactions[item]])
-  sleep(1)
+    sleep(1)
+    if seen_items.item != seen_items.last_item:
+        item = seen_items.item
+        if item in reactions.keys():
+            set_face(faces[reactions[item]])
+    sleep(1)
