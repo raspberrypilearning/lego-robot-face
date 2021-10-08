@@ -1,4 +1,4 @@
-## Emotional reponses to objects
+## Emotional responses to objects
 
 To finish off the project, you can make the robot face display different expressions depending on what the camera can see.
 
