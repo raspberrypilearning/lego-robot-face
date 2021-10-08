@@ -6,7 +6,7 @@ For this project you'll ideally want to use the Build Plate element to mount you
 
 --- task ---
 
-Mount your Raspberry Pi to the Maker Plate using M2 bolts and nuts making sure the pi is on the side without the 'edge':
+Mount your Raspberry Pi to the Maker Plate using M2 bolts and nuts making sure the pi is on the flat side:
 
  ![Raspberry Pi bolted to a magenta LEGO build plate](images/build_11.jpg)
 
@@ -18,7 +18,10 @@ Mounting the Raspberry Pi this way round enables easy access to the ports as wel
 
 Before adding the BuildHAT you'll first need to attach the camera ribbon cable to the Raspberry Pi and thread it through the hole in the build hat. If you haven't already connected the Camera board to your Pi, you can do so by following these instructions: [Getting started with the Camera Module](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera){:target="_blank"}
 
+![animation showing the Raspberry Pi camera module being connected to the Raspberry Pi](images/connect-camera.gif)
+
 --- task ---
+
 Leave the camera ribbon connected to the Pi, but remove the camera board from the loose end of the ribbon by pushing up the small black clip and sliding the ribbon out:
 
 ![Image showing rear of camera board with closed clip](images/build_12.jpg)
@@ -59,7 +62,7 @@ Mounting the Raspberry Pi this way gives the best access to ports and pins, and 
 
 --- task ---
 
-Connect up your small LEGO Spike motors to ports A and B, ready to control the mouth.
+Connect up your small LEGO Technic motors to ports A and B, ready to control the mouth.
 
 ![Image of small LEGO Spike motors to ports A and B on buildHAT](images/build_18.jpg)
 
@@ -67,7 +70,7 @@ Connect up your small LEGO Spike motors to ports A and B, ready to control the m
 
 --- task ---
 
-Connect up your large LEGO motor to port C, ready to control the eyebrows.
+Connect up your large LEGO Technic motor to port C, ready to control the eyebrows.
 
 ![Image showing large LEGO motor connected to port C on buildHAT](images/build_19.jpg)
 
@@ -83,8 +86,9 @@ Using the adhesive pad on the bottom, stick a breadboard to the top of the frame
 
 --- task ---
 
-Mount the camera board in the holder on the top of the robot face, by passing the ribbon under the holder and wedging it between the rubber stoppers on either side. 
-Secure it with an elastic band using the black lugs either side. 
+Mount the camera board in the holder on the top of the robot face, by passing the ribbon under the holder and wedging the camra between the rubber stoppers on either side. 
+
+Secure the camera with an elastic band using the black lugs either side. 
 
 ![Image showing camera board mounted using elastic bands, both front and rear.](images/build_21.jpg)
 
@@ -94,22 +98,10 @@ To connect the pair of eyes the the Raspberry Pi GPIO they first need to be conn
 
 --- task ---
 
-Use 8 Male-Female jumper wires to connect the 4 pins from each eye together on the breadboard. Make sure that both VCC pins are in the same row of the breadboard, both GND pins are in the same row and so on. 
+Use 8 Male-Female jumper wires to connect the 4 pins from each eye together on the breadboard. Make sure that both VCC pins are in the same row of the breadboard, both GND pins are in the same row and so on. Then connect to the 3V3, GND, SDA and SCL pins on the Raspberry Pi, as shown below.
 
-![I2C Diagram](images/breadboard_pins.jpg)
+![I2C Diagram](images/eye_wiring.png)
 
---- /task ---
-
---- task ---
-
-Using 4 more Male-Female wires connect the 4 pins from the boards to the following GPIO pins on the Build Hat.
-
-- **VCC** to pin **5V**
-- **GND** to pin **GND**
-- **SDA** to pin **2**
-- **SCL** to pin **3**
-
-![I2C Diagram](images/gpio_pins.jpg)
 --- /task ---
 
 Your robot face is now built, connected and ready to be programmed!
