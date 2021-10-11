@@ -1,6 +1,6 @@
-## Programming the eyes
+## Program the eyes
 
-The LED matrices can show 8x8 pixel images on their displays. These can be used to display different motions of the eyes.
+The LED matrices can show 8×8 pixel images on their displays. These can be used to display different motions of the eyes.
 
 --- task ---
 
@@ -25,7 +25,7 @@ from PIL import Image
 
 --- task ---
 
-Set up objects to use the left and right eye. For now, the images on each eye will be the same, but you may need to adjust your code later, if you want to use different images on different displays, depending on which one you soldered the `A0` pads on.
+Set up objects to use the left and right eye. For now, the images on each eye will be the same, but you may need to adjust your code later, if you want to use different images on the different displays, depending on which one you soldered the `A0` pads on.
 
 --- code ---
 ---
