@@ -2,6 +2,8 @@
 
 To finish off the project, you can make the robot face display different expressions depending on what the camera can see.
 
+![code on the left with camera view showing different images being held infront of the camera. On the right the robot face is reacting to the images](images/completed_project.gif)
+
 --- task ---
 
 Start by importing the `Classifier` class from a the file that you used earlier, along with the `sleep` function.
