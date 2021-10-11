@@ -2,11 +2,11 @@
 
 To finish off the project, you can make the robot face display different expressions depending on what the camera can see.
 
-![code on the left with camera view showing different images being held infront of the camera. On the right the robot face is reacting to the images](images/completed_project.gif)
+![Code on the left with the camera view showing different images being held in front of the camera. On the right, the robot face reacts to the images.](images/completed_project.gif)
 
 --- task ---
 
-Start by importing the `Classifier` class from a the file that you used earlier, along with the `sleep` function.
+Start by importing the `Classifier` class from the file that you used earlier, along with the `sleep` function.
 
 --- code ---
 ---
@@ -24,7 +24,7 @@ from time import sleep
 
 --- task ---
 
-Then create a list of objects that the classifier can recognise. You can adjust the `threshold` later to make the classifier more or less accurate with it's recognition.
+Then create a list of objects that the classifier can recognise. You can adjust the `threshold` later to make the classifier more or less accurate with its recognition.
 
 --- code ---
 ---
