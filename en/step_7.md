@@ -1,16 +1,16 @@
-## Motorising the mouth
+## Motorise the mouth
 
 --- task ---
 
-Open Thonny from the programming menu and save a new file called `robot_face.py`, and make sure to save it in the same directory as `classifier.py`, `labels.txt` and the 8x8 pixel art images.
+Open **Thonny** from the programming menu and save a new file called `robot_face.py`, and make sure to save it in the same directory as `classifier.py`, `labels.txt`, and the 8×8 pixel art images.
 
-![file structure showing where robot_face.py should be stored](images/file_structure.png)
+![File structure showing where robot_face.py should be stored.](images/file_structure.png)
 
 --- /task ---
 
 --- task ---
 
-Start by adding the import you will need to control the Lego Tecnhic motors.
+Start by adding the import you will need to control the LEGO® Technic™ motors.
 
 --- code ---
 ---
@@ -27,7 +27,7 @@ from buildhat import Motor
 
 --- task ---
 
-Create two new objects for the left and right motors. In this example the right motor is connected to Port A and the left to port B.
+Create two new objects for the left and right motors. In this example, the right motor is connected to port A and the left to port B.
 
 --- code ---
 ---
@@ -66,7 +66,7 @@ mouth_l.run_to_position(0)
 
 --- task ---
 
-Create a function that will move the mouth motors. They need to turn in opposite directions, so the left motor will turn to a negative value and the right motor to a positive value. `blocking=False` makes both motors turn at the same time.
+Create a function that will move the mouth motors. They need to turn in opposite directions, so the left motor will turn to a negative value and the right motor to a positive value. Adding `blocking=False` will make both motors turn at the same time.
 
 --- code ---
 ---
@@ -77,15 +77,15 @@ line_number_start: 8
 line_highlights: 
 ---
 def move_mouth (position, speed=100):
-    mouth_l.run_to_position(position * -1, speed, blocking=False) #turn to negative position
-    mouth_r.run_to_position(position, speed, blocking=False) #turn to positive position
+    mouth_l.run_to_position(position * -1, speed, blocking=False) #Turn to negative position
+    mouth_r.run_to_position(position, speed, blocking=False) #Turn to positive position
 --- /code ---
 
 --- /task ---
 
 --- task ---
 
-Run your program and then test your new function in the **Shell**
+Run your program and then test your new function in the **Shell**.
 
 --- code ---
 ---
