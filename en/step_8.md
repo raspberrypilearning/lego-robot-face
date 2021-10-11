@@ -1,4 +1,4 @@
-## Programming the eyebrows
+## Program the eyebrows
 
 The third motor is used to move the face's eyebrows.
 
@@ -24,11 +24,11 @@ eyebrows = Motor('C')
 
 --- task ---
 
-Make sure that your large motor is positioned so that the **lolipop** and the **circle** are aliged, and that your face's eyebrows are set horizontally. If they are not, you may need to adjust your build a little.
+Make sure that your large motor is positioned so that the **lolipop** and the **circle** are aligned, and that your face's eyebrows are set horizontally. If they are not, you may need to adjust your build a little.
 
-![motor rotated so that the lolipop and circle are aligned](images/motor_0.jpg)
+![Motor rotated so that the lolipop and circle are aligned.](images/motor_0.jpg)
 
-![the robot face with the eyebrows in a horizontal position](images/horizontal_eyebrows.jpg)
+![The robot face with the eyebrows in a horizontal position.](images/horizontal_eyebrows.jpg)
 
 --- /task ---
 
@@ -54,8 +54,8 @@ eyebrows.run_to_position(0)
 There are three eyebrow positions that will be shown here, but you can create more.
 
 - `0` will make the eyebrows appear horizontal
-- `150` will make the eyebrows lowered.
-- `-150` will make the eyebrows raised.
+- `150` will lower the eyebrows
+- `-150` will raise the eyebrows
 
 
 --- task ---
