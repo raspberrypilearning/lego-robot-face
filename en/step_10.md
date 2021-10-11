@@ -4,7 +4,7 @@ Now it's time to bring all your different functions together to change the whole
 
 --- task ---
 
-To begin with you need to create a dictionary to store the different facial expressions you want to use. This will give values for the mouth motors, the eyebrow motor and the eyes.
+To begin with, you need to create a dictionary to store the different facial expressions you want to use. This will give values for the mouth motors, the eyebrow motor, and the eyes.
 
 --- code ---
 ---
@@ -27,7 +27,7 @@ faces = {
 
 --- task ---
 
-Now create a function that will set the mouth, eyebrows and eyes.
+Now create a function that will set the mouth, eyebrows, and eyes.
 
 --- code ---
 ---
