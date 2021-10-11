@@ -1,6 +1,6 @@
 ## Introduction
 
-Over the course of this project you will construct a robot face from a combination of Lego and electronic components. You'll then make use of an existing machine learning model to help your face recognise different objects and react to them. 
+Over the course of this project you will construct a robot face from a combination of LEGO® and electronic components. You'll then use an existing machine learning model to help your face recognise different objects and react to them. 
 
 ### What you will make
 
@@ -8,15 +8,15 @@ Over the course of this project you will construct a robot face from a combinati
 
 Your robot face will be able to recognise and react to a range of objects. Here you can see our example of a robot face.
 
-![Demo Video](images/robot_face.gif)
+![Video of a robot face made out of LEGO® with LED eyes and changing expressions.](images/robot_face.gif)
 
-You should build your robot face using whatever Lego and other materials you have available. We used the [LEGO Spike Prime kit](https://education.lego.com/en-gb/product/spike-prime).
+You should build your robot face using whatever LEGO® and other materials you have available. We used the [LEGO® SPIKE™ Prime kit](https://education.lego.com/en-gb/product/spike-prime).
 
 --- /no-print ---
 
 --- print-only ---
 
-![Complete project](images/robot_face.jpg)
+![Picture of the completed project: a robot face made out of LEGO® with LED eyes and a smiling expression.](images/robot_face.jpg)
 
 --- /print-only ---
 
@@ -26,27 +26,27 @@ title: What you will need
 ---
 ### Hardware
 
-+ A Raspberry Pi Computer
-+ A Raspberry Pi Build Hat
-+ A Raspberry Pi Camera module
-+ A 30cm Raspberry Pi Camera Ribbon Cable
-+ 2 Small Lego Technic Motors
-+ 1 Large Lego Technic Motor
-+ 1 Mini Breadboard
-+ 12 Male-to-Female Jumper wires (20cm)
-+ 2 [Adafruit 8x8 LED matrices](https://www.adafruit.com/product/1049) (or similar - requires some soldering to assemble and modify)
-+ Assortment of Lego; we used a selection from the [LEGO Spike Prime kit](https://education.lego.com/en-gb/product/spike-prime)
++ A Raspberry Pi computer
++ A Raspberry Pi Build HAT
++ A Raspberry Pi camera module
++ A 30cm Raspberry Pi camera ribbon cable
++ 2x Small LEGO® Technic™ motors
++ 1x Large LEGO® Technic™ motor
++ 1x Mini breadboard
++ 12x Male-to-female jumper wires (20cm)
++ 2x [Adafruit 8x8 LED matrices](https://www.adafruit.com/product/1049) (or similar — requires some soldering to assemble and modify)
++ Assortment of LEGO® (we used a selection from the [LEGO® SPIKE™ Prime kit](https://education.lego.com/en-gb/product/spike-prime))
 + Soldering kit
 
 ### Software
 
-+ BuildHAT python library for controlling the Build Hat
++ BuildHAT Python library for controlling the Build HAT
 + TensorFlow Lite library and sample model and labels
-+ Additional Libraries for controlling LED matrices
++ Additional libraries for controlling LED matrices
 
 ### Downloads
 
-+ [Image Classifier Test files](http://rpf.io/p/en/robot-face-go){:target="_blank"}
++ [Image classifier test files](http://rpf.io/p/en/robot-face-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -55,9 +55,9 @@ title: What you will need
 title: What you will learn
 ---
 
-+ To build more complex mechanisms using LEGO
-+ Use a machine learning library to recognise images
-+ Use dictionary data structures to control facial expressions
++ To build more complex mechanisms using LEGO®
++ To use a machine learning library to recognise images
++ To use dictionary data structures to control facial expressions
 
 --- /collapse ---
 
