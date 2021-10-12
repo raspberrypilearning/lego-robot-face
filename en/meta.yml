@@ -9,12 +9,12 @@ steps:
   - title: Introduction
   - title: Test your machine learning model
   - title: Use emoji for your robot face
-  - title: Making a face
-  - title: Adding the eyes
-  - title: Adding the Raspberry Pi
-  - title: Motorising the mouth
-  - title: Programming the eyebrows
-  - title: Programming the eyes
+  - title: Make a face
+  - title: Add the eyes
+  - title: Add the Raspberry Pi
+  - title: Motorise the mouth
+  - title: Program the eyebrows
+  - title: Program the eyes
   - title: Changing faces
   - title: Emotional responses to objects
   - title: What next?
