@@ -1,6 +1,6 @@
 ## Use emoji for your robot face
 
-The goal is to build a robotic face that can respond to objects that it recognises. If we break that down into smaller steps, we might say that your robot face will:
+The goal is to build a robotic face that can respond to objects that it recognises. If you break that down into smaller steps, you might say that your robot face will:
 
 1. Use the Raspberry Pi camera to look for objects
 2. If an object is detected, use that object to change the face
@@ -14,7 +14,7 @@ For the project to work, it's going to need a selection of reactions that it can
 
 ![A range of emojis.](images/emojis.png)
 
-In this project, you can use these five emojis:
+In this project, you can use these four emojis to represent eyes:
 
 | <img src="resources/neutral.png" alt="8 by 8 pixel art of a neutral face" width="100"/> | <img src="resources/wide.png" alt="8 by 8 pixel art of a wide-eyed face" width="100"/> | <img src="resources/angry.png" alt="8 by 8 pixel art of an angry face" width="100"/> | <img src="resources/look_down.png" alt="8 by 8 pixel art of a face looking down" width="100"/> |
 | -------------------------- | -------------------------- | -------------------------- | -------------------------- | -------------------------- |
@@ -25,7 +25,7 @@ In this project, you can use these five emojis:
 However, if you would like to create your own emojis, you can use [piskel](https://www.piskelapp.com) to create your own 8 x 8 emoji. Only use black and white pixels.
 
 
-### Connecting objects to expressions
+### Connect objects to the expressions
 
 From your experiments in the previous step, you will have identified at least five objects that your camera and machine learning model can reliably detect. 
 
