@@ -1,4 +1,4 @@
-## Adding the eyes
+## Add the eyes
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">The LED matrices used in the example face connect to the Raspberry Pi <span style="color: #0faeb0">I2C</span>. Devices using I2C are connected using a specific number called an address. As you are using two matrices, each will need its own address. </p>
 
@@ -22,7 +22,7 @@ Using your soldering kit, close the `A0` connection of **only one** of your matr
 
 --- task ---
 
-Place the eyes into the square sockets on your robot face, using elastic bands to secure them and making sure the pins are at the top.
+Place the eyes into the square sockets on your robot face; use elastic bands to secure them and make sure the pins are at the top.
 
 ![Image showing 8 by 8 arrays mounted in the LEGO® face.](images/array_eyes.jpg)
 
