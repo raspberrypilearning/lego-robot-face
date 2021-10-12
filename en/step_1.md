@@ -28,13 +28,13 @@ title: What you will need
 
 + A Raspberry Pi computer
 + A Raspberry Pi Build HAT
-+ A Raspberry Pi camera module
++ A Raspberry Pi Camera Module
 + A 30cm Raspberry Pi camera ribbon cable
-+ 2x Small LEGO® Technic™ motors
-+ 1x Large LEGO® Technic™ motor
-+ 1x Mini breadboard
-+ 12x Male-to-female jumper wires (20cm)
-+ 2x [Adafruit 8x8 LED matrices](https://www.adafruit.com/product/1049) (or similar — requires some soldering to assemble and modify)
++ 2× Small LEGO® Technic™ motors
++ 1× Large LEGO® Technic™ motor
++ 1× Mini breadboard
++ 12× Male-to-female jumper wires (20cm)
++ 2× [Adafruit 8×8 LED matrices](https://www.adafruit.com/product/1049) (or similar — requires some soldering to assemble and modify)
 + Assortment of LEGO® (we used a selection from the [LEGO® SPIKE™ Prime kit](https://education.lego.com/en-gb/product/spike-prime))
 + Soldering kit
 
