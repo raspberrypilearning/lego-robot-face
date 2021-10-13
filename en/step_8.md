@@ -24,9 +24,9 @@ eyebrows = Motor('C')
 
 --- task ---
 
-Make sure that your large motor is positioned so that the **lolipop** and the **circle** are aligned, and that your face's eyebrows are set horizontally. If they are not, you may need to adjust your build a little.
+Make sure that your large motor is positioned so that the **lollipop** and the **circle** are aligned, and that your face's eyebrows are set horizontally. If they are not, you may need to adjust your build a little.
 
-![Motor rotated so that the lolipop and circle are aligned.](images/motor_0.jpg)
+![Motor rotated so that the lollipop and circle are aligned.](images/motor_0.jpg)
 
 ![The robot face with the eyebrows in a horizontal position.](images/horizontal_eyebrows.jpg)
 
@@ -60,7 +60,7 @@ There are three eyebrow positions that will be shown here, but you can create mo
 
 --- task ---
 
-Add a function that gets the current eyebrow position, and if the position it is supposed to move to is less than the current one, it will move anticlockwise, otherwise it will move clockwise.
+Add a function that gets the current eyebrow position, and if the position it is supposed to move to is less than the current one, it will move anti-clockwise, otherwise it will move clockwise.
 
 --- code ---
 ---
