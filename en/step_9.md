@@ -25,7 +25,7 @@ from PIL import Image
 
 --- task ---
 
-Set up objects to use the left and right eye. For now, the images on each eye will be the same, but you may need to adjust your code later, if you want to use different images on the different displays, depending on which one you soldered the `A0` pads on.
+Set up objects to use the left and right eye. For now, the images on each eye will be the same, but you can adjust your code later, if you want to use different images on the different displays, depending on which one you soldered the `A0` pads on.
 
 --- code ---
 ---
