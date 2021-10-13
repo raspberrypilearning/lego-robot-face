@@ -24,14 +24,14 @@ look_down = Image.open("look_down.png").rotate(90)
 
 faces = {
     "neutral":{"mouth":0, "right_eye":neutral, "left_eye":neutral, "eyebrows":0},
-    "happy":{"mouth":45, "right_eye":wide, "left_eye":wide, "eyebrows":150},
-    "angry":{"mouth":-20, "right_eye":angry, "left_eye":angry, "eyebrows":-150},
+    "happy":{"mouth":45, "right_eye":wide, "left_eye":wide, "eyebrows":-150},
+    "angry":{"mouth":-20, "right_eye":angry, "left_eye":angry, "eyebrows":150},
     "sad":{"mouth":-45, "right_eye":look_down, "left_eye":look_down, "eyebrows":-40}
     }
 
 seen_items = Classifier(label_file="labels.txt",model_file="model.tflite",threshold=0.5)
 
-reactions = {"broccoli":"sad","teapot":"happy","Indian cobra":"angry","hotdog":"happy"}
+reactions = {"broccoli":"neutral", "teapot":"happy", "Indian cobra":"angry", "hotdog":"happy"}
 
 def move_mouth (position):
     mouth_l.run_to_position(position * -1, blocking=False)
