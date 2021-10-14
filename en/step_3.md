@@ -27,7 +27,7 @@ However, if you would like to create your own emojis, you can use [piskel](https
 
 ### Connect objects to the expressions
 
-From your experiments in the previous step, you will have identified at least five objects that your camera and machine learning model can reliably detect. 
+From your experiments in the previous step, you will have identified at least four objects that your camera and machine learning model can reliably detect. 
 
 --- task ---
 

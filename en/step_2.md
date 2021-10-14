@@ -77,7 +77,7 @@ Your Raspberry Pi will display:
 
 --- task ---
 
-Find **at least** five objects (or images) that your camera can recognise reliably — you'll need them for your machine learning model.
+Find **at least** four objects (or images) that your camera can recognise reliably — you'll need them for your machine learning model.
 
 --- /task ---
 

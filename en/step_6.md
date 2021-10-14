@@ -2,7 +2,7 @@
 
 For this project you'll ideally want to use the Build Plate element to mount your Raspberry Pi and Build HAT:
 
-![Image showing a magenta LEGO® build plate.](images/build_10.jpg)
+![Image showing a magenta LEGO® build plate.](images/build_10.png)
 
 --- task ---
 
