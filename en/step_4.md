@@ -10,10 +10,6 @@ Now that you know which objects will trigger which responses, you need to build 
 To build this robot face, we used parts from the [SPIKE™ Prime](https://education.lego.com/en-gb/product/spike-prime){:target="_blank"} and [SPIKE™ Expansion](https://education.lego.com/en-gb/products/lego-education-spike-prime-expansion-set/45680){:target="_blank"} sets. However, most of the parts can be found in many existing LEGO sets.
 
 ## Building
-To construct this model, or inspire your own, follow our handy building guide here, or download it [here.](https://raspberrypi-education.s3-eu-west-1.amazonaws.com/shortcake/robot_face/Robot_face.pdf)
-<embed src="https://raspberrypi-education.s3-eu-west-1.amazonaws.com/shortcake/robot_face/Robot_face.pdf" width="600" height="500" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
-
-## Building
 To construct this model, or inspire your own, follow our handy building guide here, or download it [here.](images/robot_face.pdf)
 <embed src="images/robot_face.pdf" width="600" height="500" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
 
