@@ -46,7 +46,7 @@ title: What you will need
 
 ### Downloads
 
-+ [Image classifier test files](http://rpf.io/p/en/robot-face-go){:target="_blank"}
++ [Image classifier test files](http://rpf.io/p/en/lego-robot-face-go){:target="_blank"}
 
 --- /collapse ---
 
