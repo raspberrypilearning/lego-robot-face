@@ -6,4 +6,4 @@ There is also the possibility of adding sound to your project, using [pygame](ht
 
 Or how about taking all you have learned in this path, and creating something original and new!
 
-
+If you've completed all the LEGO Spark projects and want to have more fun exploring Python, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=python).
