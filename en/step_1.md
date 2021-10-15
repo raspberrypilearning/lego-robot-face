@@ -36,6 +36,7 @@ title: What you will need
 + 12× Male-to-female jumper wires (20cm)
 + 2× [Adafruit 8×8 LED matrices](https://www.adafruit.com/product/1049) (or similar — requires some soldering to assemble and modify)
 + Assortment of LEGO® (we used a selection from the [LEGO® SPIKE™ Prime kit](https://education.lego.com/en-gb/product/spike-prime))
++ 20mm F-M header extender.
 + Soldering kit
 
 ### Software
