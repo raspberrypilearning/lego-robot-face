@@ -42,9 +42,28 @@ title: What you will need
 
 ### Software
 
+Open a terminal and use the following commands to install the needed libraries:
+
 + BuildHAT Python library for controlling the Build HAT
+
+```
+sudo pip3 install buildhat
+```
+
 + TensorFlow Lite library and sample model and labels
-+ Additional libraries for controlling LED matrices
+
+```
+echo "deb https://packages.cloud.google.com/apt coral-edgetpu-stable main" | sudo tee /etc/apt/sources.list.d/coral-edgetpu.list
+curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install python3-tflite-runtime
+```
+
++ Adafruit LED matrix library
+
+```
+pip3 install adafruit-circuitpython-ht16k33
+```
 
 ### Downloads
 
@@ -91,6 +110,7 @@ Mounting the Raspberry Pi this way round enables easy access to the ports as wel
 Line up the Build HAT with the Raspberry Pi, ensuring you can see the `This way up` label. Make sure all the GPIO pins are covered by the HAT, and press down firmly. (The example uses a [stacking header](https://www.adafruit.com/product/2223){:target="_blank"}, which makes the pins longer.)
 
 ![Image of GPIO pins poking through the top of the Build HAT.](images/build_15.jpg)
+![Animation showing Buildhat fitting to Raspberry Pi](images/haton.gif)
 
 --- /task ---
 
@@ -101,6 +121,16 @@ You should now power your Raspberry Pi using the 7.5V barrel jack on the Build H
 If you have not already done so, set up your Raspberry Pi by following these instructions:
 
 [Setting up your Raspberry Pi](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up){:target="_blank"}
+
+--- /task ---
+
+--- task ---
+
+Once the Raspberry Pi has booted, open the Raspberry Pi Configuration tool by clicking on the Raspberry Menu button and then selecting “Preferences” and then “Raspberry Pi Configuration”.
+
+Click on the “interfaces” tab and adjust the Serial settings as shown below:
+
+![Image showing Raspberry Pi OS config screen with serial port enabled and serial console disabled](images/configshot.jpg)
 
 --- /task ---
 
