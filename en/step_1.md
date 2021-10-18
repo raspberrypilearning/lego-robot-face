@@ -42,9 +42,28 @@ title: What you will need
 
 ### Software
 
+Open a terminal and use the following commands to install the needed libraries:
+
 + BuildHAT Python library for controlling the Build HAT
+
+```
+sudo pip3 install buildhat
+```
+
 + TensorFlow Lite library and sample model and labels
-+ Additional libraries for controlling LED matrices
+
+```
+echo "deb https://packages.cloud.google.com/apt coral-edgetpu-stable main" | sudo tee /etc/apt/sources.list.d/coral-edgetpu.list
+curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install python3-tflite-runtime
+```
+
++ Adafruit LED matrix library
+
+```
+pip3 install adafruit-circuitpython-ht16k33
+```
 
 ### Downloads
 
