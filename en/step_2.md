@@ -5,12 +5,6 @@ Your first step is to understand and test how you can use a machine learning mod
 Before you begin, you'll need to have set up your Raspberry Pi computer and connected a Raspberry Pi camera. You can find instructions on how to do both in the following guides:
 
 --- task ---
-If you have not already done so, set up your Raspberry Pi by following these instructions:
-
-[Setting up your Raspberry Pi](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up){:target="_blank"}
---- /task ---
-
---- task ---
 Connect a Raspberry Pi Camera Module to your Raspberry Pi by following these instructions:
 
 [Getting started with the Camera Module](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera){:target="_blank"}
