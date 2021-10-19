@@ -11,6 +11,6 @@ To build this robot face, we used parts from the [SPIKE™ Prime](https://educat
 
 ## Building
 To construct this model, or inspire your own, follow our handy building guide here, or download it [here.](images/robot_face.pdf)
-<embed src="images/robot_face.pdf" width="600"  height="600" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
+<embed src="images/robot_face.pdf" width="800"  height="800" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
 
 In the next step, you'll build and connect up your LED arrays for the eyes.
