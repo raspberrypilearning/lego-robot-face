@@ -2,8 +2,8 @@ title: LEGO® robot face
 hero_image: images/banner.png
 description: Build a robot face that react to what it can see with LEGO® and the Build HAT
 version: 4
-listed: false
-copyedit: false
+listed: true
+copyedit: true
 last_tested: "2020-02-26"
 steps:
   - title: Introduction
