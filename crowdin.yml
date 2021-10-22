@@ -1,5 +1,5 @@
 files:
   - source: /en/**/*.*
     ignore:
-      - /images/*.pdf
+      - /en/images/robot_face.pdf
     translation: /%locale%/**/%original_file_name%
