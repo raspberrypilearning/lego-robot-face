@@ -1,16 +1,16 @@
-## Motorise the mouth
+## Den Mund motorisieren
 
 --- task ---
 
-Open **Thonny** from the programming menu and save a new file called `robot_face.py`, and make sure to save it in the same directory as `classifier.py`, `labels.txt`, and the 8×8 pixel art images.
+Öffnen Sie **Thonny** aus dem Programmiermenü und speichern Sie eine neue Datei namens `robot_face.py`, und stellen Sie sicher, dass Sie sie im selben Verzeichnis wie `classifier.py`, `labels.txt`und die 8×8-Pixel-Kunst speichern Bilder.
 
-![File structure showing where robot_face.py should be stored.](images/file_structure.png)
+![Dateistruktur, die anzeigt, wo robot_face.py gespeichert werden soll.](images/file_structure.png)
 
 --- /task ---
 
 --- task ---
 
-Start by adding the import you will need to control the LEGO® Technic™ motors.
+Fügen Sie zunächst den Import hinzu, den Sie zum Steuern der LEGO® Technic™-Motoren benötigen.
 
 --- code ---
 ---
@@ -23,7 +23,7 @@ from buildhat import Motor --- /code ---
 
 --- task ---
 
-Create two new objects for the left and right motors. In this example, the right motor is connected to port A and the left to port B.
+Erstellen Sie zwei neue Objekte für den linken und rechten Motor. In diesem Beispiel wird der rechte Motor an Port A und der linke an Port B angeschlossen.
 
 --- code ---
 ---
@@ -32,13 +32,13 @@ line_highlights: 3,4
 ---
 from buildhat import Motor
 
-mouth_r = Motor('A') mouth_l = Motor('B') --- /code ---
+Mund_r = Motor('A') Mund_l = Motor('B') --- /Code ---
 
 --- /task ---
 
 --- task ---
 
-Both motors should start in the `0` position when the program starts.
+Beide Motoren sollten beim Programmstart `0`
 
 --- code ---
 ---
@@ -46,35 +46,35 @@ language: python filename: robot_face,py line_numbers: true line_number_start: 5
 line_highlights:
 ---
 
-mouth_r.run_to_position(0) mouth_l.run_to_position(0) --- /code ---
+mund_r.run_to_position(0) mund_l.run_to_position(0) --- /code ---
 
 --- /task ---
 
 --- task ---
 
-Create a function that will move the mouth motors. They need to turn in opposite directions, so the left motor will turn to a negative value and the right motor to a positive value. Adding `blocking=False` will make both motors turn at the same time.
+Erstellen Sie eine Funktion, die die Mundmotoren bewegt. Sie müssen sich in entgegengesetzte Richtungen drehen, sodass der linke Motor auf einen negativen Wert und der rechte Motor auf einen positiven Wert dreht. Durch Hinzufügen von `Blocking = False` drehen sich beide Motoren gleichzeitig.
 
 --- code ---
 ---
 language: python filename: robot_face.py line_numbers: true line_number_start: 8
 line_highlights:
 ---
-def move_mouth (position, speed=100): mouth_l.run_to_position(position * -1, speed, blocking=False) #Turn to negative position mouth_r.run_to_position(position, speed, blocking=False) #Turn to positive position --- /code ---
+def move_mouth (Position, Geschwindigkeit = 100): mouth_l.run_to_position (Position * -1, Geschwindigkeit, Sperrung = False) #Turn negative Position mouth_r.run_to_position (Position, Geschwindigkeit, Sperrung = False) #Turn auf positive Position --- /code ---
 
 --- /task ---
 
 --- task ---
 
-Run your program and then test your new function in the **Shell**.
+Führen Sie Ihr Programm aus und testen Sie dann Ihre neue Funktion in der **Shell**.
 
 --- code ---
 ---
-language: python filename: line_numbers: false line_number_start:
+Sprache: Python Dateiname: Zeilennummer: false Zeilennummer_Start:
 line_highlights:
 ---
-> > > move_mouth(45) move mouth(0) --- /code ---
+> > > move_mouth(45) move_mouth(0) --- /code ---
 
-If your motors move in the wrong direction, try switching their ports.
+Wenn sich Ihre Motoren in die falsche Richtung bewegen, versuchen Sie, ihre Ports zu wechseln.
 
 --- /task ---
 
