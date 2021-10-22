@@ -1,0 +1,33 @@
+---
+title: LEGO® 机器人脸
+hero_image: images/banner.png
+description: 使用 LEGO® 和 Build HAT 构建一个机器人脸，它会对它看到的东西做出反应
+version: 4
+listed: true
+copyedit: true
+last_tested: "2020-02-26"
+steps:
+  - 
+    title: 介绍
+  - 
+    title: 测试您的机器学习模型
+  - 
+    title: 为你的机器人脸使用表情符号
+  - 
+    title: 做个鬼脸
+  - 
+    title: 添加眼睛
+  - 
+    title: 添加树莓派
+  - 
+    title: 机动嘴巴
+  - 
+    title: 编程眉毛
+  - 
+    title: 给眼睛编程
+  - 
+    title: 变脸
+  - 
+    title: 对物体的情绪反应
+  - 
+    title: 接下来是什么？
