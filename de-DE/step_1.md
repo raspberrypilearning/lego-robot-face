@@ -1,56 +1,56 @@
-## Introduction
+## Einleitung
 
-Over the course of this project you will construct a robot face from a combination of LEGO® and electronic components. You'll then use an existing machine learning model to help your face recognise different objects and react to them.
+Im Laufe dieses Projekts konstruieren Sie ein Robotergesicht aus einer Kombination von LEGO® und elektronischen Komponenten. Anschließend verwenden Sie ein vorhandenes Modell für maschinelles Lernen, um Ihrem Gesicht zu helfen, verschiedene Objekte zu erkennen und darauf zu reagieren.
 
-### What you will make
+### Was du machen wirst
 
 --- no-print ---
 
-Your robot face will be able to recognise and react to a range of objects. Here you can see our example of a robot face.
+Ihr Robotergesicht kann eine Reihe von Objekten erkennen und darauf reagieren. Hier sehen Sie unser Beispiel eines Robotergesichts.
 
-![Video of a robot face made out of LEGO® with LED eyes and changing expressions.](images/robot_face.gif)
+![Video eines Robotergesichts aus LEGO® mit LED-Augen und wechselnden Gesichtsausdrücken.](images/robot_face.gif)
 
-You should build your robot face using whatever LEGO® and other materials you have available. We used the [LEGO® SPIKE™ Prime kit](https://education.lego.com/en-gb/product/spike-prime).
+Sie sollten Ihr Robotergesicht aus allen verfügbaren LEGO® und anderen Materialien bauen. Wir haben das [LEGO® SPIKE™ Prime-Kit](https://education.lego.com/en-gb/product/spike-prime).
 
 --- /no-print ---
 
 --- print-only ---
 
-![Picture of the completed project: a robot face made out of LEGO® with LED eyes and a smiling expression.](images/robot_face.jpg)
+![Bild des fertigen Projekts: ein Robotergesicht aus LEGO® mit LED-Augen und lächelndem Gesichtsausdruck.](images/robot_face.jpg)
 
 --- /print-only ---
 
 --- collapse ---
 ---
-title: What you will need
+title: Was du brauchen wirst
 ---
 ### Hardware
 
-+ A Raspberry Pi computer
-+ A Raspberry Pi Build HAT
-+ A Raspberry Pi Camera Module
-+ A 30cm Raspberry Pi camera ribbon cable
-+ 2× Small LEGO® Technic™ motors
-+ 1× Large LEGO® Technic™ motor
-+ 1× Mini breadboard
-+ 12× Male-to-female jumper wires (20cm)
-+ 2× [Adafruit 8×8 LED matrices](https://www.adafruit.com/product/1049) (or similar — requires some soldering to assemble and modify)
-+ Extra long stacking header pins
-+ Assortment of LEGO® (we used a selection from the [LEGO® SPIKE™ Prime kit](https://education.lego.com/en-gb/product/spike-prime))
-+ 20mm F-M header extender.
-+ Soldering kit
++ Ein Raspberry Pi-Computer
++ Ein Raspberry Pi Build HAT
++ Ein Raspberry Pi Kameramodul
++ Ein 30cm Raspberry Pi Kamera Flachbandkabel
++ 2× kleine LEGO® Technic™ Motoren
++ 1× großer LEGO® Technic™ Motor
++ 1× Mini-Steckbrett
++ 12× Stecker-zu-Buchse Überbrückungsdrähte (20cm)
++ 2× [Adafruit 8×8 LED-Matrizen](https://www.adafruit.com/product/1049) (oder ähnlich – erfordert etwas Löten zum Zusammenbauen und Modifizieren)
++ Extra lange Stacking-Header-Pins
++ Sortiment von LEGO® (wir haben eine Auswahl aus dem [LEGO® SPIKE™ Prime Kit](https://education.lego.com/en-gb/product/spike-prime))
++ 20mm FM-Header-Extender.
++ Lötkit
 
 ### Software
 
-Open a terminal and use the following commands to install the needed libraries:
+Öffnen Sie ein Terminal und verwenden Sie die folgenden Befehle, um die benötigten Bibliotheken zu installieren:
 
-+ BuildHAT Python library for controlling the Build HAT
++ BuildHAT Python-Bibliothek zur Steuerung des Build HAT
 
 ```
-sudo pip3 install buildhat
+sudo pip3 installiere Buildhat
 ```
 
-+ TensorFlow Lite library and sample model and labels
++ TensorFlow Lite-Bibliothek und Mustermodell und Etiketten
 
 ```
 echo "deb https://packages.cloud.google.com/apt coral-edgetpu-stable main" | sudo tee /etc/apt/sources.list.d/coral-edgetpu.list
@@ -59,7 +59,7 @@ sudo apt-get update
 sudo apt-get install python3-tflite-runtime
 ```
 
-+ Adafruit LED matrix library
++ Adafruit LED-Matrix-Bibliothek
 
 ```
 pip3 install adafruit-circuitpython-ht16k33
@@ -67,84 +67,84 @@ pip3 install adafruit-circuitpython-ht16k33
 
 ### Downloads
 
-+ [Image classifier test files](http://rpf.io/p/en/lego-robot-face-go){:target="_blank"}
++ [Bildklassifizierer-Testdateien](http://rpf.io/p/en/lego-robot-face-go){:target="_blank"}
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: What you will learn
+title: Was du lernen wirst
 ---
 
-+ To build more complex mechanisms using LEGO®
-+ To use a machine learning library to recognise images
-+ To use dictionary data structures to control facial expressions
++ Komplexere Mechanismen mit LEGO® . bauen
++ So verwenden Sie eine Machine Learning-Bibliothek zum Erkennen von Bildern
++ So verwenden Sie Wörterbuchdatenstrukturen zur Steuerung von Gesichtsausdrücken
 
 --- /collapse ---
 
 --- collapse ---
 ---
-title: Additional information for educators
+title: Zusätzliche Informationen für Pädagogen
 ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/robot-face/print){:target="_blank"}.
+Wenn du dieses Projekt ausdrucken möchtest, verwende die [druckerfreundliche Version](https://projects.raspberrypi.org/en/projects/robot-face/print){:target="_blank"}.
 
-[Here is a link to the resources for this project](http://rpf.io/p/en/robot-face-go){:target="_blank"}.
+[Hier ist ein Link zu den Ressourcen für dieses Projekt](http://rpf.io/p/en/robot-face-go){:target="_blank"}.
 
 --- /collapse ---
 
-Before you begin, you'll need to have set up your Raspberry Pi computer and attached your Build HAT:
+Bevor Sie beginnen, müssen Sie Ihren Raspberry Pi-Computer eingerichtet und Ihren Build HAT angeschlossen haben:
 
 --- task ---
 
-Mount your Raspberry Pi on to the LEGO Build Plate using M2 bolts and nuts, making sure the Raspberry Pi is on the side without the 'edge':
+Montieren Sie Ihren Raspberry Pi mit M2-Schrauben und Muttern auf der LEGO Build Plate und stellen Sie sicher, dass sich der Raspberry Pi auf der Seite ohne die "Kante" befindet:
 
- ![Raspberry Pi bolted to a magenta LEGO Build Plate.](images/build_11.jpg)
+ ![Raspberry Pi mit einer magentafarbenen LEGO Bauplatte verschraubt.](images/build_11.jpg)
 
 --- /task ---
 
-Mounting the Raspberry Pi this way round enables easy access to the ports as well as the SD card slot. The Build Plate will allow you to connect the Raspberry Pi to the main structure of your dashboard more easily.
+Die Montage des Raspberry Pi auf diese Weise ermöglicht einen einfachen Zugriff auf die Anschlüsse sowie den SD-Kartensteckplatz. Mit der Bauplatte können Sie den Raspberry Pi einfacher mit der Hauptstruktur Ihres Dashboards verbinden.
 
 --- task ---
 
-Line up the Build HAT with the Raspberry Pi, ensuring you can see the `This way up` label. Make sure all the GPIO pins are covered by the HAT, and press down firmly. (The example uses a [stacking header](https://www.adafruit.com/product/2223){:target="_blank"}, which makes the pins longer.)
+Richten Sie den Build HAT mit dem Raspberry Pi aus und stellen Sie sicher, dass Sie das Label `This way up` Stellen Sie sicher, dass alle GPIO-Pins vom HAT bedeckt sind, und drücken Sie sie fest nach unten. (Das Beispiel verwendet einen [Stacking-Header](https://www.adafruit.com/product/2223){:target="_blank"}, wodurch die Pins länger werden.)
 
-![Image of GPIO pins poking through the top of the Build HAT.](images/build_15.jpg) ![Animation showing Buildhat fitting to Raspberry Pi](images/haton.gif)
+![Bild von GPIO-Pins, die durch die Oberseite des Build HAT ragen.](images/build_15.jpg) ![Animation zeigt Buildhat passend zu Raspberry Pi](images/haton.gif)
 
 --- /task ---
 
-You should now power your Raspberry Pi using the 7.5V barrel jack on the Build HAT, which will allow you to use the motors.
+Sie sollten jetzt Ihren Raspberry Pi über die 7,5-V-Barrel-Buchse des Build HAT mit Strom versorgen, damit Sie die Motoren verwenden können.
 
 --- task ---
 
-If you have not already done so, set up your Raspberry Pi by following these instructions:
+Wenn Sie dies noch nicht getan haben, richten Sie Ihren Raspberry Pi ein, indem Sie diesen Anweisungen folgen:
 
-[Setting up your Raspberry Pi](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up){:target="_blank"}
+[Einrichten Ihres Raspberry Pi](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up){:target="_blank"}
 
 --- /task ---
 
 --- task ---
 
-Once the Raspberry Pi has booted, open the Raspberry Pi Configuration tool by clicking on the Raspberry Menu button and then selecting “Preferences” and then “Raspberry Pi Configuration”.
+Nachdem der Raspberry Pi gebootet ist, öffnen Sie das Raspberry Pi Configuration Tool, indem Sie auf die Schaltfläche Raspberry Menu klicken und dann „Preferences“ und dann „Raspberry Pi Configuration“ auswählen.
 
-Click on the “interfaces” tab and adjust the Serial settings as shown below:
+Klicken Sie auf die Registerkarte "Schnittstellen" und passen Sie die seriellen Einstellungen wie unten gezeigt an:
 
-![Image showing Raspberry Pi OS config screen with serial port enabled and serial console disabled](images/configshot.jpg)
+![Bild, das den Konfigurationsbildschirm des Raspberry Pi OS mit aktivierter serieller Schnittstelle und deaktivierter serieller Konsole zeigt](images/configshot.jpg)
 
 --- /task ---
 
---- task --- You will also need to install the buildhat python library by following these instructions:
+--- task --- Sie müssen auch die Buildhat-Python-Bibliothek installieren, indem Sie diesen Anweisungen folgen:
 
 --- collapse ---
 ---
-title: Install the buildhat Python library
+Titel: Installieren Sie die Buildhat-Python-Bibliothek
 ---
 
-Open a terminal window on your Raspberry Pi by pressing <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd>.
+Öffnen Sie ein Terminalfenster auf Ihrem Raspberry Pi, indem Sie <kbd>Strg</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd>drücken.
 
-At the prompt type: `sudo pip3 install buildhat`
+Geben Sie an der Eingabeaufforderung `sudo pip3 install buildhat`
 
-Press <kbd>Enter</kbd> and wait for the "installation completed" message.
+Drücken Sie <kbd>Geben Sie</kbd> und warten Sie auf die Meldung "Installation abgeschlossen".
 
 --- /collapse ---
 
