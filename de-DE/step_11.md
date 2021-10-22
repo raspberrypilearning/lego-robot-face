@@ -1,25 +1,25 @@
-## Emotional responses to objects
+## Emotionale Reaktionen auf Objekte
 
-To finish off the project, you can make the robot face display different expressions depending on what the camera can see.
+Um das Projekt abzuschließen, können Sie das Robotergesicht verschiedene Ausdrücke anzeigen lassen, je nachdem, was die Kamera sehen kann.
 
-![Code on the left with the camera view showing different images being held in front of the camera. On the right, the robot face reacts to the images.](images/completed_project.gif)
+![Code auf der linken Seite mit der Kameraansicht, die verschiedene Bilder zeigt, die vor der Kamera gehalten werden. Rechts reagiert das Robotergesicht auf die Bilder.](images/completed_project.gif)
 
 --- task ---
 
-Start by importing the `Classifier` class from the file that you used earlier, along with the `sleep` function.
+Beginnen Sie mit dem Importieren der `Classifier` aus der Datei, die Sie zuvor verwendet haben, zusammen mit der Funktion `sleep`
 
 --- code ---
 ---
 language: python filename: robot_face.py line_numbers: true line_number_start: 7
 line_highlights:
 ---
-from classifier import Classifier from time import sleep --- /code ---
+aus Klassifikator importieren Klassifikator aus Zeitimport Schlaf --- /code ---
 
 --- /task ---
 
 --- task ---
 
-Then create a list of objects that the classifier can recognise. You can adjust the `threshold` later to make the classifier more or less accurate with its recognition.
+Erstellen Sie dann eine Liste von Objekten, die der Klassifikator erkennen kann. Sie können die `Schwelle` später anpassen, um den Klassifikator bei seiner Erkennung mehr oder weniger genau zu machen.
 
 --- code ---
 ---
@@ -33,7 +33,7 @@ seen_items = Classifier(label_file="labels.txt",model_file="model.tflite",thresh
 
 --- task ---
 
-Now create a dictionary that links objects to different emotions. You can choose your own objects and emotions depending on what you have around you, or images that you have printed out.
+Erstellen Sie nun ein Wörterbuch, das Objekte mit verschiedenen Emotionen verknüpft. Sie können Ihre eigenen Objekte und Emotionen auswählen, je nachdem, was Sie um sich herum haben, oder Bilder, die Sie ausgedruckt haben.
 
 --- code ---
 ---
@@ -41,20 +41,20 @@ language: python filename: robot_face.py line_numbers: true line_number_start: 3
 line_highlights:
 ---
 
-reactions = {"broccoli":"neutral","teapot":"neutral","snake":"angry","hotdog":"happy"} --- /code ---
+Reaktionen = {"broccoli":"neutral","teapot":"neutral","snake":"w\u00fcrrend","hotdog":"froh"} --- /code ---
 
 --- /task ---
 
 --- task ---
 
-Lastly, you can create a loop to check what is in the `seen_items` list every two seconds, and then display the facial expression according to your `reactions` dictionary.
+Schließlich können Sie alle zwei Sekunden eine Schleife erstellen, um zu überprüfen, was in der `seen_items` , und dann den Gesichtsausdruck gemäß Ihrem `Reaktionen` Wörterbuch anzeigen.
 
 --- code ---
 ---
 language: python filename: robot_face.py line_numbers: true line_number_start: 61
 line_highlights:
 ---
-while True: sleep(1) if seen_items.item != seen_items.last_item: item = seen_items.item if item in reactions.keys(): set_face(faces[reactions[item]]) sleep(1) --- /code ---
+while True: sleep(1) if seen_items.item != seen_items.last_item: item = seen_items.item wenn item in set_face(faces[reactions[item]]) sleep(1) --- /code ---
 
 --- /task ---
 
