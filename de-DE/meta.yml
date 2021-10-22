@@ -1,0 +1,33 @@
+---
+title: LEGO® robot face
+hero_image: images/banner.png
+description: Build a robot face that reacts to what it can see with LEGO® and the Build HAT
+version: 4
+listed: true
+copyedit: true
+last_tested: "2020-02-26"
+steps:
+  - 
+    title: Introduction
+  - 
+    title: Test your machine learning model
+  - 
+    title: Use emoji for your robot face
+  - 
+    title: Make a face
+  - 
+    title: Add the eyes
+  - 
+    title: Add the Raspberry Pi
+  - 
+    title: Motorise the mouth
+  - 
+    title: Program the eyebrows
+  - 
+    title: Program the eyes
+  - 
+    title: Changing faces
+  - 
+    title: Emotional responses to objects
+  - 
+    title: What next?
