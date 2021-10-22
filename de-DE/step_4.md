@@ -1,17 +1,17 @@
-## Making a face
+## Ein Gesicht machen
 
-This is what your finished model will look like: <iframe src="https://sketchfab.com/models/d0e78282ad3c4436a2ac7a5326983d8b/embed?autospin=0.2&amp;autostart=1" width="600" height="400" frameborder="0" mark="crwd-mark"></iframe>
+So sieht Ihr fertiges Modell aus: <iframe src="https://sketchfab.com/models/d0e78282ad3c4436a2ac7a5326983d8b/embed?autospin=0.2&amp;autostart=1" width="600" height="400" frameborder="0" mark="crwd-mark"></iframe>
 
-Now that you know which objects will trigger which responses, you need to build a robotic face that can be animated to show the different expressions. In this step, we're going to walk you through an example model, but you can adapt the plan depending on what you have available.
+Da Sie nun wissen, welche Objekte welche Reaktionen auslösen, müssen Sie ein Robotergesicht erstellen, das animiert werden kann, um die verschiedenen Gesichtsausdrücke zu zeigen. In diesem Schritt führen wir Sie durch ein Beispielmodell, aber Sie können den Plan je nach Verfügbarkeit anpassen.
 
 ## Equipment
-To build this robot face, we used parts from the [SPIKE™ Prime](https://education.lego.com/en-gb/product/spike-prime){:target="_blank"} and [SPIKE™ Expansion](https://education.lego.com/en-gb/products/lego-education-spike-prime-expansion-set/45680){:target="_blank"} sets. However, most of the parts can be found in many existing LEGO sets.
+Um dieses Robotergesicht zu bauen, haben wir Teile aus den [SPIKE™ Prime](https://education.lego.com/en-gb/product/spike-prime){:target="_blank"} und [SPIKE™ Expansion](https://education.lego.com/en-gb/products/lego-education-spike-prime-expansion-set/45680){:target="_blank"} verwendet. Die meisten Teile sind jedoch in vielen bestehenden LEGO-Sets zu finden.
 
-## Building
-To construct this model, or inspire your own, follow our handy building guide here, or download it [here.](images/robot_face.pdf)
+## Gebäude
+Um dieses Modell zu konstruieren, oder Ihre eigenen inspirieren, folgen Sie unserer praktische Bauanleitung hier, oder herunterladen [hier.](images/robot_face.pdf)
 <embed src="images/robot_face.pdf" width="800"  height="800" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
   </p> 
   
   <p spaces-before="0">
-    In the next step, you'll build and connect up your LED arrays for the eyes.
+    Im nächsten Schritt bauen und verbinden Sie Ihre LED-Arrays für die Augen.
   </p>
