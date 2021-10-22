@@ -1,0 +1,33 @@
+---
+title: Лицо робота LEGO®
+hero_image: images/banner.png
+description: Создайте лицо робота, которое реагирует на то, что он видит, с помощью LEGO® и Build HAT.
+version: 4
+listed: true
+copyedit: true
+last_tested: "2020-02-26"
+steps:
+  - 
+    title: Введение
+  - 
+    title: Проверьте свою модель машинного обучения
+  - 
+    title: Используйте смайлики для лица своего робота
+  - 
+    title: Сделать лицо
+  - 
+    title: Добавьте глаза
+  - 
+    title: Добавьте Raspberry Pi
+  - 
+    title: Моторизовать рот
+  - 
+    title: Запрограммируйте брови
+  - 
+    title: Запрограммируйте глаза
+  - 
+    title: Меняются лица
+  - 
+    title: Эмоциональные реакции на предметы
+  - 
+    title: Что дальше?
