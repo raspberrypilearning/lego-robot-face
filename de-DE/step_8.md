@@ -1,17 +1,17 @@
-## Program the eyebrows
+## Augenbrauen programmieren
 
-The third motor is used to move the face's eyebrows.
+Der dritte Motor wird verwendet, um die Augenbrauen des Gesichts zu bewegen.
 
 --- task ---
 
-Set up an object for the eyebrows' motor.
+Richten Sie ein Objekt für den Motor der Augenbrauen ein.
 
 --- code ---
 ---
 language: python filename: robot_face.py line_numbers: true line_number_start: 3
 line_highlights: 5
 ---
-mouth_r = Motor('A') mouth_l = Motor('B') eyebrows = Motor('C')
+Mund_r = Motor('A') Mund_l = Motor('B') Augenbrauen = Motor('C')
 
 --- /code ---
 
@@ -19,44 +19,44 @@ mouth_r = Motor('A') mouth_l = Motor('B') eyebrows = Motor('C')
 
 --- task ---
 
-Make sure that your large motor is positioned so that the **lollipop** and the **circle** are aligned, and that your face's eyebrows are set horizontally. If they are not, you may need to adjust your build a little.
+Stellen Sie sicher, dass Ihr großer Motor so positioniert ist, dass der **Lollipop** und der **Kreis** ausgerichtet sind und dass die Augenbrauen Ihres Gesichts horizontal ausgerichtet sind. Wenn dies nicht der Fall ist, müssen Sie Ihren Build möglicherweise ein wenig anpassen.
 
-![Motor rotated so that the lollipop and circle are aligned.](images/motor_0.jpg)
+![Motor so gedreht, dass Lutscher und Kreis ausgerichtet sind.](images/motor_0.jpg)
 
-![The robot face with the eyebrows in a horizontal position.](images/horizontal_eyebrows.jpg)
+![Das Robotergesicht mit den Augenbrauen in einer horizontalen Position.](images/horizontal_eyebrows.jpg)
 
 --- /task ---
 
 --- task ---
 
-Now set the motor to turn to the `0` position when the program starts.
+Stellen Sie nun den Motor so ein, dass er sich `0`
 
 --- code ---
 ---
 language: python filename: robot_face.py line_numbers: true line_number_start: 7
 line_highlights: 9
 ---
-mouth_r.run_to_position(0) mouth_l.run_to_position(0) eyebrows.run_to_position(0) --- /code ---
+mund_r.run_to_position(0) mund_l.run_to_position(0) eyebrows.run_to_position(0) --- /code ---
 
 --- /task ---
 
-There are three eyebrow positions that will be shown here, but you can create more.
+Es gibt drei Augenbrauenpositionen, die hier angezeigt werden, aber Sie können mehr erstellen.
 
-- `0` will make the eyebrows appear horizontal
-- `150` will lower the eyebrows
-- `-150` will raise the eyebrows
+- `0` die Augenbrauen horizontal erscheinen
+- `150` senkt die Augenbrauen
+- `-150` hebt die Augenbrauen
 
 
 --- task ---
 
-Add a function that gets the current eyebrow position, and if the position it is supposed to move to is less than the current one, it will move anti-clockwise, otherwise it will move clockwise.
+Fügen Sie eine Funktion hinzu, die die aktuelle Augenbrauenposition erhält, und wenn die Position, an die sie sich bewegen soll, kleiner als die aktuelle ist, bewegt sie sich gegen den Uhrzeigersinn, andernfalls bewegt sie sich im Uhrzeigersinn.
 
 --- code ---
 ---
 language: python filename: line_numbers: true line_number_start: 17
 line_highlights:
 ---
-def move_eyebrows (position): current_position = eyebrows.get_aposition() if position < current_position: rotation = 'anticlockwise' else: rotation = 'clockwise' eyebrows.run_to_position(position, direction = rotation)
+def move_eyebrows (position): current_position = if position < current_position: rotation = 'entgegen dem Uhrzeigersinn' else: rotation = 'im Uhrzeigersinn' eyebrows.run_to_position(position, direction = rotation)
 
 --- /code ---
 
@@ -64,7 +64,7 @@ def move_eyebrows (position): current_position = eyebrows.get_aposition() if pos
 
 --- task ---
 
-Run your code and test your new function in the **Shell**.
+Führen Sie Ihren Code aus und testen Sie Ihre neue Funktion in der **Shell**.
 
 --- code ---
 ---
