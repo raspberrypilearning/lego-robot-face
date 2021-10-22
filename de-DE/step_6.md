@@ -1,106 +1,106 @@
-## Add the Raspberry Pi
+## Fügen Sie den Himbeer-Pi . hinzu
 
-For this project you'll ideally want to use the Build Plate element to mount your Raspberry Pi and Build HAT:
+Für dieses Projekt möchten Sie idealerweise das Build Plate-Element verwenden, um Ihren Raspberry Pi und Build HAT zu montieren:
 
-![Image showing a magenta LEGO® build plate.](images/build_10.png)
+![Bild mit einer magentafarbenen LEGO® Bauplatte.](images/build_10.png)
 
 --- task ---
 
-Mount your Raspberry Pi onto the Build Plate using M2 bolts and nuts, making sure the Pi is on the flat side:
+Montieren Sie Ihren Raspberry Pi mit M2-Schrauben und Muttern auf der Bauplatte und stellen Sie sicher, dass sich der Pi auf der flachen Seite befindet:
 
- ![Raspberry Pi bolted to a magenta LEGO® build plate.](images/build_11.jpg)
+ ![Raspberry Pi mit einer magentafarbenen LEGO® Bauplatte verschraubt.](images/build_11.jpg)
 
 --- /task ---
 
-Mounting the Raspberry Pi this way round enables easy access to the ports as well as the SD card slot.
+Die Montage des Raspberry Pi auf diese Weise ermöglicht einen einfachen Zugriff auf die Anschlüsse sowie den SD-Kartensteckplatz.
 
-### Mount the camera and Build HAT
+### Montieren Sie die Kamera und bauen Sie HAT
 
-Before adding the Build HAT, you'll first need to attach the camera ribbon cable to the Raspberry Pi and thread it through the hole in the Build HAT. If you haven't already connected the camera board to your Raspberry Pi, you can do so by following these instructions: [Getting started with the Camera Module](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera){:target="_blank"}.
+Bevor Sie den Build HAT hinzufügen, müssen Sie zuerst das Flachbandkabel der Kamera am Raspberry Pi befestigen und durch das Loch im Build HAT fädeln. Wenn Sie die Kameraplatine noch nicht mit Ihrem Raspberry Pi verbunden haben, können Sie dies wie folgt tun: [Erste Schritte mit dem Kameramodul](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera){:target="_blank"}.
 
-![Animation showing the Raspberry Pi Camera Module being connected to the Raspberry Pi.](images/connect-camera.gif)
-
---- task ---
-
-Leave the camera ribbon connected to the Raspberry Pi, but remove the camera board from the loose end of the ribbon by pushing up the small black clip and sliding the ribbon out:
-
-![Image showing the rear of the camera board with closed clip.](images/build_12.jpg)
-
-![Image showing the rear of the camera board with open clip and ribbon removed.](images/build_13.jpg)
-
---- /task ---
+![Animation, die zeigt, wie das Raspberry Pi-Kameramodul mit dem Raspberry Pi verbunden wird.](images/connect-camera.gif)
 
 --- task ---
 
-Poke the ribbon through the underside of the Build HAT and out through the top, making sure the ribbon isn't twisted: ![Image of the Picamera ribbon poking through the top of the Build HAT.](images/build_14.jpg)
+Lassen Sie das Kameraband mit dem Raspberry Pi verbunden, aber entfernen Sie die Kameraplatine vom losen Ende des Bandes, indem Sie den kleinen schwarzen Clip nach oben drücken und das Band herausziehen:
+
+![Bild zeigt die Rückseite der Kameraplatine mit geschlossenem Clip.](images/build_12.jpg)
+
+![Bild zeigt die Rückseite der Kameraplatine mit geöffnetem Clip und entferntem Farbband.](images/build_13.jpg)
 
 --- /task ---
 
 --- task ---
 
-Line up the Build HAT with the Raspberry Pi, ensuring you can see the `This way up` label. Make sure all the GPIO pins are covered by the HAT, and press down firmly. (The example uses a [stacking header](https://www.adafruit.com/product/2223){:target="_blank"}, which makes the pins longer.)
-
-![Image of GPIO pins poking through the top of the Build HAT.](images/build_15.jpg)
-
---- /task ---
-
---- task --- Re-attach the camera to the end of the ribbon cable, making sure it isn't twisted.
-
-![Image of the Picamera attached to the ribbon cable.](images/build_16.jpg)
-
---- /task ---
-
---- task --- Connect the Build Plate to the back of your robot face using some black studs. ![Image of a Maker Plate and Raspberry Pi connected to the rear of the robot face.](images/build_17.jpg)
-
-Mounting the Raspberry Pi this way gives the best access to ports and pins, and means your barrel jack is easily connected to power the robot face.
+Stecken Sie das Band durch die Unterseite des Build HAT und durch die Oberseite, um sicherzustellen, dass das Band nicht verdreht ist: ![Bild des Picamera-Bandes, das oben durch den Build HAT ragt.](images/build_14.jpg)
 
 --- /task ---
 
 --- task ---
 
-Connect up your small LEGO® Technic™ motors to ports A and B, ready to control the mouth.
+Richten Sie den Build HAT mit dem Raspberry Pi aus und stellen Sie sicher, dass Sie das Label `This way up` Stellen Sie sicher, dass alle GPIO-Pins vom HAT bedeckt sind, und drücken Sie sie fest nach unten. (Das Beispiel verwendet einen [Stacking-Header](https://www.adafruit.com/product/2223){:target="_blank"}, wodurch die Pins länger werden.)
 
-![Image of two small LEGO® Technic™ motors connected to ports A and B on the Build HAT.](images/build_18.jpg)
+![Bild von GPIO-Pins, die durch die Oberseite des Build HAT ragen.](images/build_15.jpg)
+
+--- /task ---
+
+--- Aufgabe --- Bringen Sie die Kamera wieder am Ende des Flachbandkabels an und stellen Sie sicher, dass es nicht verdreht ist.
+
+![Bild der am Flachbandkabel befestigten Picamera.](images/build_16.jpg)
+
+--- /task ---
+
+--- Aufgabe --- Verbinden Sie die Bauplatte mit einigen schwarzen Bolzen an der Rückseite Ihres Robotergesichts. ![Bild einer Maker Plate und eines Raspberry Pi, die an der Rückseite des Robotergesichts angeschlossen sind.](images/build_17.jpg)
+
+Die Montage des Raspberry Pi auf diese Weise bietet den besten Zugang zu Anschlüssen und Pins und bedeutet, dass Ihre Barrel-Buchse einfach angeschlossen werden kann, um das Robotergesicht mit Strom zu versorgen.
 
 --- /task ---
 
 --- task ---
 
-Connect up your large LEGO® Technic™ motor to port C, ready to control the eyebrows.
+Schließen Sie Ihre kleinen LEGO® Technic™ Motoren an die Anschlüsse A und B an, um den Mund zu steuern.
 
-![Image showing a large LEGO® Technic™ motor connected to port C on the Build HAT.](images/build_19.jpg)
-
---- /task ---
-
---- task ---
-
-Using the adhesive pad on the bottom, stick a breadboard to the top of the frame that supports the large LEGO® motor.
-
-![Image showing a breadboard stuck to the top of the robot face mechanism.](images/build_20.jpg)
+![Bild von zwei kleinen LEGO® Technic™ Motoren, die mit den Anschlüssen A und B des Build HAT verbunden sind.](images/build_18.jpg)
 
 --- /task ---
 
 --- task ---
 
-Mount the camera board in the holder on the top of the robot face by passing the ribbon under the holder and wedging the camra between the rubber stoppers on either side.
+Schließen Sie Ihren großen LEGO® Technic™ Motor an Port C an, um die Augenbrauen zu kontrollieren.
 
-Secure the camera with an elastic band using the black lugs on either side.
-
-![Image showing the camera board mounted using elastic bands, both front and rear.](images/build_21.jpg)
+![Bild, das einen großen LEGO® Technic™ Motor zeigt, der an Port C des Build HAT angeschlossen ist.](images/build_19.jpg)
 
 --- /task ---
-
-To connect the pair of eyes to the Raspberry Pi GPIO, they first need to be connected together using a breadboard, and then to the GPIO pins from the breadboard.
 
 --- task ---
 
-Use eight male–female jumper wires to connect the four pins from each eye together on the breadboard. Make sure that both VCC pins are in the same row of the breadboard, both GND pins are in the same row, and so on. Then connect to the 3V3, GND, SDA, and SCL pins on the Raspberry Pi, as shown below.
+Kleben Sie mit dem Klebepad an der Unterseite ein Steckbrett oben auf den Rahmen, der den großen LEGO® Motor trägt.
 
-![I2C diagram.](images/eye_wiring.png)
+![Bild, das ein Steckbrett zeigt, das oben am Robotergesichtsmechanismus befestigt ist.](images/build_20.jpg)
 
 --- /task ---
 
-Your robot face is now built, connected, and ready to be programmed!
+--- task ---
+
+Montieren Sie die Kameraplatine im Halter auf der Oberseite des Roboters, indem Sie das Band unter den Halter führen und die Kamera zwischen den Gummistoppern auf beiden Seiten verkeilen.
+
+Sichern Sie die Kamera mit einem Gummiband mit den schwarzen Ösen auf beiden Seiten.
+
+![Das Bild zeigt die Kameraplatine, die mit Gummibändern an Vorder- und Rückseite befestigt ist.](images/build_21.jpg)
+
+--- /task ---
+
+Um das Augenpaar mit dem Raspberry Pi GPIO zu verbinden, müssen sie zuerst mit einem Steckbrett und dann mit den GPIO-Pins vom Steckbrett verbunden werden.
+
+--- task ---
+
+Verwenden Sie acht männlich-weibliche Überbrückungsdrähte, um die vier Stifte von jedem Auge auf dem Steckbrett miteinander zu verbinden. Stellen Sie sicher, dass sich beide VCC-Pins in derselben Reihe des Steckbretts befinden, sich beide GND-Pins in derselben Reihe befinden und so weiter. Verbinden Sie dann die 3V3-, GND-, SDA- und SCL-Pins des Raspberry Pi, wie unten gezeigt.
+
+![I2C-Diagramm.](images/eye_wiring.png)
+
+--- /task ---
+
+Ihr Robotergesicht ist jetzt gebaut, verbunden und kann programmiert werden!
 
 
 
