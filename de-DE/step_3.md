@@ -1,46 +1,46 @@
-## Use emoji for your robot face
+## Verwenden Sie Emoji für Ihr Robotergesicht
 
-The goal is to build a robotic face that can respond to objects that it recognises. If you break that down into smaller steps, you might say that your robot face will:
+Ziel ist es, ein Robotergesicht zu bauen, das auf erkannte Objekte reagieren kann. Wenn Sie das in kleinere Schritte unterteilen, könnten Sie sagen, dass Ihr Robotergesicht:
 
-1. Use the Raspberry Pi camera to look for objects
-2. If an object is detected, use that object to change the face
-3. Match the object detected to a reaction or emotion
-4. Change the look of the face to represent a reaction
-5. Return to step 1 to look for the next object to react to
+1. Verwenden Sie die Raspberry Pi-Kamera, um nach Objekten zu suchen
+2. Wenn ein Objekt erkannt wird, verwenden Sie dieses Objekt, um das Gesicht zu ändern
+3. Ordne das erkannte Objekt einer Reaktion oder Emotion zu
+4. Ändere das Aussehen des Gesichts, um eine Reaktion darzustellen
+5. Kehren Sie zu Schritt 1 zurück, um nach dem nächsten Objekt zu suchen, auf das Sie reagieren können
 
-For the project to work, it's going to need a selection of reactions that it can display using simple facial expressions. Emojis are a great example of this.
+Damit das Projekt funktioniert, braucht es eine Auswahl von Reaktionen, die es mit einfachen Gesichtsausdrücken anzeigen kann. Emojis sind ein großartiges Beispiel dafür.
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">An emoji is an example of an <span style="color: #0faeb0">abstraction</span>, a simplified representation of a real face. All of the complexity has been removed and limited to the simple key parts of the face.</p>
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">Ein Emoji ist ein Beispiel für eine <span style="color: #0faeb0">Abstraktion</span>, eine vereinfachte Darstellung eines echten Gesichts. Die ganze Komplexität wurde entfernt und auf die einfachen Schlüsselteile des Gesichts beschränkt.</p>
 
-![A range of emojis.](images/emojis.png)
+![Eine Reihe von Emojis.](images/emojis.png)
 
-In this project, you can use these four emojis to represent eyes:
+In diesem Projekt können Sie diese vier Emojis verwenden, um Augen darzustellen:
 
-| <img src="resources/neutral.png" alt="8 by 8 pixel art of a neutral face" width="100" /> | <img src="resources/wide.png" alt="8 by 8 pixel art of a wide-eyed face" width="100" /> | <img src="resources/angry.png" alt="8 by 8 pixel art of an angry face" width="100" /> | <img src="resources/look_down.png" alt="8 by 8 pixel art of a face looking down" width="100" /> |
-| --------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------- |
-| Neutral                                                                                                   | Wide                                                                                                     | Angry                                                                                                  | Look down                                                                                                        |
-
-
-
-However, if you would like to create your own emojis, you can use [piskel](https://www.piskelapp.com) to create your own 8 x 8 emoji. Only use black and white pixels.
+| <img src="resources/neutral.png" alt="8 x 8 Pixel Kunst eines neutralen Gesichts" width="100" /> | <img src="resources/wide.png" alt="8 x 8 Pixel Kunst eines großäugigen Gesichts" width="100" /> | <img src="resources/angry.png" alt="8 x 8 Pixel Kunst eines wütenden Gesichts" width="100" /> | <img src="resources/look_down.png" alt="8 x 8 Pixel Kunst eines nach unten schauenden Gesichts" width="100" /> |
+| ----------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| Neutral                                                                                                           | Weit                                                                                                             | Verärgert                                                                                                      | Schau runter                                                                                                                    |
 
 
-### Connect objects to the expressions
 
-From your experiments in the previous step, you will have identified at least four objects that your camera and machine learning model can reliably detect.
+Wenn Sie jedoch Ihre eigenen Emojis erstellen möchten, können Sie [Piskel](https://www.piskelapp.com) , um Ihre eigenen 8 x 8 Emojis zu erstellen. Verwenden Sie nur schwarze und weiße Pixel.
+
+
+### Verbinde Objekte mit den Ausdrücken
+
+Aus Ihren Experimenten im vorherigen Schritt haben Sie mindestens vier Objekte identifiziert, die Ihre Kamera und Ihr Modell für maschinelles Lernen zuverlässig erkennen können.
 
 --- task ---
 
-Choose which objects will trigger which reactions in your robot. Each expression should have a reaction associated with it.
+Wählen Sie aus, welche Objekte welche Reaktionen in Ihrem Roboter auslösen. Jedem Ausdruck sollte eine Reaktion zugeordnet sein.
 
-For our example, we used:
+Für unser Beispiel haben wir verwendet:
 
-| Object   | Reaction                                                                                                        |
-| -------- | --------------------------------------------------------------------------------------------------------------- |
-| broccoli | <img src="resources/neutral.png" alt="8 by 8 pixel art of a neutral face" width="25" />        |
-| teapot   | <img src="resources/wide.png" alt="8 by 8 pixel art of a wide-eyed face" width="25" />         |
-| snake    | <img src="resources/angry.png" alt="8 by 8 pixel art of an angry face" width="25" />           |
-| hotdog   | <img src="resources/look_down.png" alt="8 by 8 pixel art of a face looking down" width="25" /> |
+| Objekt   | Reaktion                                                                                                                       |
+| -------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| Brokkoli | <img src="resources/neutral.png" alt="8 x 8 Pixel Kunst eines neutralen Gesichts" width="25" />               |
+| Teekanne | <img src="resources/wide.png" alt="8 x 8 Pixel Kunst eines großäugigen Gesichts" width="25" />                |
+| Schlange | <img src="resources/angry.png" alt="8 x 8 Pixel Kunst eines wütenden Gesichts" width="25" />                  |
+| Hotdog   | <img src="resources/look_down.png" alt="8 x 8 Pixel Kunst eines nach unten schauenden Gesichts" width="25" /> |
 
 --- /task ---
 
