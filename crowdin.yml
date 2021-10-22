@@ -1,4 +1,5 @@
 files:
   - source: /en/**/*.*
+    ignore:
+      - /images/*.pdf
     translation: /%locale%/**/%original_file_name%
-    ignore: /en/**/*.pdf
