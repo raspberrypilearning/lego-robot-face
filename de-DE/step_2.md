@@ -1,76 +1,76 @@
-## Test the machine learning model
+## Testen Sie das Modell für maschinelles Lernen
 
-Your first step is to understand and test how you can use a machine learning model to recognise objects. For this project, you won't be creating and training your own model, but using an example model that can recognise a range of objects.
+Ihr erster Schritt besteht darin, zu verstehen und zu testen, wie Sie ein Modell für maschinelles Lernen verwenden können, um Objekte zu erkennen. Für dieses Projekt erstellen und trainieren Sie kein eigenes Modell, sondern verwenden ein Beispielmodell, das eine Reihe von Objekten erkennen kann.
 
-Before you begin, you'll need to have set up your Raspberry Pi computer and connected a Raspberry Pi camera. You can find instructions on how to do both in the following guides:
+Bevor Sie beginnen, müssen Sie Ihren Raspberry Pi-Computer eingerichtet und eine Raspberry Pi-Kamera angeschlossen haben. In den folgenden Anleitungen finden Sie Anweisungen, wie Sie beides tun können:
 
---- task --- Connect a Raspberry Pi Camera Module to your Raspberry Pi by following these instructions:
+--- task --- Verbinden Sie ein Raspberry Pi-Kameramodul mit Ihrem Raspberry Pi, indem Sie diesen Anweisungen folgen:
 
-[Getting started with the Camera Module](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera){:target="_blank"}
+[Erste Schritte mit dem Kameramodul](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera){:target="_blank"}
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Computers do not have a natural ability to learn. Most things that computers do have been <span style="color: #0faeb0">directly programmed by a human</span>. This makes them great for tasks that have a few clearly defined rules, but they struggle with more human-like tasks such as recognising different objects.
+Computer haben keine natürliche Lernfähigkeit. Die meisten Dinge, die Computer tun, wurden <span style="color: #0faeb0">direkt von einem Menschen programmiert</span>. Dadurch eignen sie sich hervorragend für Aufgaben, die ein paar klar definierte Regeln haben, aber sie kämpfen mit menschenähnlicheren Aufgaben wie dem Erkennen verschiedener Objekte.
 
-Using machine learning, a computer can be shown thousands and thousands of images, each of which has been labelled. Gradually, the program can learn the characteristics of a group of images and then give them the correct label.
+Durch maschinelles Lernen können einem Computer Tausende und Abertausende von Bildern angezeigt werden, von denen jedes beschriftet ist. Nach und nach kann das Programm die Eigenschaften einer Gruppe von Bildern lernen und ihnen dann das richtige Label geben.
 
-The end result of this process is called a <span style="color: #0faeb0">model</span>. Once trained, models can be used in the real world to perform tasks. 
+Das Endergebnis dieses Prozesses wird als <span style="color: #0faeb0">Modell</span>. Nach dem Training können Modelle in der realen Welt verwendet werden, um Aufgaben auszuführen. 
 </p>
 
-### Testing a model
+### Testen eines Modells
 
 --- task ---
 
- To get started, download the resources for this project to your Raspberry Pi [by clicking here](http://rpf.io/p/en/robot-face-go){:target="_blank"}.
+ Laden Sie zunächst die Ressourcen für dieses Projekt auf Ihren Raspberry Pi [herunter, indem Sie hier](http://rpf.io/p/en/robot-face-go){:target="_blank"} klicken.
 
  --- /task ---
 
  --- task ---
 
- Unzip the files and then move the unzipped directory to your `/home/pi` directory.
+ Entpacken Sie die Dateien und verschieben Sie dann das entpackte Verzeichnis in Ihr `/home/pi` Verzeichnis.
 
  --- /task ---
 
- You'll find a range of files that will be useful for the project, but for this step, you're going to use:
+ Sie werden eine Reihe von Dateien finden, die für das Projekt nützlich sind, aber für diesen Schritt verwenden Sie:
 
- - `model.tflite` – The machine learning model file
- - `labels.txt` – Labels for each object the model can recognise
- - `classifer.py` – A Python program to test the model
+ - `model.tflite` – Die Modelldatei für maschinelles Lernen
+ - `labels.txt` - Etiketten für jedes Objekt das Modell erkennen kann
+ - `classifer.py` – Ein Python-Programm zum Testen des Modells
 
 --- task ---
 
-Open **Thonny**, which is under the **Programming menu** in your Raspberry Pi **Start menu**.
+Öffnen Sie **Thonny**, das sich unter dem **Programmiermenü** in Ihrem Raspberry Pi **Startmenü**.
 
  --- /task ---
 
 --- task ---
 
-Open and **Run** the `classifier.py` program.
+Öffnen und **Führen Sie** das `classifier.py` Programm aus.
 
-Your Raspberry Pi will display:
-+ What the camera is "seeing"
-+ The name of the main object in view that it recognises
+Ihr Raspberry Pi zeigt Folgendes an:
++ Was die Kamera "sieht"
++ Der Name des Hauptobjekts, das es erkennt
 
- ![Image of the recogniser project running.](images/classifier.png)
+ ![Bild des laufenden Erkennungsprojekts.](images/classifier.png)
 
 --- /task ---
 
 --- task ---
 
- **Try** presenting the camera with different objects and investigate which ones it can recognise with confidence.
+ **Versuchen Sie** die Kamera mit verschiedenen Objekten zu präsentieren und untersuchen Sie, welche sie sicher erkennen kann.
 
- Whilst doing this, experiment with:
-   - **The background**: The camera may recognise objects instead of the object you are holding in front of the camera.
-   - **Object position**: Where and how you hold the object may affect how well it is recognised. Experiment with the distance from the camera and turn the object in different directions.
-   - **Lighting**: The lighting in your room may affect how well an object is detected. Try turning on more lights, or turning some lights off.
-   - **Images**: You may find it helpful to show the camera printed images of objects rather than the objects themselves.
+ Experimentieren Sie dabei mit:
+   - **Hintergrund**: Die Kamera erkennt möglicherweise Objekte anstelle des Objekts, das Sie vor die Kamera halten.
+   - ****: Wo und wie Sie das Objekt halten, kann sich auf seine Erkennung auswirken. Experimentieren Sie mit der Entfernung von der Kamera und drehen Sie das Objekt in verschiedene Richtungen.
+   - **Beleuchtung**: Die Beleuchtung in Ihrem Raum kann beeinflussen, wie gut ein Objekt erkannt wird. Versuchen Sie, mehr Lichter einzuschalten oder einige Lichter auszuschalten.
+   - **Bilder**: Es kann hilfreich sein, die von der Kamera gedruckten Bilder von Objekten statt der Objekte selbst anzuzeigen.
 
 --- /task ---
 
 --- task ---
 
-Find **at least** four objects (or images) that your camera can recognise reliably — you'll need them for your machine learning model.
+Finden Sie **mindestens** vier Objekte (oder Bilder), die Ihre Kamera zuverlässig erkennen kann – Sie benötigen sie für Ihr Modell für maschinelles Lernen.
 
 --- /task ---
 
