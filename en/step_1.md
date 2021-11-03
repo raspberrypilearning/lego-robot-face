@@ -1,5 +1,7 @@
 ## Introduction
 
+[[[camera-bullseye]]]
+
 Over the course of this project you will construct a robot face from a combination of LEGO® and electronic components. You'll then use an existing machine learning model to help your face recognise different objects and react to them. 
 
 ### What you will make
