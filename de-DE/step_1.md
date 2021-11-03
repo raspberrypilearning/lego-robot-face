@@ -1,22 +1,24 @@
 ## Einleitung
 
-Im Laufe dieses Projekts konstruieren Sie ein Robotergesicht aus einer Kombination von LEGO® und elektronischen Komponenten. Anschließend verwenden Sie ein vorhandenes Modell für maschinelles Lernen, um Ihrem Gesicht zu helfen, verschiedene Objekte zu erkennen und darauf zu reagieren.
+[[[camera-bullseye]]]
+
+Over the course of this project you will construct a robot face from a combination of LEGO® and electronic components. You'll then use an existing machine learning model to help your face recognise different objects and react to them.
 
 ### Was du machen wirst
 
 --- no-print ---
 
-Ihr Robotergesicht kann eine Reihe von Objekten erkennen und darauf reagieren. Hier sehen Sie unser Beispiel eines Robotergesichts.
+Your robot face will be able to recognise and react to a range of objects. Here you can see our example of a robot face.
 
-![Video eines Robotergesichts aus LEGO® mit LED-Augen und wechselnden Gesichtsausdrücken.](images/robot_face.gif)
+![Video of a robot face made out of LEGO® with LED eyes and changing expressions.](images/robot_face.gif)
 
-Sie sollten Ihr Robotergesicht aus allen verfügbaren LEGO® und anderen Materialien bauen. Wir haben das [LEGO® SPIKE™ Prime-Kit](https://education.lego.com/en-gb/product/spike-prime).
+You should build your robot face using whatever LEGO® and other materials you have available. We used the [LEGO® SPIKE™ Prime kit](https://education.lego.com/en-gb/product/spike-prime).
 
 --- /no-print ---
 
 --- print-only ---
 
-![Bild des fertigen Projekts: ein Robotergesicht aus LEGO® mit LED-Augen und lächelndem Gesichtsausdruck.](images/robot_face.jpg)
+![Picture of the completed project: a robot face made out of LEGO® with LED eyes and a smiling expression.](images/robot_face.jpg)
 
 --- /print-only ---
 
@@ -42,7 +44,7 @@ title: Was du brauchen wirst
 
 ### Software
 
-Öffnen Sie ein Terminal und verwenden Sie die folgenden Befehle, um die benötigten Bibliotheken zu installieren:
+Open a terminal and use the following commands to install the needed libraries:
 
 + BuildHAT Python-Bibliothek zur Steuerung des Build HAT
 
@@ -87,64 +89,64 @@ title: Was du lernen wirst
 title: Zusätzliche Informationen für Pädagogen
 ---
 
-Wenn du dieses Projekt ausdrucken möchtest, verwende die [druckerfreundliche Version](https://projects.raspberrypi.org/en/projects/robot-face/print){:target="_blank"}.
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/robot-face/print){:target="_blank"}.
 
-[Hier ist ein Link zu den Ressourcen für dieses Projekt](http://rpf.io/p/en/robot-face-go){:target="_blank"}.
+[Here is a link to the resources for this project](http://rpf.io/p/en/robot-face-go){:target="_blank"}.
 
 --- /collapse ---
 
-Bevor Sie beginnen, müssen Sie Ihren Raspberry Pi-Computer eingerichtet und Ihren Build HAT angeschlossen haben:
+Before you begin, you'll need to have set up your Raspberry Pi computer and attached your Build HAT:
 
 --- task ---
 
-Montieren Sie Ihren Raspberry Pi mit M2-Schrauben und Muttern auf der LEGO Build Plate und stellen Sie sicher, dass sich der Raspberry Pi auf der Seite ohne die "Kante" befindet:
+Mount your Raspberry Pi on to the LEGO Build Plate using M2 bolts and nuts, making sure the Raspberry Pi is on the side without the 'edge':
 
- ![Raspberry Pi mit einer magentafarbenen LEGO Bauplatte verschraubt.](images/build_11.jpg)
+ ![Raspberry Pi bolted to a magenta LEGO Build Plate.](images/build_11.jpg)
 
 --- /task ---
 
-Die Montage des Raspberry Pi auf diese Weise ermöglicht einen einfachen Zugriff auf die Anschlüsse sowie den SD-Kartensteckplatz. Mit der Bauplatte können Sie den Raspberry Pi einfacher mit der Hauptstruktur Ihres Dashboards verbinden.
+Mounting the Raspberry Pi this way round enables easy access to the ports as well as the SD card slot. The Build Plate will allow you to connect the Raspberry Pi to the main structure of your dashboard more easily.
 
 --- task ---
 
-Richten Sie den Build HAT mit dem Raspberry Pi aus und stellen Sie sicher, dass Sie das Label `This way up` Stellen Sie sicher, dass alle GPIO-Pins vom HAT bedeckt sind, und drücken Sie sie fest nach unten. (Das Beispiel verwendet einen [Stacking-Header](https://www.adafruit.com/product/2223){:target="_blank"}, wodurch die Pins länger werden.)
+Line up the Build HAT with the Raspberry Pi, ensuring you can see the `This way up` label. Make sure all the GPIO pins are covered by the HAT, and press down firmly. (The example uses a [stacking header](https://www.adafruit.com/product/2223){:target="_blank"}, which makes the pins longer.)
 
-![Bild von GPIO-Pins, die durch die Oberseite des Build HAT ragen.](images/build_15.jpg) ![Animation zeigt Buildhat passend zu Raspberry Pi](images/haton.gif)
+![Image of GPIO pins poking through the top of the Build HAT.](images/build_15.jpg) ![Animation showing Buildhat fitting to Raspberry Pi](images/haton.gif)
 
 --- /task ---
 
-Sie sollten jetzt Ihren Raspberry Pi über die 7,5-V-Barrel-Buchse des Build HAT mit Strom versorgen, damit Sie die Motoren verwenden können.
+You should now power your Raspberry Pi using the 7.5V barrel jack on the Build HAT, which will allow you to use the motors.
 
 --- task ---
 
-Wenn Sie dies noch nicht getan haben, richten Sie Ihren Raspberry Pi ein, indem Sie diesen Anweisungen folgen:
+If you have not already done so, set up your Raspberry Pi by following these instructions:
 
-[Einrichten Ihres Raspberry Pi](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up){:target="_blank"}
+[Setting up your Raspberry Pi](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up){:target="_blank"}
 
 --- /task ---
 
 --- task ---
 
-Nachdem der Raspberry Pi gebootet ist, öffnen Sie das Raspberry Pi Configuration Tool, indem Sie auf die Schaltfläche Raspberry Menu klicken und dann „Preferences“ und dann „Raspberry Pi Configuration“ auswählen.
+Once the Raspberry Pi has booted, open the Raspberry Pi Configuration tool by clicking on the Raspberry Menu button and then selecting “Preferences” and then “Raspberry Pi Configuration”.
 
-Klicken Sie auf die Registerkarte "Schnittstellen" und passen Sie die seriellen Einstellungen wie unten gezeigt an:
+Click on the “interfaces” tab and adjust the Serial settings as shown below:
 
-![Bild, das den Konfigurationsbildschirm des Raspberry Pi OS mit aktivierter serieller Schnittstelle und deaktivierter serieller Konsole zeigt](images/configshot.jpg)
+![Image showing Raspberry Pi OS config screen with serial port enabled and serial console disabled](images/configshot.jpg)
 
 --- /task ---
 
---- task --- Sie müssen auch die Buildhat-Python-Bibliothek installieren, indem Sie diesen Anweisungen folgen:
+--- task --- You will also need to install the buildhat python library by following these instructions:
 
 --- collapse ---
 ---
 Titel: Installieren Sie die Buildhat-Python-Bibliothek
 ---
 
-Öffnen Sie ein Terminalfenster auf Ihrem Raspberry Pi, indem Sie <kbd>Strg</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd>drücken.
+Open a terminal window on your Raspberry Pi by pressing <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd>.
 
-Geben Sie an der Eingabeaufforderung `sudo pip3 install buildhat`
+At the prompt type: `sudo pip3 install buildhat`
 
-Drücken Sie <kbd>Geben Sie</kbd> und warten Sie auf die Meldung "Installation abgeschlossen".
+Press <kbd>Enter</kbd> and wait for the "installation completed" message.
 
 --- /collapse ---
 
