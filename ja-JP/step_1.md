@@ -1,22 +1,24 @@
 ## はじめに
 
-このプロジェクトの過程で、LEGO®と電子部品の組み合わせからロボットの顔を構築します。 次に、既存の機械学習モデルを使用して、顔がさまざまなオブジェクトを認識し、それらに反応するのを支援します。
+[[[camera-bullseye]]]
+
+Over the course of this project you will construct a robot face from a combination of LEGO® and electronic components. You'll then use an existing machine learning model to help your face recognise different objects and react to them.
 
 ### 作るもの
 
 --- no-print ---
 
-ロボットの顔は、さまざまなオブジェクトを認識して反応することができます。 ここでは、ロボットの顔の例を見ることができます。
+Your robot face will be able to recognise and react to a range of objects. Here you can see our example of a robot face.
 
-![LEDの目と変化する表情を備えたLEGO®で作られたロボットの顔のビデオ。](images/robot_face.gif)
+![Video of a robot face made out of LEGO® with LED eyes and changing expressions.](images/robot_face.gif)
 
-入手可能なLEGO®やその他の素材を使用して、ロボットの顔を作成する必要があります。 私たちは、使用 [レゴSPIKE™プライムキット](https://education.lego.com/en-gb/product/spike-prime)。
+You should build your robot face using whatever LEGO® and other materials you have available. We used the [LEGO® SPIKE™ Prime kit](https://education.lego.com/en-gb/product/spike-prime).
 
 --- /no-print ---
 
 --- print-only ---
 
-![完成したプロジェクトの写真：LEDの目と笑顔の表情を備えたLEGO®で作られたロボットの顔。](images/robot_face.jpg)
+![Picture of the completed project: a robot face made out of LEGO® with LED eyes and a smiling expression.](images/robot_face.jpg)
 
 --- /print-only ---
 
@@ -42,7 +44,7 @@ title: 必要なもの
 
 ### ソフトウェア
 
-ターミナルを開き、次のコマンドを使用して必要なライブラリをインストールします。
+Open a terminal and use the following commands to install the needed libraries:
 
 + BuildHATを制御するためのBuildHATPythonライブラリ
 
@@ -87,64 +89,64 @@ title: 学習すること
 title: 教育者向けの追加情報
 ---
 
-このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/en/projects/robot-face/print){:target="_ blank"}を使用してください。
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/robot-face/print){:target="_blank"}.
 
-[このプロジェクトのリソースへのリンクは](http://rpf.io/p/en/robot-face-go){：target = "_blank"}。
+[Here is a link to the resources for this project](http://rpf.io/p/en/robot-face-go){:target="_blank"}.
 
 --- /collapse ---
 
-始める前に、Raspberry Piコンピューターをセットアップし、BuildHATを接続する必要があります。
+Before you begin, you'll need to have set up your Raspberry Pi computer and attached your Build HAT:
 
 --- task ---
 
-M2ボルトとナットを使用してRaspberryPiをLEGOBuild Plateに取り付け、RaspberryPiが「エッジ」のない側にあることを確認します。
+Mount your Raspberry Pi on to the LEGO Build Plate using M2 bolts and nuts, making sure the Raspberry Pi is on the side without the 'edge':
 
- ![マゼンタのレゴビルドプレートにボルトで固定されたラズベリーパイ。](images/build_11.jpg)
+ ![Raspberry Pi bolted to a magenta LEGO Build Plate.](images/build_11.jpg)
 
 --- /task ---
 
-Raspberry Piをこのように取り付けると、ポートとSDカードスロットに簡単にアクセスできます。 ビルドプレートを使用すると、RaspberryPiをダッシュボードの主要構造に簡単に接続できます。
+Mounting the Raspberry Pi this way round enables easy access to the ports as well as the SD card slot. The Build Plate will allow you to connect the Raspberry Pi to the main structure of your dashboard more easily.
 
 --- task ---
 
-あなたが見ることができます確保、ラズベリーパイとビルドHATをラインアップ `までこの道を` ラベル。 すべてのGPIOピンがHATで覆われていることを確認し、しっかりと押し下げます。 （この例では、 [スタッキングヘッダー](https://www.adafruit.com/product/2223){：target = "_ blank"}を使用しているため、ピンが長くなります。）
+Line up the Build HAT with the Raspberry Pi, ensuring you can see the `This way up` label. Make sure all the GPIO pins are covered by the HAT, and press down firmly. (The example uses a [stacking header](https://www.adafruit.com/product/2223){:target="_blank"}, which makes the pins longer.)
 
-![ビルドHATの上部を突き抜けるGPIOピンの画像。](images/build_15.jpg) ![ラズベリーパイにフィットするビルドハットを示すアニメーション](images/haton.gif)
+![Image of GPIO pins poking through the top of the Build HAT.](images/build_15.jpg) ![Animation showing Buildhat fitting to Raspberry Pi](images/haton.gif)
 
 --- /task ---
 
-これで、BuildHATの7.5Vバレルジャックを使用してRaspberryPiに電力を供給する必要があります。これにより、モーターを使用できるようになります。
+You should now power your Raspberry Pi using the 7.5V barrel jack on the Build HAT, which will allow you to use the motors.
 
 --- task ---
 
-まだ行っていない場合は、次の手順に従ってRaspberryPiをセットアップします。
+If you have not already done so, set up your Raspberry Pi by following these instructions:
 
-[Raspberry Piのセットアップ](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up){:target="_ blank"}
+[Setting up your Raspberry Pi](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up){:target="_blank"}
 
 --- /task ---
 
 --- task ---
 
-Raspberry Piが起動したら、[Raspberry Menu]ボタンをクリックし、[Preferences]、[Raspberry Pi Configuration]の順に選択して、Raspberry PiConfigurationツールを開きます。
+Once the Raspberry Pi has booted, open the Raspberry Pi Configuration tool by clicking on the Raspberry Menu button and then selecting “Preferences” and then “Raspberry Pi Configuration”.
 
-「インターフェース」タブをクリックし、以下に示すようにシリアル設定を調整します。
+Click on the “interfaces” tab and adjust the Serial settings as shown below:
 
-![シリアルポートが有効でシリアルコンソールが無効になっているRaspberryPiOS構成画面を示す画像](images/configshot.jpg)
+![Image showing Raspberry Pi OS config screen with serial port enabled and serial console disabled](images/configshot.jpg)
 
 --- /task ---
 
----タスク--- 次の手順に従って、buildhatpythonライブラリをインストールする必要もあります。
+--- task --- You will also need to install the buildhat python library by following these instructions:
 
 --- collapse ---
 ---
 タイトル：buildhatPythonライブラリをインストールします
 ---
 
-<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd>押して、RaspberryPiでターミナルウィンドウを開きます。
+Open a terminal window on your Raspberry Pi by pressing <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd>.
 
-プロンプトタイプ： `sudo pip3 install buildhat`
+At the prompt type: `sudo pip3 install buildhat`
 
-押して <kbd>入力</kbd> と待ちのメッセージを「インストールが完了しました」。
+Press <kbd>Enter</kbd> and wait for the "installation completed" message.
 
 --- /collapse ---
 
