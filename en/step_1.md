@@ -69,7 +69,7 @@ pip3 install adafruit-circuitpython-ht16k33
 
 ### Downloads
 
-+ [Image classifier test files](http://rpf.io/p/en/lego-robot-face-go){:target="_blank"}
++ [Image classifier test files](https://rpf.io/p/en/lego-robot-face-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -91,7 +91,7 @@ title: Additional information for educators
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/robot-face/print){:target="_blank"}.
 
-[Here is a link to the resources for this project](http://rpf.io/p/en/robot-face-go){:target="_blank"}.
+[Here is a link to the resources for this project](https://rpf.io/p/en/lego-robot-face-go){:target="_blank"}.
 
 --- /collapse ---
 
