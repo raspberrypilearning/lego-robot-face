@@ -1,25 +1,25 @@
 ## Emotionale Reaktionen auf Objekte
 
-Um das Projekt abzuschließen, können Sie das Robotergesicht verschiedene Ausdrücke anzeigen lassen, je nachdem, was die Kamera sehen kann.
+Um das Projekt abzuschließen, kannst du das Robotergesicht verschiedene Ausdrücke anzeigen lassen, je nachdem, was die Kamera sieht.
 
-![Code auf der linken Seite mit der Kameraansicht, die verschiedene Bilder zeigt, die vor der Kamera gehalten werden. Rechts reagiert das Robotergesicht auf die Bilder.](images/completed_project.gif)
+![Code mit der Kameraansicht auf der linken Seite, die verschiedene Bilder zeigt, die vor die Kamera gehalten werden. Rechts reagiert das Robotergesicht auf die Bilder.](images/completed_project.gif)
 
 --- task ---
 
-Beginnen Sie mit dem Importieren der `Classifier` aus der Datei, die Sie zuvor verwendet haben, zusammen mit der Funktion `sleep`
+Beginne mit dem Importieren der `Classifier` Klasse aus der Datei, die du zuvor verwendet hast, und mit der Funktion `sleep`.
 
 --- code ---
 ---
 language: python filename: robot_face.py line_numbers: true line_number_start: 7
 line_highlights:
 ---
-aus Klassifikator importieren Klassifikator aus Zeitimport Schlaf --- /code ---
+from classifier import Classifier from time import sleep --- /code ---
 
 --- /task ---
 
 --- task ---
 
-Erstellen Sie dann eine Liste von Objekten, die der Klassifikator erkennen kann. Sie können die `Schwelle` später anpassen, um den Klassifikator bei seiner Erkennung mehr oder weniger genau zu machen.
+Erstelle dann eine Liste von Objekten, die der Klassifikator erkennen kann. Du kannst den `Schwellwert` später anpassen, um den Klassifikator bei seiner Erkennung mehr oder weniger genau zu machen.
 
 --- code ---
 ---
@@ -27,13 +27,13 @@ language: python filename: line_numbers: true line_number_start: 31
 line_highlights:
 ---
 
-seen_items = Classifier(label_file="labels.txt",model_file="model.tflite",threshold=0.5) --- /code ---
+gesehenes = Classifier(label_file="labels.txt",model_file="model.tflite",threshold=0.5) --- /code ---
 
 --- /task ---
 
 --- task ---
 
-Erstellen Sie nun ein Wörterbuch, das Objekte mit verschiedenen Emotionen verknüpft. Sie können Ihre eigenen Objekte und Emotionen auswählen, je nachdem, was Sie um sich herum haben, oder Bilder, die Sie ausgedruckt haben.
+Erstelle nun ein dictionary, das Objekte mit verschiedenen Emotionen verknüpft. Du kannst deine eigenen Objekte und Emotionen auswählen, je nachdem, was du um dich herum hast, oder welche Bilder, du dir ausgedruckt hast.
 
 --- code ---
 ---
@@ -41,20 +41,20 @@ language: python filename: robot_face.py line_numbers: true line_number_start: 3
 line_highlights:
 ---
 
-Reaktionen = {"broccoli":"neutral","teapot":"neutral","snake":"w\u00fcrrend","hotdog":"froh"} --- /code ---
+reaktionen = {"broccoli":"neutral","teapot":"neutral","snake":"boese","hotdog":"gluecklich"} --- /code ---
 
 --- /task ---
 
 --- task ---
 
-Schließlich können Sie alle zwei Sekunden eine Schleife erstellen, um zu überprüfen, was in der `seen_items` , und dann den Gesichtsausdruck gemäß Ihrem `Reaktionen` Wörterbuch anzeigen.
+Schließlich kannst du eine Schleife erstellen, die alle zwei Sekundenum überprüft, was in der Liste `gesehenes` erkannt wurde, und dann den Gesichtsausdruck gemäß deinem dictionary `Reaktionen` anzeigt.
 
 --- code ---
 ---
 language: python filename: robot_face.py line_numbers: true line_number_start: 61
 line_highlights:
 ---
-while True: sleep(1) if seen_items.item != seen_items.last_item: item = seen_items.item wenn item in set_face(faces[reactions[item]]) sleep(1) --- /code ---
+while True: sleep(1) if gesehenes.item != gesehenes.last_item: bild = gesehenes.item if bild in reaktionen.keys(): gesicht_machen(gesichter[reaktionen[item]]) sleep(1) --- /code ---
 
 --- /task ---
 
