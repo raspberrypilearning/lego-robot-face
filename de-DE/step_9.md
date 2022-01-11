@@ -1,17 +1,17 @@
-## Programmieren Sie die Augen
+## Programmierung der Augen
 
 Die LED-Matrizen können auf ihren Displays 8×8-Pixel-Bilder anzeigen. Diese können verwendet werden, um verschiedene Augenbewegungen darzustellen.
 
 --- task ---
 
-Fügen Sie drei neue Bibliotheken hinzu, damit Sie Bilder auf den LED-Displays anzeigen können.
+Füge drei neue Bibliotheken hinzu, damit du Bilder auf den LED-Displays anzeigen kannst.
 
 --- code ---
 ---
 language: python filename: robot_face.py line_numbers: true line_number_start:
 line_highlights: 2-4
 ---
-aus buildhat import Motor import board from adafruit_ht16k33.matrix import Matrix8x8 from PIL import Image
+from buildhat import Motor import board from adafruit_ht16k33.matrix import Matrix8x8 from PIL import Image
 
 --- /code ---
 
@@ -19,7 +19,7 @@ aus buildhat import Motor import board from adafruit_ht16k33.matrix import Matri
 
 --- task ---
 
-Richten Sie Objekte ein, um das linke und rechte Auge zu verwenden. Vorerst sind die Bilder auf jedem Auge gleich, aber Sie können Ihren Code später anpassen, wenn Sie unterschiedliche Bilder auf den verschiedenen Displays verwenden möchten, je nachdem, auf welchem Sie die `A0` Pads gelötet haben.
+Richte Objekte ein, um das linke und rechte Auge zu verwenden. Vorerst sind die Bilder auf jedem Auge gleich, aber du kannst deinen Code später anpassen, wenn du unterschiedliche Bilder auf den verschiedenen Displays verwenden möchtest. Das ist durch unterschiedliche Adressen möglich, die du durch das verlöten der `A0` Pads festgelegt hast.
 
 --- code ---
 ---
@@ -27,13 +27,13 @@ language: python filename: robot_face.py line_numbers: true line_number_start: 1
 line_highlights:
 ---
 
-i2c = board.I2C() linkes_auge = Matrix8x8(i2c, Adresse=0x70) rechtes_auge = Matrix8x8(i2c, Adresse=0x71) --- /code ---
+i2c = board.I2C() auge_links = Matrix8x8(i2c, address=0x70) auge_rechts = Matrix8x8(i2c, address=0x71) --- /code ---
 
 --- /task ---
 
 --- task ---
 
-Mithilfe der PIL-Bibliothek können einige der Bilder geöffnet und gespeichert werden.
+Mithilfe der PIL-Bibliothek können Bilder geöffnet und gespeichert werden.
 
 --- code ---
 ---
@@ -41,36 +41,36 @@ language: python filename: line_numbers: true line_number_start: 17
 line_highlights:
 ---
 
-neutral = Image.open("neutral.png").rotate(90) wide = Image.open("wide.png").rotate(90) wütend = Image.open("angry.png").rotate (90) look_down = Image.open("look_down.png").rotate(90) --- /code ---
+neutral = Image.open("neutral.png").rotate(90) grosz = Image.open("wide.png").rotate(90) veraergert = Image.open("angry.png").rotate(90) hinunterschauen = Image.open("look_down.png").rotate(90) --- /code ---
 
 --- /task ---
 
 --- task ---
 
-Schreiben Sie eine neue Funktion, um die auf den LEDs angezeigten Augen zu ändern.
+Schreibe eine neue Funktion, um die auf den LEDs angezeigten Augen zu ändern.
 
 --- code ---
 ---
 language: python filename: robot_face.py line_numbers: true line_number_start: 38
 line_highlights:
 ---
-def change_eyes(left,right): left_eye.image(left) right_eye.image(right) --- /code ---
+def wechsle_augen(links,rechts): auge_links.image(links) auge_rechts.image(rechts) --- /code ---
 
 --- /task ---
 
 --- task ---
 
-Führen Sie Ihren Code aus und verwenden Sie dann die **Shell** , um Ihre neue Funktion zu testen.
+Führe deinen Code aus und verwende dann die **Shell**, um deine neue Funktion zu testen.
 
 --- code ---
 ---
 language: python filename: line_numbers: true line_number_start:
 line_highlights:
 ---
-> > > change_eyes(neutral, neutral) change_eyes(wide, wide) change_eyes(wütend, wütend) --- /code ---
+> > > wechsle_augen(neutral, neutral) wechsle_augen(grosz, grosz) wechsle_augen(veraergert, veraergert) --- /code ---
 
 --- /task ---
 
-Fühlen Sie sich frei, die anderen verfügbaren Bilder zu verwenden oder Ihre eigenen zu erstellen und in das Projekt aufzunehmen.
+Wenn du magst kannst du die anderen verfügbaren Bilder verwenden oder deine eigenen erstellen und in das Projekt aufnehmen.
 
 --- save ---
