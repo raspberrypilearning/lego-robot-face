@@ -1,8 +1,8 @@
-## Motorizar la boca
+## Motoriza la boca
 
 --- task ---
 
-Abra **Thonny** desde el menú de programación y guarde un nuevo archivo llamado `robot_face.py`, y asegúrese de guardarlo en el mismo directorio que `classifier.py`, `labels.txt`y el pixel art de 8 × 8 imágenes.
+Abre **Thonny** desde el menú de programación y guarda un nuevo archivo llamado `robot_face.py`, y asegúrate de guardarlo en el mismo directorio que `classifier.py`, `labels.txt`y las imágenes pixel art de 8 × 8.
 
 ![Estructura de archivo que muestra dónde debe almacenarse robot_face.py.](images/file_structure.png)
 
@@ -10,7 +10,7 @@ Abra **Thonny** desde el menú de programación y guarde un nuevo archivo llamad
 
 --- task ---
 
-Comience agregando la importación que necesitará para controlar los motores LEGO® Technic ™.
+Comienza agregando la importación que necesitarás para controlar los motores LEGO® Technic ™.
 
 --- code ---
 ---
@@ -32,7 +32,7 @@ line_highlights: 3,4
 ---
 from buildhat import Motor
 
-boca_r = Motor ('A') boca_l = Motor ('B') --- / código ---
+boca_d = Motor ('A') boca_i = Motor ('B') --- /code ---
 
 --- /task ---
 
@@ -46,35 +46,35 @@ language: python filename: robot_face,py line_numbers: true line_number_start: 5
 line_highlights:
 ---
 
-mouth_r.run_to_position (0) mouth_l.run_to_position (0) --- / código ---
+boca_d.run_to_position(0) boca_i.run_to_position(0) --- /code ---
 
 --- /task ---
 
 --- task ---
 
-Crea una función que mueva los motores de la boca. Deben girar en direcciones opuestas, por lo que el motor izquierdo cambiará a un valor negativo y el motor derecho a un valor positivo. Agregar `= Falso` hará que ambos motores giren al mismo tiempo.
+Crea una función que mueva los motores de la boca. Deben girar en direcciones opuestas, por lo que el motor izquierdo cambiará a un valor negativo y el motor derecho a un valor positivo. Agregar `blocking=False` hará que ambos motores giren al mismo tiempo.
 
 --- code ---
 ---
 language: python filename: robot_face.py line_numbers: true line_number_start: 8
 line_highlights:
 ---
-def move_mouth (posición, velocidad = 100): mouth_l.run_to_position (posición * -1, velocidad, bloqueo = Falso) # Gire a la posición negativa mouth_r.run_to_position (posición, velocidad, bloqueo = Falso) # Gire a la posición positiva --- / código ---
+def mover_boca (posicion, velocidad = 100): boca_i.run_to_position (posicion * -1, velocidad, blocking=False) # Gira a la posición negativa boca_d.run_to_position (posicion, velocidad, blocking=False) # Gira a la posición positiva --- /code ---
 
 --- /task ---
 
 --- task ---
 
-Ejecute su programa y luego pruebe su nueva función en **Shell**.
+Ejecuta tu programa y luego prueba tu nueva función en la**Consola**.
 
 --- code ---
 ---
-idioma: python nombre de archivo: números de línea: falso inicio:
+language: python filename: line_numbers: false line_number_start:
 line_highlights:
 ---
-> > > move_mouth (45) mover boca (0) --- / código ---
+> > > mover_boca(45) mover_boca(0) --- /code ---
 
-Si sus motores se mueven en la dirección incorrecta, intente cambiar sus puertos.
+Si tus motores se mueven en la dirección incorrecta, intenta cambiar los puertos.
 
 --- /task ---
 
