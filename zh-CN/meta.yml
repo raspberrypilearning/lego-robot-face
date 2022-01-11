@@ -1,5 +1,5 @@
 ---
-title: LEGO® 机器人脸
+title: 乐高（LEGO®） 机器人脸
 hero_image: images/banner.png
 description: 使用 LEGO® 和 Build HAT 构建一个机器人脸，它会对它看到的东西做出反应
 version: 4
@@ -18,13 +18,13 @@ steps:
   - 
     title: 添加眼睛
   - 
-    title: 添加树莓派
+    title: 添加树莓派(Raspberry Pi)
   - 
-    title: 机动嘴巴
+    title: 用马达控制嘴巴
   - 
-    title: 编程眉毛
+    title: 编写眉毛的程序
   - 
-    title: 给眼睛编程
+    title: 编写眼睛的程序
   - 
     title: 变脸
   - 
