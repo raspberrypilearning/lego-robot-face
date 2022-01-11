@@ -55,13 +55,13 @@ class Classifier(object):
 
 
   def classify_image(self,interpreter, image, top_k=1):
-    """Returns a sorted array of classification results."""
+    """분류 결과를 정렬한 배열을 반환합니다."""
     self.set_input_tensor(interpreter, image)
     interpreter.invoke()
     output_details = interpreter.get_output_details()[0]
     output = np.squeeze(interpreter.get_tensor(output_details['index']))
 
-  # If the model is quantized (uint8 data), then dequantize the results
+  # 모델이 uint8 데이터로 되어 있는 경우, 이를 해독합니다.
     if output_details['dtype'] == np.uint8:
       scale, zero_point = output_details['quantization']
       output = scale * (output - zero_point)
