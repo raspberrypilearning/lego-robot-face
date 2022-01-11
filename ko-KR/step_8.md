@@ -4,14 +4,14 @@
 
 --- task ---
 
-눈썹의 모터에 대한 개체를 설정합니다.
+눈썹의 모터에 대한 객체를 설정합니다.
 
 --- code ---
 ---
 language: python filename: robot_face.py line_numbers: true line_number_start: 3
 line_highlights: 5
 ---
-mouth_r = 모터('A') mouth_l = 모터('B') 눈썹 = 모터('C')
+mouth_r = Motor('A') mouth_l = Motor('B') eyebrows = Motor('C')
 
 --- /code ---
 
@@ -19,11 +19,11 @@ mouth_r = 모터('A') mouth_l = 모터('B') 눈썹 = 모터('C')
 
 --- task ---
 
-**롤리팝** 과 **원** 이 정렬되고 얼굴의 눈썹이 수평으로 설정되도록 배치되었는지 확인합니다. 그렇지 않은 경우 빌드를 약간 조정해야 할 수 있습니다.
+**롤리팝** 과 **원** 이 정렬되고 얼굴의 눈썹이 수평으로 설정되도록 배치가 잘 되었는지 확인합니다. 그렇지 않은 경우 빌드를 약간 조정해야 할 수 있습니다.
 
-![롤리팝과 원이 정렬되도록 모터가 회전했습니다.](images/motor_0.jpg)
+![롤리팝과 원이 정렬되도록 모터가 회전한 이미지](images/motor_0.jpg)
 
-![로봇 얼굴은 눈썹이 수평 위치에 있습니다.](images/horizontal_eyebrows.jpg)
+![로봇 얼굴의 눈썹이 수평 위치에 있는 이미지](images/horizontal_eyebrows.jpg)
 
 --- /task ---
 
@@ -36,15 +36,15 @@ mouth_r = 모터('A') mouth_l = 모터('B') 눈썹 = 모터('C')
 language: python filename: robot_face.py line_numbers: true line_number_start: 7
 line_highlights: 9
 ---
-mouth_r.run_to_position(0) mouth_l.run_to_position(0) 눈썹.run_to_position(0) --- /code ---
+mouth_r.run_to_position(0) mouth_l.run_to_position(0) eyebrows.run_to_position(0) --- /code ---
 
 --- /task ---
 
 여기에 표시되는 세 가지 눈썹 위치가 있지만 더 만들 수 있습니다.
 
 - `0` 은 눈썹을 수평으로 보이게 합니다.
-- `150` 눈썹을 내리다
-- `-150` 눈썹을 올립니다
+- `150` 은 눈썹을 내립니다.
+- `-150` 은 눈썹을 올립니다.
 
 
 --- task ---
@@ -56,7 +56,7 @@ mouth_r.run_to_position(0) mouth_l.run_to_position(0) 눈썹.run_to_position(0) 
 language: python filename: line_numbers: true line_number_start: 17
 line_highlights:
 ---
-def move_eyebrows (위치): current_position = 눈썹 if 위치 < current_position: 회전 = '시계 반대 방향' else: 회전 = '시계 방향' 눈썹.run_to_position(위치, 방향 = 회전)
+def move_eyebrows (position): current_position = eyebrows.get_aposition() if position < current_position: rotation = 'anticlockwise' else: rotation = 'clockwise' eyebrows.run_to_position(position, direction = rotation)
 
 --- /code ---
 
