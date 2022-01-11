@@ -4,7 +4,7 @@
 
 --- task ---
 
-먼저 사용하려는 다양한 표정을 저장할 사전을 만들어야 합니다. 이것은 입 모터, 눈썹 모터 및 눈에 대한 값을 제공합니다.
+먼저 사용하려는 다양한 표정을 저장할 딕셔너리를 만들어야 합니다. 이것은 입 모터, 눈썹 모터 및 눈에 대한 값을 제공합니다.
 
 --- code ---
 ---
@@ -12,7 +12,7 @@ language: python filename: robot_face.py line_numbers: true line_number_start: 2
 line_highlights:
 ---
 
-얼굴 = { "중립":{"입":0, "오른쪽 눈":중립, "왼쪽 눈":중립, "눈썹":0}, "행복":{"입":45, "오른쪽 눈": 와이드, "left_eye":와이드, "눈썹":150}, "화난":{"입":-20, "right_eye":화가, "left_eye":화가, "눈썹":-150}, " 슬픈":{"입":-45, "right_eye":look_down, "left_eye":look_down, "eyebrows":-40} } --- /code ---
+faces = { "neutral":{"mouth":0, "right_eye":neutral, "left_eye":neutral, "eyebrows":0}, "happy":{"mouth":45, "right_eye":wide, "left_eye":wide, "eyebrows":150}, "angry":{"mouth":-20, "right_eye":angry, "left_eye":angry, "eyebrows":-150}, "sad":{"mouth":-45, "right_eye":look_down, "left_eye":look_down, "eyebrows":-40} } --- /code ---
 
 --- /task ---
 
@@ -25,7 +25,7 @@ line_highlights:
 language: python filename: robot_face.py line_numbers: true line_number_start: 50
 line_highlights:
 ---
-def set_face(얼굴): change_eyes(face["right_eye"],face["left_eye"]) move_mouth(face["mouth"]) move_eyebrows(face["eyebrows"]) --- /code - --
+def set_face (face): change_eyes(face["right_eye"],face["left_eye"]) move_mouth(face["mouth"]) move_eyebrows(face["eyebrows"]) --- /code ---
 
 --- /task ---
 
@@ -38,7 +38,7 @@ def set_face(얼굴): change_eyes(face["right_eye"],face["left_eye"]) move_mouth
 language: python filename: line_numbers: true line_number_start:
 line_highlights:
 ---
-> > > set_face(faces['화난']) set_face(faces['happy']) set_face(faces['neutral']) set_face(faces['sad']) --- /code ---
+> > > set_face(faces['angry']) set_face(faces['happy']) set_face(faces['neutral']) set_face(faces['sad']) --- /code ---
 
 --- /task ---
 
