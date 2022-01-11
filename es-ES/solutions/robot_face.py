@@ -5,74 +5,74 @@ from PIL import Image
 from classifier import Classifier
 from time import sleep
 
-## Set up the motors
-mouth_r = Motor('A')
-mouth_l = Motor('B')
-eyebrows = Motor('C')
+## Configurar los motores
+boca_d = Motor ('A')
+boca_i = Motor ('B')
+cejas = Motor ('C')
 
-## Move the motors to 0 position
-mouth_r.run_to_position(0)
-mouth_l.run_to_position(0)
-eyebrows.run_to_position(0)
+## Mueve los motores a la posición 0
+boca_d.run_to_position(0)
+boca_i.run_to_position(0)
+cejas.run_to_position(0)
 
-## Set up the eyes
+## Configura los ojos
 i2c = board.I2C()
-left_eye = Matrix8x8(i2c, address=0x70)
-right_eye = Matrix8x8(i2c, address=0x71)
+ojo_izquierdo = Matrix8x8(i2c, address= 0x70)
+ojo_derecho = Matrix8x8(i2c, address= 0x71)
 
-## Link names of expressions to images in the Resources directory for the eyes to display
-neutral = Image.open("neutral.png").rotate(90)
-wide = Image.open("wide.png").rotate(90)
-angry = Image.open("angry.png").rotate(90)
-look_down = Image.open("look_down.png").rotate(90)
+## Vincular los nombres de expresiones a imágenes en el directorio de Recursos para que los ojos las muestren
+neutral = Image.open ("neutral.png").rotate(90)
+abierto = Image.open("wide.png").rotate(90)
+enojado = Image.open("angry.png").rotate(90)
+abajo = Image.open("look_down.png").rotate(90)
 
-## Link names of expressions to motor movement and to eye display in a dictionary
-faces = {
-    "neutral":{"mouth":0, "right_eye":neutral, "left_eye":neutral, "eyebrows":0},
-    "happy":{"mouth":45, "right_eye":wide, "left_eye":wide, "eyebrows":-150},
-    "angry":{"mouth":-20, "right_eye":angry, "left_eye":angry, "eyebrows":150},
-    "sad":{"mouth":-45, "right_eye":look_down, "left_eye":look_down, "eyebrows":-40}
+## Vincular los nombres de expresiones al movimiento de los motores y a la imagen de los ojos en un diccionario
+caras = {
+    "neutral": {"boca": 0, "ojo_derecho": neutral, "ojo_izquierdo": neutral, "cejas": 0},
+    "feliz": {"boca": 45, "ojo_derecho": abierto, "ojo_izquierdo": abierto, "cejas": -150},
+    "enojado": {"boca": - 20, "ojo_derecho": enojado, "ojo_izquierdo": enojado, "cejas": 150},
+    "triste": {"boca": - 45, "ojo_derecho": abajo, "ojo_izquierdo": abajo, "cejas": - 40}
     }
 
-## Use the classifier.py to recognise different images (file is in resources directory)
-seen_items = Classifier(label_file="labels.txt",model_file="model.tflite",threshold=0.5)
+## Usa classifier.py para reconocer diferentes imágenes (el archivo está en el directorio de recursos)
+objetos_vistos = Classifier(archivo_palabras = "labels.txt", archivo_modelo = "model.tflite",threshold=0.5)
 
-## Set reactions for different objects that are recognised
-reactions = {"broccoli":"neutral", "teapot":"happy", "Indian cobra":"angry", "hotdog":"happy"}
+## Establecer reacciones para diferentes objetos que se reconocen
+reacciones = {"brócoli": "neutral", "tetera": "feliz", "cobra india": "enojado", "perro caliente": "feliz"}
 
-def move_mouth (position):
-    '''Move the mouth to value of position parameter'''
-    mouth_l.run_to_position(position * -1, blocking=False)
-    mouth_r.run_to_position(position, blocking=False)
+def mover_boca(posicion):
+    '' 'Mueve la boca al valor del parámetro de posición' ''
+    boca_i.run_to_position (posicion * -1, blocking=False)
+    boca_d.run_to_position (posicion, blocking=False)
     
     
-def move_eyebrows (position):
-    '''Move the eyebrows to value of position parameter'''
-    current_position = eyebrows.get_aposition()
-    if position < current_position:
-        rotation = 'anticlockwise'
+def mover_cejas(posicion):
+    '''Mueve las cejas al valor del parámetro de posición'''
+    posición_actual = cejas.get_aposition ()
+    if posicion <posicion_actual:
+        rotacion = 'anticlockwise'
     else:
-        rotation = 'clockwise'
-    eyebrows.run_to_position(position, direction = rotation)
+        rotacion = 'clockwise'
+    cejas.run_to_position (posicion, direccion = rotacion)
 
 
-def change_eyes(left, right):
-    '''display the PIL objects on the left and right eye'''
-    left_eye.image(left)
-    right_eye.image(right)
+def cambiar_ojos(izquierda, derecha):
+    '''muestra los objetos PIL en el ojo izquierdo y derecho'''
+    ojo_izquierdo.image(izquierda)
+    ojo_dercho.image(derecha)
 
 
-def set_face (face):
-    '''call all functions that change the expression, according to the face from the faces dictionary'''
-    change_eyes(face["right_eye"],face["left_eye"])
-    move_mouth(face["mouth"])
-    move_eyebrows(face["eyebrows"])
+def set_face (cara):
+    '''llama a todas las funciones que cambian la expresión, según el rostro del diccionario de caras'''
+    cambiar_onos(cara ["ojo_derecho"], cara ["ojo_izquierdo"])
+    mover_boca(cara ["boca"])
+    mover_cejas(cara ["cejas"])
 
-## Loop forever and check the list of seen items and set the correct face if the object has been seen
+## Haz un bucle para siempre y verifica la lista de elementos vistos y selecciona la cara correcta si el objeto ha sido visto
 while True:
     sleep(1)
-    if seen_items.item != seen_items.last_item:
-        item = seen_items.item
-        if item in reactions.keys():
-            set_face(faces[reactions[item]])
+    if objetos_vistos.item != objetos_vistos.last_item:
+        objeto = seen_items.item
+        if objeto in reacciones.keys():
+            set_face(caras[reaccions[objeto]])
     sleep(1)
