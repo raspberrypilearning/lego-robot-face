@@ -12,7 +12,7 @@ language: python filename: robot_face.py line_numbers: true line_number_start: 2
 line_highlights:
 ---
 
-面孔 = { “中性”：{“嘴”：0，“右眼”：中性，“左眼”：中性，“眉毛”：0}， “快乐”：{“嘴”：45，“右眼”：宽, "left_eye":wide, "eyebrows":150}, "angry":{"mouth":-20, "right_eye":angry, "left_eye":angry, "eyebrows":-150}, "悲伤":{"嘴":-45, "right_eye":look_down, "left_eye":look_down, "eyebrows":-40} } --- /code ---
+faces = { "neutral":{"mouth":0, "right_eye":neutral, "left_eye":neutral, "eyebrows":0}, "happy":{"mouth":45, "right_eye":wide, "left_eye":wide, "eyebrows":150}, "angry":{"mouth":-20, "right_eye":angry, "left_eye":angry, "eyebrows":-150}, "sad":{"mouth":-45, "right_eye":look_down, "left_eye":look_down, "eyebrows":-40} } --- /code ---
 
 --- /task ---
 
@@ -31,7 +31,7 @@ def set_face (face): change_eyes(face["right_eye"],face["left_eye"]) move_mouth(
 
 --- task ---
 
-运行您的代码，然后使用 **Shell** 来测试您的新函数。
+在 **Shell** 窗口中运行您的代码，测试新函数。
 
 --- code ---
 ---
