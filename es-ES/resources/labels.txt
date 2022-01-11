@@ -1,226 +1,226 @@
-background
-tench
-goldfish
-great white shark
-tiger shark
-hammerhead
-electric ray
-stingray
-cock
-hen
-ostrich
-brambling
-goldfinch
-house finch
+fondo
+tenca
+pez dorado
+gran tiburón blanco
+tiburón tigre
+pez martillo
+anguila eléctrica
+mantaraya
+gallo
+gallina
+avestruz
+pinzón
+jilguero
+pinzón de casa
 junco
-indigo bunting
-robin
+empavesado índigo
+petirrojo
 bulbul
-jay
-magpie
-chickadee
-water ouzel
-kite
-bald eagle
-vulture
-great grey owl
-European fire salamander
-common newt
-eft
-spotted salamander
-axolotl
-bullfrog
-tree frog
-tailed frog
-loggerhead
-leatherback turtle
-mud turtle
-terrapin
-box turtle
-banded gecko
-common iguana
-American chameleon
-whiptail
+arrendajo
+urraca
+carbonero
+mirlo de agua
+milano real
+águila calva
+buitre
+gran búho gris
+Salamandra europea
+tritón común
+salamandra
+salamandra manchada
+ajolote
+rana mugidora
+rana de árbol
+rana de cola
+tortuga boba
+tortuga laúd
+tortuga de barro
+tortuga de agua dulce
+tortuga de caja
+gecko con bandas
+iguana común
+Camaleón americano
+cola de látigo
 agama
-frilled lizard
-alligator lizard
-Gila monster
-green lizard
-African chameleon
-Komodo dragon
-African crocodile
-American alligator
+lagarto con volantes
+lagarto cocodrilo
+Monstruo de Gila
+lagartija verde
+Camaleón africano
+Dragon de Komodo
+Cocodrilo africano
+Cocodrilo americano
 triceratops
-thunder snake
-ringneck snake
-hognose snake
-green snake
-king snake
-garter snake
-water snake
-vine snake
-night snake
+serpiente de trueno
+culebra de collar
+culebra de hocico de cerdo
+culebra verde
+serpiente real
+culebra
+culebra de agua
+serpiente de vid
+serpiente nocturna
 boa constrictor
-rock python
-Indian cobra
-green mamba
-sea snake
-horned viper
-diamondback
-sidewinder
+pitón de roca
+Cobra india
+mamba verde
+serpiente de mar
+víbora cornuda
+víbora cascabel de diamante
+cascabel cornuda
 trilobite
-harvestman
-scorpion
-black and gold garden spider
-barn spider
-garden spider
-black widow
-tarantula
-wolf spider
-tick
-centipede
-black grouse
-ptarmigan
-ruffed grouse
-prairie chicken
-peacock
-quail
-partridge
-African grey
-macaw
-sulphur-crested cockatoo
-lorikeet
-coucal
-bee eater
-hornbill
-hummingbird
+segadores
+escorpión
+araña de jardín negra y dorada
+araña de granero
+araña de jardín
+viuda negra
+tarántula
+araña lobo
+garrapata
+ciempiés
+gallo lira
+perdiz blanca
+grévol engolado
+pollo de la pradera
+pavo real
+codorniz
+perdiz
+Gris africano
+guacamayo
+cacatúa de cresta de azufre
+periquito
+cucal
+comedor de abejas
+cálao
+colibrí
 jacamar
-toucan
-drake
-red-breasted merganser
-goose
-black swan
-tusker
-echidna
-platypus
+tucán
+pato
+pollo de agua de pecho rojo
+ganso
+cisne negro
+elefante
+equidna
+ornitorrinco
 wallaby
-koala
+coala
 wombat
-jellyfish
-sea anemone
-brain coral
-flatworm
-nematode
-conch
-snail
-slug
-sea slug
-chiton
-chambered nautilus
-Dungeness crab
-rock crab
-fiddler crab
-king crab
-American lobster
-spiny lobster
-crayfish
-hermit crab
-isopod
-white stork
-black stork
-spoonbill
-flamingo
-little blue heron
-American egret
-bittern
-crane
-limpkin
-European gallinule
-American coot
-bustard
-ruddy turnstone
-red-backed sandpiper
-redshank
-dowitcher
-oystercatcher
-pelican
-king penguin
-albatross
-grey whale
-killer whale
-dugong
-sea lion
+medusa
+anémona de mar
+coral cerebro
+gusano plano
+nematodo
+concha
+caracol
+babosa
+babosa de mar
+chitona
+nautilus de cámara
+cangrejo Dungeness
+cangrejo de roca
+cangrejo violinista
+cangrejo rey
+Langosta americana
+langosta espinosa
+cangrejo de río
+cangrejo ermitaño
+isópodo
+cigüeña blanca
+cigüeña negra
+espátula
+flamenco
+pequeña garza azul
+Garceta americana
+avetoro
+garza
+carrao
+gallineta europea
+focha americana
+avutarda
+vuelvepiedras común
+lavandera de lomo rojo
+archibebe
+zahorí
+ostrero
+pelícano
+pingüino real
+albatros
+ballena gris
+Orca
+dugongo
+león marino
 Chihuahua
-Japanese spaniel
-Maltese dog
-Pekinese
+Perro de aguas japonés
+Perro maltés
+pekinés
 Shih-Tzu
-Blenheim spaniel
+Perro de aguas de blenheim
 papillon
-toy terrier
-Rhodesian ridgeback
-Afghan hound
-basset
+terrier miniatura
+Ridgeback de Rodesia
+Sabueso afgano
+perro de caza
 beagle
-bloodhound
+sabueso
 bluetick
-black-and-tan coonhound
-Walker hound
-English foxhound
+coonhound negro y fuego
+Sabueso caminante
+Raposero inglés
 redbone
 borzoi
-Irish wolfhound
-Italian greyhound
-whippet
-Ibizan hound
-Norwegian elkhound
-otterhound
+Perro lobo irlandés
+Galgo italiano
+lebrel
+Sabueso ibicenco
+Elkhound noruego
+cazador nutria
 Saluki
-Scottish deerhound
-Weimaraner
-Staffordshire bullterrier
-American Staffordshire terrier
-Bedlington terrier
-Border terrier
-Kerry blue terrier
-Irish terrier
-Norfolk terrier
-Norwich terrier
+Lebrel escocés
+Braco de Weimar
+Staffordshire Bull Terrier
+American Staffordshire Terrier
+Terrier de Bedlington
+Terrier de frontera
+Terrier azul de Kerry
+Terrier irlandés
+Terrier de Norfolk
+Terrier de Norwich
 Yorkshire terrier
-wire-haired fox terrier
-Lakeland terrier
-Sealyham terrier
+fox terrier de pelo duro
+Terrier de Lakeland
+Terrier de sealyham
 Airedale
 cairn
-Australian terrier
+Terrier australiano
 Dandie Dinmont
-Boston bull
-miniature schnauzer
-giant schnauzer
-standard schnauzer
-Scotch terrier
-Tibetan terrier
-silky terrier
-soft-coated wheaten terrier
-West Highland white terrier
+Toro de Boston
+schnauzer miniatura
+schnauzer gigante
+schnauzer estándar
+Terrier escocés
+Terrier tibetano
+terrier sedoso
+terrier de trigo de pelaje blando
+Terrier blanco de las tierras altas del oeste
 Lhasa
-flat-coated retriever
-curly-coated retriever
-golden retriever
+perro perdiguero de pelo liso
+perro perdiguero de pelo rizado
+perro perdiguero de oro
 Labrador retriever
-Chesapeake Bay retriever
-German short-haired pointer
+Perro perdiguero de la Bahía de Chesapeake
+Puntero alemán de pelo corto
 vizsla
-English setter
-Irish setter
-Gordon setter
-Brittany spaniel
+Setter inglés
+Setter irlandés
+Setter de gordon
+Perro de aguas de bretaña
 clumber
-English springer
-Welsh springer spaniel
-cocker spaniel
-Sussex spaniel
-Irish water spaniel
+Springer inglés
+Springer spaniel galés
+cocker
+Perro de aguas de sussex
+Spaniel de agua irlandés
 kuvasz
 schipperke
 groenendael
@@ -228,774 +228,774 @@ malinois
 briard
 kelpie
 komondor
-Old English sheepdog
-Shetland sheepdog
+Perro pastor inglés
+Perro pastor de Shetland
 collie
 Border collie
 Bouvier des Flandres
 Rottweiler
-German shepherd
+Pastor alemán
 Doberman
-miniature pinscher
-Greater Swiss Mountain dog
-Bernese mountain dog
+pinscher miniatura
+Gran perro de montaña suizo
+Perro de montaña de Bernese
 Appenzeller
 EntleBucher
 boxer
 bull mastiff
-Tibetan mastiff
-French bulldog
-Great Dane
-Saint Bernard
-Eskimo dog
+Mastín tibetano
+Bulldog francés
+Gran Danés
+San Bernardo
+Perro esquimal
 malamute
-Siberian husky
-dalmatian
+Husky siberiano
+dálmata
 affenpinscher
 basenji
-pug
+doguillo
 Leonberg
-Newfoundland
-Great Pyrenees
-Samoyed
-Pomeranian
-chow
+Terranova
+Grandes pirineos
+Samoyedo
+Pomeranio
+perro chino
 keeshond
-Brabancon griffon
+Grifo de Brabancon
 Pembroke
-Cardigan
-toy poodle
-miniature poodle
-standard poodle
-Mexican hairless
-timber wolf
-white wolf
-red wolf
+Cárdigan
+caniche toy
+caniche miniatura
+caniche estándar
+Mexicano sin pelo
+lobo del bosque
+lobo blanco
+lobo rojo
 coyote
 dingo
 dhole
-African hunting dog
-hyena
-red fox
-kit fox
-Arctic fox
-grey fox
-tabby
-tiger cat
-Persian cat
-Siamese cat
-Egyptian cat
-cougar
-lynx
-leopard
-snow leopard
+Perro de caza africano
+hiena
+zorro rojo
+kit zorro
+Zorro ártico
+zorro rojo
+atigrado
+gato tigre
+gato persa
+gato siamés
+Gato egipcio
+puma
+lince
+leopardo
+leopardo de nieve
 jaguar
-lion
-tiger
-cheetah
-brown bear
-American black bear
-ice bear
-sloth bear
-mongoose
-meerkat
-tiger beetle
-ladybug
-ground beetle
-long-horned beetle
-leaf beetle
-dung beetle
-rhinoceros beetle
-weevil
-fly
-bee
-ant
-grasshopper
-cricket
-walking stick
-cockroach
+león
+tigre
+chita
+oso café
+Oso negro americano
+oso de hielo
+oso perezoso
+mangosta
+suricata
+escarabajo tigre
+mariquita
+escarabajo de tierra
+escarabajo de cuernos largos
+escarabajo de hoja
+escarabajo pelotero
+escarabajo rinoceronte
+gorgojo
+mosca
+abeja
+hormiga
+saltamontes
+grillo
+insecto palo
+cucaracha
 mantis
-cicada
-leafhopper
-lacewing
-dragonfly
-damselfly
-admiral
-ringlet
-monarch
-cabbage butterfly
-sulphur butterfly
-lycaenid
-starfish
-sea urchin
-sea cucumber
-wood rabbit
-hare
+cigarra
+saltahojas
+crisopa
+libélula
+caballito del diablo
+almirante
+rizo
+monarca
+mariposa de repollo
+mariposa de azufre
+licenida
+estrella de mar
+erizo de mar
+pepino de mar
+conejo de madera
+liebre
 Angora
 hamster
-porcupine
-fox squirrel
-marmot
-beaver
-guinea pig
-sorrel
-zebra
-hog
-wild boar
-warthog
-hippopotamus
-ox
-water buffalo
-bison
-ram
-bighorn
-ibex
+puerco espín
+ardilla zorro
+marmota
+castor
+conejillo de indias
+alazán
+cebra
+cerdo
+jabalí
+jabalí
+hipopótamo
+buey
+búfalo de agua
+bisonte
+carnero
+cuerno grande
+cabra montés
 hartebeest
 impala
-gazelle
-Arabian camel
+gacela
+Camello árabe
 llama
-weasel
-mink
-polecat
-black-footed ferret
-otter
-skunk
-badger
+comadreja
+visón
+turón
+hurón de patas negras
+nutria
+zorrillo
+tejón
 armadillo
-three-toed sloth
-orangutan
-gorilla
-chimpanzee
-gibbon
+perezoso de tres dedos
+orangután
+gorila
+chimpancé
+gibón
 siamang
 guenon
 patas
-baboon
-macaque
+babuino
+macaco
 langur
-colobus
-proboscis monkey
-marmoset
-capuchin
-howler monkey
+colobo
+mono narigudo
+tití
+capucho
+mono aullador
 titi
-spider monkey
-squirrel monkey
-Madagascar cat
+mono araña
+mono ardilla
+Gato madagascar
 indri
-Indian elephant
-African elephant
-lesser panda
-giant panda
+Elefante indio
+elefante africano
+panda menor
+panda gigante
 barracouta
-eel
+anguila
 coho
-rock beauty
-anemone fish
-sturgeon
+pez roca
+pez anémona
+esturión
 gar
-lionfish
-puffer
-abacus
+pez león
+pez globo
+ábaco
 abaya
-academic gown
-accordion
-acoustic guitar
-aircraft carrier
-airliner
-airship
+bata académica
+acordeón
+guitarra acústica
+portaaviones
+avión de línea
+dirigible
 altar
-ambulance
-amphibian
-analog clock
-apiary
-apron
-ashcan
-assault rifle
-backpack
-bakery
-balance beam
-balloon
-ballpoint
-Band Aid
+ambulancia
+anfibio
+reloj analógico
+colmenar
+delantal
+cubo de la basura
+fusil de asalto
+mochila
+panadería
+barra de equilibrio
+globo
+bolígrafo
+Apósito adhesivo
 banjo
-bannister
-barbell
-barber chair
-barbershop
-barn
-barometer
-barrel
-barrow
-baseball
-basketball
-bassinet
-bassoon
-bathing cap
-bath towel
-bathtub
-beach wagon
-beacon
-beaker
-bearskin
-beer bottle
-beer glass
-bell cote
-bib
-bicycle-built-for-two
+barandilla
+barra con pesas
+silla de barbero
+barbería
+granero
+barómetro
+barril
+carretilla
+béisbol
+baloncesto
+moisés
+fagot
+gorro de baño
+toalla de baño
+bañera
+vagón de playa
+faro
+cubilete
+piel de oso
+botella de cerveza
+vaso de cerveza
+campana
+babero
+bicicleta para dos
 bikini
-binder
-binoculars
-birdhouse
-boathouse
-bobsled
-bolo tie
-bonnet
-bookcase
-bookshop
-bottlecap
-bow
-bow tie
-brass
-brassiere
-breakwater
-breastplate
-broom
-bucket
-buckle
-bulletproof vest
-bullet train
-butcher shop
-cab
-caldron
-candle
-cannon
-canoe
-can opener
-cardigan
-car mirror
-carousel
-carpenter's kit
-carton
-car wheel
-cash machine
-cassette
-cassette player
-castle
-catamaran
-CD player
-cello
-cellular telephone
-chain
-chainlink fence
-chain mail
-chain saw
-chest
+bibliorato
+prismáticos
+pajarera
+cobertizo
+bobsleigh
+corbata de bolo
+capó
+estantería
+librería
+tapón de botella
+arco
+corbata de moño
+bronce
+sostén
+rompeolas
+coraza
+escoba
+cubeta
+hebilla
+chaleco antibalas
+tren bala
+carnicería
+taxi
+hechicera
+vela
+cañón
+canoa
+abrelatas
+cárdigan
+espejo de coche
+carrusel
+kit de carpintero
+caja de cartón
+llanta de carro
+cajero automático
+casete
+reproductor de casetes
+castillo
+catamarán
+Reproductor de CD
+violonchelo
+teléfono celular
+cadena
+cerca de alambre
+correo en cadena
+sierra de cadena
+pecho
 chiffonier
-chime
-china cabinet
-Christmas stocking
-church
-cinema
-cleaver
-cliff dwelling
-cloak
-clog
-cocktail shaker
-coffee mug
-coffeepot
-coil
-combination lock
-computer keyboard
-confectionery
-container ship
+campanilla
+gabinete de China
+calcetín navideño
+iglesia
+cine
+cuchilla de carnicero
+vivienda en acantilado
+capa
+obstruir
+batidor de coctéles
+taza de café
+cafetera
+bobina
+cerradura de combinación
+teclado
+confitería
+barco mercante
 convertible
-corkscrew
-cornet
-cowboy boot
-cowboy hat
-cradle
-crane
-crash helmet
-crate
-crib
-Crock Pot
-croquet ball
-crutch
-cuirass
-dam
-desk
-desktop computer
-dial telephone
-diaper
-digital clock
-digital watch
-dining table
-dishrag
-dishwasher
-disk brake
-dock
-dogsled
-dome
-doormat
-drilling platform
-drum
-drumstick
-dumbbell
-Dutch oven
-electric fan
-electric guitar
-electric locomotive
-entertainment center
-envelope
-espresso maker
-face powder
-feather boa
-file
-fireboat
-fire engine
-fire screen
-flagpole
-flute
-folding chair
-football helmet
-forklift
-fountain
-fountain pen
-four-poster
-freight car
-French horn
-frying pan
-fur coat
-garbage truck
-gasmask
-gas pump
-goblet
-go-kart
-golf ball
-golfcart
-gondola
+sacacorchos
+cucurucho
+bota de vaquero
+sombrero de vaquero
+cuna
+grúa
+casco protector
+caja
+cuna
+Olla de barro
+pelota de croquet
+muleta
+coraza
+represa
+escritorio
+computadora de escritorio
+teléfono de disco
+pañal
+reloj digital
+reloj de pulsera digital
+mesa de comedor
+trapo para fregar platos
+lavavajillas
+frenos de disco
+muelle
+trineo de perros
+cupula
+felpudo
+plataforma de perforación
+tambor
+palillo de tambor
+pesa
+horno holandés
+ventilador eléctrico
+guitarra eléctrica
+locomotora eléctrica
+centro de entretenimiento
+sobre
+cafetera espresso
+polvos
+boa de plumas
+archivo
+barco de bomberos
+camion de bomberos
+cortafuegos
+asta de bandera
+flauta
+silla plegable
+casco de fútbol
+máquina elevadora
+fuente
+pluma fuente
+cama con dosel
+vagón de carga
+cuerno francés
+sartén
+abrigo de piel
+camión de la basura
+máscara de gas
+bomba de gas
+copa
+kart
+pelota de golf
+carro de golf
+góndola
 gong
-gown
-grand piano
-greenhouse
-grille
-grocery store
-guillotine
-hair slide
-hair spray
-half track
-hammer
-hamper
-hand blower
-hand-held computer
-handkerchief
-hard disc
-harmonica
-harp
-harvester
-hatchet
-holster
-home theater
-honeycomb
-hook
-hoopskirt
-horizontal bar
-horse cart
-hourglass
+vestido
+piano de cola
+invernadero
+reja
+tienda de comestibles
+guillotina
+sujetador de pelo
+spray para el cabello
+pista de carreras
+martillo
+cesto
+secador de mano
+computadora de mano
+pañuelo
+disco duro
+harmónica
+arpa
+segador
+hacha
+canana
+cine en casa
+panal
+gancho
+armazón de falda
+barra horizontal
+carro de caballos
+reloj de arena
 iPod
-iron
-jack-o'-lantern
-jean
-jeep
+plancha
+linterna de calabaza
+vaquero
+todoterreno
 jersey
-jigsaw puzzle
+rompecabezas
 jinrikisha
-joystick
+palanca de mando
 kimono
-knee pad
-knot
-lab coat
-ladle
-lampshade
-laptop
-lawn mower
-lens cap
-letter opener
-library
-lifeboat
-lighter
-limousine
-liner
-lipstick
-Loafer
-lotion
-loudspeaker
-loupe
-lumbermill
-magnetic compass
-mailbag
-mailbox
+rodillera
+nudo
+bata de laboratorio
+cucharón
+pantalla de lámpara
+ordenador portátil
+cortacésped
+tapa de la lente
+abrecartas
+biblioteca
+bote salvavidas
+encendedor
+limusina
+transatlántico
+lápiz labial
+Mocasín
+loción
+altoparlante
+lupa
+serrería
+brújula
+saco de correo
+buzón
+malla
 maillot
-maillot
-manhole cover
+tapa de alcantarilla
 maraca
 marimba
-mask
-matchstick
-maypole
-maze
-measuring cup
-medicine chest
-megalith
-microphone
-microwave
-military uniform
-milk can
-minibus
-miniskirt
-minivan
-missile
-mitten
-mixing bowl
-mobile home
-Model T
-modem
-monastery
+máscara
+fósforo
+columna de juegos
+laberinto
+taza medidora
+botiquín
+megalito
+micrófono
+microondas
+uniforme militar
+caja de leche
+microbús
+mini falda
+camioneta
+misil
+mitón
+tazón para mezclar
+casa móvil
+Modelo T
+módem
+monasterio
 monitor
-moped
-mortar
-mortarboard
-mosque
-mosquito net
-motor scooter
-mountain bike
-mountain tent
-mouse
-mousetrap
-moving van
-muzzle
-nail
-neck brace
-necklace
-nipple
-notebook
-obelisk
+ciclomotor
+mortero
+birrete
+mezquita
+mosquitero
+scooter
+bicicleta de montaña
+carpa de montaña
+ratón
+ratonera
+camion de mudanzas
+bozal
+clavo
+collarín
+collar
+chupete
+computadora portátil
+obelisco
 oboe
 ocarina
-odometer
-oil filter
-organ
-oscilloscope
-overskirt
-oxcart
-oxygen mask
-packet
-paddle
-paddlewheel
-padlock
-paintbrush
-pajama
-palace
-panpipe
-paper towel
-parachute
-parallel bars
-park bench
-parking meter
-passenger car
+cuentakilómetros
+filtro de aceite
+órgano
+osciloscopio
+sobrefalda
+carreta
+mascara de oxigeno
+paquete
+paleta
+rueda de paletas
+candado
+pincel
+pijama
+palacio
+zampoña
+toalla de papel
+paracaídas
+barras paralelas
+banco del parque
+parquímetro
+coche de pasajeros
 patio
-pay-phone
+teléfono público
 pedestal
-pencil box
-pencil sharpener
+caja de lápices
+sacapuntas
 perfume
-Petri dish
-photocopier
-pick
-pickelhaube
-picket fence
-pickup
-pier
-piggy bank
-pill bottle
-pillow
-ping-pong ball
-pinwheel
-pirate
-pitcher
-plane
-planetarium
-plastic bag
-plate rack
-plow
-plunger
-Polaroid camera
-pole
-police van
+placa de Petri
+fotocopiadora
+pico
+casco con pico
+valla de estacas
+camioneta con caja
+muelle
+alcancía
+frasco de pastillas
+almohada
+pelota de ping pong
+molinillo
+pirata
+lanzador
+avión
+planetario
+bolsa de plástico
+escurreplatos
+arado
+émbolo
+cámara Polaroid
+columna
+camioneta de la policía
 poncho
-pool table
-pop bottle
-pot
-potter's wheel
-power drill
-prayer rug
-printer
-prison
-projectile
-projector
-puck
-punching bag
-purse
-quill
-quilt
-racer
-racket
-radiator
+mesa de billar
+botella de refresco
+maceta
+rueda de alfarero
+taladro eléctrico
+alfombra de rezo
+impresora
+prisión
+proyectil
+proyector
+disco
+saco de boxeo
+bolso
+pluma
+edredón
+corredor
+raqueta
+radiador
 radio
-radio telescope
-rain barrel
-recreational vehicle
-reel
-reflex camera
-refrigerator
-remote control
-restaurant
-revolver
+Radio telescopio
+barril de lluvia
+vehículo recreacional
+carrete
+cámara réflex
+refrigerador
+control remoto
+restaurante
+revólver
 rifle
-rocking chair
-rotisserie
-rubber eraser
-rugby ball
-rule
-running shoe
-safe
-safety pin
-saltshaker
-sandal
-sarong
-sax
-scabbard
-scale
-school bus
-schooner
-scoreboard
-screen
-screw
-screwdriver
-seat belt
-sewing machine
-shield
-shoe shop
+mecedora
+asador
+goma de borrar
+pelota de rugby
+regla
+zapatos para correr
+caja fuerte
+imperdible
+salero
+sandalia
+pareo de malasia
+saxófono
+vaina
+balanza
+autobús escolar
+goleta
+marcador
+pantalla
+tornillo
+destornillador
+cinturón de seguridad
+máquina de coser
+escudo
+tienda de zapatos
 shoji
-shopping basket
-shopping cart
-shovel
-shower cap
-shower curtain
-ski
-ski mask
-sleeping bag
-slide rule
-sliding door
-slot
-snorkel
-snowmobile
-snowplow
-soap dispenser
-soccer ball
-sock
-solar dish
+cesta de la compra
+carrito de compras
+pala
+gorro de ducha
+cortina de la ducha
+esquí
+máscara de esquí
+bolsa de dormir
+regla de cálculo
+puerta corrediza
+rendija
+tubo respirador
+motonieve
+quitanieves
+dispensador de jabón
+balón de fútbol
+calcetín
+plato solar
 sombrero
-soup bowl
-space bar
-space heater
-space shuttle
-spatula
-speedboat
-spider web
-spindle
-sports car
-spotlight
-stage
-steam locomotive
-steel arch bridge
-steel drum
-stethoscope
-stole
-stone wall
-stopwatch
-stove
-strainer
-streetcar
-stretcher
-studio couch
-stupa
-submarine
-suit
-sundial
-sunglass
-sunglasses
-sunscreen
-suspension bridge
-swab
-sweatshirt
-swimming trunks
-swing
-switch
-syringe
-table lamp
-tank
-tape player
-teapot
-teddy
-television
-tennis ball
-thatch
-theater curtain
-thimble
-thresher
-throne
-tile roof
-toaster
-tobacco shop
-toilet seat
-torch
-totem pole
-tow truck
-toyshop
+tazón de sopa
+barra espaciadora
+calentador
+transbordador espacial
+espátula
+lancha rápida
+telaraña
+huso
+coche deportivo
+foco
+escenario
+locomotora de vapor
+puente de arco de acero
+tambor de acero
+estetoscopio
+chal
+pared de piedra
+cronómetro
+cocina
+colador
+tranvía
+camilla
+sofá de estudio
+estupa
+submarino
+traje
+reloj de sol
+gafas de sol
+gafas de sol
+protector solar
+puente colgante
+torunda
+camisa de entrenamiento
+shorts de baño
+columpio
+interruptor
+jeringuilla
+lámpara de mesa
+tanque
+reproductor de cintas
+tetera
+osito de peluche
+televisión
+pelota de tenis
+paja
+telón
+dedal
+trilladora
+trono
+teja
+tostadora
+tienda de tabaco
+asiento del inodoro
+antorcha
+tótem
+camión de remolque
+tienda de juguetes
 tractor
-trailer truck
-tray
-trench coat
-tricycle
-trimaran
-tripod
-triumphal arch
-trolleybus
-trombone
-tub
-turnstile
-typewriter keyboard
-umbrella
-unicycle
-upright
-vacuum
-vase
-vault
-velvet
-vending machine
-vestment
-viaduct
-violin
-volleyball
-waffle iron
-wall clock
-wallet
-wardrobe
-warplane
-washbasin
-washer
-water bottle
-water jug
-water tower
-whiskey jug
-whistle
-wig
-window screen
-window shade
-Windsor tie
-wine bottle
-wing
+casa rodante
+bandeja
+gabardina
+triciclo
+trimarán
+trípode
+arco triunfal
+trolebús
+trombón
+tina
+torniquete
+teclado de máquina de escribir
+paraguas
+monociclo
+vertical
+aspiradora
+jarrón
+bóveda
+terciopelo
+máquina expendedora
+vestimenta
+viaducto
+violín
+vóleibol
+plancha de gofres
+reloj de pared
+billetera
+guardarropa
+avión de guerra
+lavabo
+lavadora
+botella de agua
+jarra de agua
+torre de agua
+jarra de whisky
+silbato
+peluca
+pantalla de la ventana
+persiana
+Corbata Windsor
+botella de vino
+ala
 wok
-wooden spoon
-wool
-worm fence
-wreck
-yawl
-yurt
-web site
-comic book
-crossword puzzle
-street sign
-traffic light
-book jacket
-menu
-plate
+cuchara de madera
+lana
+valla en zig-zag
+naufragio
+yola
+yurta
+sitio web
+libro de historietas
+crucigrama
+cartel de la calle
+semáforo
+solapa del libro
+menú
+plato
 guacamole
-consomme
-hot pot
+consomé
+olla caliente
 trifle
-ice cream
-ice lolly
-French loaf
-bagel
-pretzel
-cheeseburger
-hotdog
-mashed potato
-head cabbage
-broccoli
-cauliflower
-zucchini
-spaghetti squash
-acorn squash
-butternut squash
-cucumber
-artichoke
-bell pepper
-cardoon
-mushroom
+helado
+paleta
+pan francés
+rosquilla
+galleta salada
+hamburguesa con queso
+perro caliente
+puré de patatas
+repollo
+brócoli
+coliflor
+calabacín
+calabaza espagueti
+calabaza bellota
+calabaza
+pepino
+alcachofa
+pimiento morrón
+cardo
+champiñón
 Granny Smith
-strawberry
-orange
-lemon
-fig
-pineapple
+fresa
+naranja
+limón
+higo
+piña
 banana
-jackfruit
-custard apple
-pomegranate
-hay
+yaca
+chirimoya
+granada
+heno
 carbonara
-chocolate sauce
-dough
-meat loaf
+salsa de chocolate
+masa
+pastel de carne
 pizza
-potpie
+pastel de carne
 burrito
-red wine
-espresso
-cup
-eggnog
-alp
-bubble
-cliff
-coral reef
-geyser
-lakeside
-promontory
-sandbar
-seashore
-valley
-volcano
-ballplayer
-groom
-scuba diver
-rapeseed
-daisy
-yellow lady's slipper
-corn
-acorn
-hip
-buckeye
-coral fungus
-agaric
-gyromitra
-stinkhorn
-earthstar
-hen-of-the-woods
+vino tinto
+café exprés
+taza
+ponche de huevo
+duende
+burbuja
+acantilado
+arrecife de coral
+géiser
+orilla del lago
+promontorio
+banco de arena
+costa
+valle
+volcán
+jugador de pelota
+novio
+buzo
+colza
+margarita
+zapatilla de dama amarilla
+maíz
+bellota
+cadera
+castaño de indias
+hongo de coral
+agárico
+giromitra
+hongo apestoso
+hongo estrella
+gallina de los bosques
 bolete
-ear
-toilet tissue
+oreja
+papel higiénico
