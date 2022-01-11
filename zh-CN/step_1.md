@@ -2,60 +2,60 @@
 
 [[[camera-bullseye]]]
 
-Over the course of this project you will construct a robot face from a combination of LEGO® and electronic components. You'll then use an existing machine learning model to help your face recognise different objects and react to them.
+在此项目中，您将使用乐高（ LEGO®）和一些电子元件组建一个机器的人脸。 您将使用现有的机器学习模型来帮助您的机器人脸识别不同的对象，并对其做出反应。
 
 ### 学习成果
 
 --- no-print ---
 
-Your robot face will be able to recognise and react to a range of objects. Here you can see our example of a robot face.
+您的机器人脸将能够识别一系列的物体并对其做出反应。 在这里您可以看到一个我们的机器人脸的范例。
 
-![Video of a robot face made out of LEGO® with LED eyes and changing expressions.](images/robot_face.gif)
+![有关一个具有 LED 眼睛和持续变化表情的乐高  (LEGO®) 机器人脸的视频。](images/robot_face.gif)
 
-You should build your robot face using whatever LEGO® and other materials you have available. We used the [LEGO® SPIKE™ Prime kit](https://education.lego.com/en-gb/product/spike-prime).
+您可以使用任何现有的乐高（ LEGO®） 组件和其他材料来制作您的机器人脸。 我们使用 [LEGO® SPIKE™ Prime 套件](https://education.lego.com/en-gb/product/spike-prime)。
 
 --- /no-print ---
 
---- print-only ---
+--- 仅打印 ---
 
-![Picture of the completed project: a robot face made out of LEGO® with LED eyes and a smiling expression.](images/robot_face.jpg)
+![制作完成的图片：一个带有 LED 眼睛和微笑的表情的乐高 (LEGO®) 机器人脸。](images/robot_face.jpg)
 
---- /print-only ---
+--- /仅打印---
 
---- collapse ---
+--- 折叠 ---
 ---
-title: 你需要准备什么
+标题: 您需要准备的材料
 ---
 ### 硬件
 
-+ 一台树莓派电脑
-+ 树莓派构建 HAT
++ 一台树莓派电脑(Raspberry Pi)
++ 一个 Raspberry Pi Build HAT
 + 树莓派相机模块
-+ 一根 30 厘米的树莓派相机带状电缆
-+ 2 个小型 LEGO® Technic™ 电机
-+ 1 个大型 LEGO® Technic™ 马达
-+ 1× 迷你面包板
-+ 12×公对母跳线（20cm）
-+ 2× [Adafruit 8×8 LED 矩阵](https://www.adafruit.com/product/1049) （或类似的——需要一些焊接来组装和修改）
-+ 超长堆叠排针
-+ 各种各样的 LEGO®（我们使用了 [LEGO® SPIKE™ Prime 套件](https://education.lego.com/en-gb/product/spike-prime)一个选择）
-+ 20 毫米 FM 接头扩展器。
++ 一根 30 厘米长的Raspberry Pi 相机模块带状电缆
++ 2 个小号乐高（LEGO®） Technic™ 马达
++ 1 个大号乐高（LEGO®）Technic™ 马达
++ 1块迷你面包板
++ 12支公对母跳线（20厘米长）
++ 2块[Adafruit 8×8 LED 矩阵](https://www.adafruit.com/product/1049) （或者类似的产品 — 组装和修改需要焊接）
++ 超长的堆叠排针
++ 各种乐高（LEGO®）组件（我们使用从 [LEGO® SPIKE™ Prime 套件](https://education.lego.com/en-gb/product/spike-prime)中选择了一些）
++ 20 毫米母对公接头扩展器。
 + 焊接套件
 
 ### 软件
 
-Open a terminal and use the following commands to install the needed libraries:
+打开一个终端并使用以下命令安装所需的库：
 
 + BuildHAT Python 库，用于控制 Build HAT
 
 ```
-须藤 pip3 安装 buildhat
+sudo pip3 install buildhat
 ```
 
-+ TensorFlow Lite 库和示例模型和标签
++ TensorFlow 简库，示例模型和标签
 
 ```
-echo "deb https://packages.cloud.google.com/aptcoral-edgetpu-stable main" |须藤三通/etc/apt/sources.list.d/coral-edgetpu.list
+echo "deb https://packages.cloud.google.com/apt coral-edgetpu-stable main" | sudo tee /etc/apt/sources.list.d/coral-edgetpu.list
 curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
 sudo apt-get update
 sudo apt-get install python3-tflite-runtime
@@ -69,85 +69,85 @@ pip3 install adafruit-circuitpython-ht16k33
 
 ### 下载
 
-+ [图像分类器测试文件](http://rpf.io/p/en/lego-robot-face-go){:target="_blank"}
++ [Image classifier test files](https://rpf.io/p/en/lego-robot-face-go){:target="_blank"}
 
---- /collapse ---
+--- /折叠 ---
 
---- collapse ---
+--- 折叠 ---
 ---
-title: 你将学到什么
+标题：您将学到什么
 ---
 
-+ 使用 LEGO® 构建更复杂的机制
-+ 使用机器学习库识别图像
++ 使用乐高（LEGO®）构建更复杂的机制
++ 使用机器学习库来识别图像
 + 使用字典数据结构来控制面部表情
 
---- /collapse ---
+--- /折叠 ---
 
---- collapse ---
+--- 折叠 ---
 ---
-给教师的其他信息
+标题: 为教育者提供的额外信息
 ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/robot-face/print){:target="_blank"}.
+如果您需要打印此项目，请使用[适合打印的版本](https://projects.raspberrypi.org/en/projects/robot-face/print){:target="_blank"}.
 
-[Here is a link to the resources for this project](http://rpf.io/p/en/robot-face-go){:target="_blank"}.
+[Here is a link to the resources for this project](https://rpf.io/p/en/lego-robot-face-go){:target="_blank"}.
 
---- /collapse ---
+--- /折叠 ---
 
-Before you begin, you'll need to have set up your Raspberry Pi computer and attached your Build HAT:
+在开始之前，您需要设置好您的 Raspberry Pi 并连接您的 Build HAT：
 
---- task ---
+---任务---
 
-Mount your Raspberry Pi on to the LEGO Build Plate using M2 bolts and nuts, making sure the Raspberry Pi is on the side without the 'edge':
+使用 M2 螺栓和螺母将您的 Raspberry Pi 安装到乐高(LEGO)积木板上，请确保 将Raspberry Pi 置于没有“边缘”的一侧：
 
- ![Raspberry Pi bolted to a magenta LEGO Build Plate.](images/build_11.jpg)
+ ![通过螺栓固定在洋红色乐高(LEGO)积木板上的Raspberry Pi。](images/build_11.jpg)
 
---- /task ---
+--- /任务---
 
-Mounting the Raspberry Pi this way round enables easy access to the ports as well as the SD card slot. The Build Plate will allow you to connect the Raspberry Pi to the main structure of your dashboard more easily.
+以这种方式安装 Raspberry Pi 可以轻松访问（Raspberry Pi的）端口和 SD 卡插槽。 Build Plate 可让您更轻松地将 Raspberry Pi 连接到仪表板的主要部件。
 
---- task ---
+---任务---
 
-Line up the Build HAT with the Raspberry Pi, ensuring you can see the `This way up` label. Make sure all the GPIO pins are covered by the HAT, and press down firmly. (The example uses a [stacking header](https://www.adafruit.com/product/2223){:target="_blank"}, which makes the pins longer.)
+将 Build HAT 与 Raspberry Pi 对齐，请确保您可以看到 `This way up` 标签。 确保Build HAT准确滴覆盖了所有的 GPIO 引脚，然后用力按下。 （示例中使用了[堆叠头](https://www.adafruit.com/product/2223){:target="_blank"}，因此有更长的引脚。）
 
-![Image of GPIO pins poking through the top of the Build HAT.](images/build_15.jpg) ![Animation showing Buildhat fitting to Raspberry Pi](images/haton.gif)
+![显示GPIO 引脚穿过 Build HAT 的顶部的图片。](images/build_15.jpg) ![显示将 Buildhat 匹配到 Raspberry Pi的动画](images/haton.gif)
 
---- /task ---
+--- /任务---
 
-You should now power your Raspberry Pi using the 7.5V barrel jack on the Build HAT, which will allow you to use the motors.
+现在利用 Build HAT 上的 7.5V 桶形插孔为您的 Raspberry Pi 供电，这也将用于驱动马达。
 
---- task ---
+---任务---
 
-If you have not already done so, set up your Raspberry Pi by following these instructions:
+如果您尚未设置您的 Raspberry Pi，请按照以下步骤：
 
-[Setting up your Raspberry Pi](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up){:target="_blank"}
+[设置你的Raspberry Pi](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up){:target="_blank"}
 
---- /task ---
+--- /任务---
 
---- task ---
+---任务---
 
-Once the Raspberry Pi has booted, open the Raspberry Pi Configuration tool by clicking on the Raspberry Menu button and then selecting “Preferences” and then “Raspberry Pi Configuration”.
+Raspberry Pi 启动后，单击 Raspberry 菜单按钮，然后选择“首选项”，然后选择“Raspberry Pi 配置”，打开 Raspberry Pi 配置工具。
 
-Click on the “interfaces” tab and adjust the Serial settings as shown below:
+单击“interfaces”选项卡并调整串口设置，如下所示：
 
-![Image showing Raspberry Pi OS config screen with serial port enabled and serial console disabled](images/configshot.jpg)
+![Raspberry Pi 操作系统的配置界面：启用串行端口，禁用串行控制台](images/configshot.jpg)
 
---- /task ---
+--- /任务---
 
---- task --- You will also need to install the buildhat python library by following these instructions:
+---任务--- 您还需要按照以下说明安装 buildhat的 python 库：
 
---- collapse ---
+--- 折叠 ---
 ---
 标题：安装 buildhat Python 库
 ---
 
-Open a terminal window on your Raspberry Pi by pressing <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd>.
+按下<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd>，在 Raspberry Pi 上打开一个终端窗口。
 
-At the prompt type: `sudo pip3 install buildhat`
+在提示符后键入： `sudo pip3 install buildhat`
 
-Press <kbd>Enter</kbd> and wait for the "installation completed" message.
+按 <kbd>回车</kbd> 并等待“installation completed”消息。
 
---- /collapse ---
+----/折叠 ---
 
---- /task ---
+--- /任务---
