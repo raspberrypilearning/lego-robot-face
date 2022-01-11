@@ -1,6 +1,6 @@
-## 编程眉毛
+## 眉毛的编程
 
-第三个电机用于移动面部的眉毛。
+第三个马达用于控制人脸上眉毛的移动。
 
 --- task ---
 
@@ -11,7 +11,7 @@
 language: python filename: robot_face.py line_numbers: true line_number_start: 3
 line_highlights: 5
 ---
-嘴巴_r = 马达('A') 嘴巴_l = 马达('B') 眉毛 = 马达('C')
+mouth_r = Motor('A') mouth_l = Motor('B') eyebrows = Motor('C')
 
 --- /code ---
 
@@ -19,9 +19,9 @@ line_highlights: 5
 
 --- task ---
 
-确保您的大电机的位置使 **棒棒糖** 和 **圆** 对齐，并且您的脸的眉毛水平设置。 如果不是，您可能需要稍微调整您的构建。
+确保您的大号马达的 **棒棒糖** 和 **圆圈** 对齐，并且人脸的眉毛处于水平位置。 如果不是这样，您可能需要稍微调整您的设计。
 
-![电机旋转，使棒棒糖和圆圈对齐。](images/motor_0.jpg)
+![马达旋转，使得棒棒糖和圆圈对齐。](images/motor_0.jpg)
 
 ![眉毛处于水平位置的机器人脸。](images/horizontal_eyebrows.jpg)
 
@@ -29,34 +29,34 @@ line_highlights: 5
 
 --- task ---
 
-现在将电机设置为在程序启动时 `0`
+在程序启动时，将马达调整为 `0`。
 
 --- code ---
 ---
 language: python filename: robot_face.py line_numbers: true line_number_start: 7
 line_highlights: 9
 ---
-嘴巴_r.run_to_position(0) 嘴巴_l.run_to_position(0) 眉毛.run_to_position(0) --- /code ---
+mouth_r.run_to_position(0) mouth_l.run_to_position(0) eyebrows.run_to_position(0) --- /code ---
 
 --- /task ---
 
-此处将显示三个眉毛位置，但您可以创建更多位置。
+此处将显示眉毛三个的位置，但您可以创建更多位置。
 
-- `0` 会使眉毛看起来水平
+- `0` 会使眉毛处于水平位置
 - `150` 将降低眉毛
-- `-150` 会挑眉
+- `-150` 会升高眉毛的位置（挑眉）
 
 
 --- task ---
 
-添加获取当前眉毛位置的函数，如果它应该移动到的位置小于当前位置，则逆时针移动，否则顺时针移动。
+添加一个函数用于获取当前眉毛位置，如果眉毛应该移动到的位置小于当前位置，则逆时针移动马达，否则顺时针移动马达。
 
 --- code ---
 ---
 language: python filename: line_numbers: true line_number_start: 17
 line_highlights:
 ---
-def move_eyebrows (position): current_position = if position < current_position: rotation = '逆时针' else: rotation = '顺时针' 眉毛.run_to_position(position, direction = rotation)
+def move_eyebrows (position): current_position = eyebrows.get_aposition() if position < current_position: rotation = 'anticlockwise' else: rotation = 'clockwise' eyebrows.run_to_position(position, direction = rotation)
 
 --- /code ---
 
@@ -64,7 +64,7 @@ def move_eyebrows (position): current_position = if position < current_position:
 
 --- task ---
 
-运行您的代码并在 **Shell**测试您的新函数。
+在 **Shell**窗口中运行您的代码，测试该函数。
 
 --- code ---
 ---
