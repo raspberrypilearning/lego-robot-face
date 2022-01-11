@@ -1,10 +1,10 @@
 ## Gesichter ändern
 
-Jetzt ist es an der Zeit, all Ihre verschiedenen Funktionen zusammenzubringen, um das gesamte Gesicht zu verändern.
+Jetzt ist es an der Zeit, all deine verschiedenen Funktionen zusammenzubringen, um das gesamte Gesicht zu verändern.
 
 --- task ---
 
-Zunächst müssen Sie ein Wörterbuch erstellen, um die verschiedenen Gesichtsausdrücke zu speichern, die Sie verwenden möchten. Dies ergibt Werte für die Mundmotoren, den Augenbrauenmotor und die Augen.
+Zunächst musst du ein dictionary erstellen, um die verschiedenen Gesichtsausdrücke zu speichern, die du verwenden möchtest. Es enthält Werte für die Mundmotoren, den Augenbrauenmotor und die Augen.
 
 --- code ---
 ---
@@ -12,33 +12,33 @@ language: python filename: robot_face.py line_numbers: true line_number_start: 2
 line_highlights:
 ---
 
-Gesichter = { "neutral":{"mouth":0, "right_eye":neutral, "left_eye":neutral, "eyebrows":0}, "happy":{"mouth":45, "right_eye": breit, "left_eye":wide, "eyebrows":150}, "wütend":{"mouth":-20, "right_eye":wütend, "left_eye":wütend, "eyebrows":-150}, " traurig":{"mouth":-45, "right_eye":look_down, "left_eye":look_down, "eyebrows":-40} } --- /code ---
+gesichter = { "neutral":{"mund":0, "auge_rechts":neutral, "auge_links":neutral, "augenbrauen":0}, "gluecklich":{"mund":45, "auge_rechts": breit, "auge_links":wide, "augenbrauen":150}, "boese":{"mund":-20, "auge_rechts":wütend, "auge_links":wütend, "augenbrauen":-150}, " traurig":{"mund":-45, "auge_rechts":look_down, "auge_links":look_down, "augenbrauen":-40} } --- /code ---
 
 --- /task ---
 
 --- task ---
 
-Erstellen Sie nun eine Funktion, die Mund, Augenbrauen und Augen festlegt.
+Erstelle nun eine Funktion, die Mund, Augenbrauen und Augen steuert.
 
 --- code ---
 ---
 language: python filename: robot_face.py line_numbers: true line_number_start: 50
 line_highlights:
 ---
-def set_face (face): change_eyes(face["right_eye"],face["left_eye"]) move_mouth(face["mouth"]) move_eyebrows(face["eyebrows"]) --- /code - --
+def gesicht_machen (gesicht): wechsle_augen(gesicht["auge_rechts"],gesicht["auge_links"]) mund_bewegen(gesicht["mund"]) augenbrauen_bewegen(gesicht["augenbrauen"]) --- /code - --
 
 --- /task ---
 
 --- task ---
 
-Führen Sie Ihren Code aus und verwenden Sie dann die **Shell** , um Ihre neue Funktion zu testen.
+Führe deinen Code aus und verwende dann die **Shell**, um deine neue Funktion zu testen.
 
 --- code ---
 ---
 language: python filename: line_numbers: true line_number_start:
 line_highlights:
 ---
-> > > set_face(faces['angry']) set_face(faces['happy']) set_face(faces['neutral']) set_face(faces['sad']) --- /code ---
+> > > gesicht_machen(gesichter['angry']) gesicht_machen(gesichter['happy']) gesicht_machen(gesichter['neutral']) gesicht_machen(gesichter['sad']) --- /code ---
 
 --- /task ---
 
