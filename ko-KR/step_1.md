@@ -1,4 +1,4 @@
-## 들어가며
+## 소개
 
 [[[camera-bullseye]]]
 
@@ -91,7 +91,7 @@ title: 교육자를 위한 추가 정보
 
 이 프로젝트를 인쇄하려면, [프린트용 버전](https://projects.raspberrypi.org/en/projects/robot-face/print){:target="_blank"}을 사용하십시오.
 
-[Here is a link to the resources for this project](https://rpf.io/p/en/lego-robot-face-go){:target="_blank"}.
+[이곳은 프로젝트에 필요한 자료를 얻을 수 있는 링크입니다.](https://rpf.io/p/en/lego-robot-face-go){:target="_blank"}
 
 --- /collapse ---
 
