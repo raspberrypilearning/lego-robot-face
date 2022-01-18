@@ -91,7 +91,7 @@ title: Información adicional para educadores
 
 Si necesitas imprimir este proyecto, usa la [versión para imprimir](https://projects.raspberrypi.org/en/projects/robot-face/print){:target="_blank"}.
 
-[Here is a link to the resources for this project](https://rpf.io/p/en/lego-robot-face-go){:target="_blank"}.
+[Aquí hay un enlace a los recursos para este proyecto](https://rpf.io/p/en/lego-robot-face-go){:target="_blank"}.
 
 --- /collapse ---
 
