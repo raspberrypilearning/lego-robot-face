@@ -59,7 +59,7 @@ mouth_r.run_to_position(0) mouth_l.run_to_position(0) --- /code ---
 language: python filename: robot_face.py line_numbers: true line_number_start: 8
 line_highlights:
 ---
-def move_mouth (position, speed=100): mouth_l.run_to_position(position * -1, speed, blocking=False) #Turn to negative position mouth_r.run_to_position(position, speed, blocking=False) #Turn to positive position --- /code ---
+def move_mouth (position, speed=100): mouth_l.run_to_position(position * -1, speed, blocking=False) #반대 방향으로(역방향) 회전 mouth_r.run_to_position(position, speed, blocking=False) #진행 방향으로(순방향) 회전 --- /code ---
 
 --- /task ---
 
