@@ -4,7 +4,7 @@
 
 --- task ---
 
-연결하기 전에 관련 [조립 지침](https://learn.adafruit.com/adafruit-led-backpack/0-8-8x8-matrix-assembly){:target="_blank"}을 따라야 합니다. LED 어레이의 조립에는 약간의 납땜이 필요하므로 도구를 사용하기 전에 보호자의 허가를 받으십시오. 여기에서 납땜 가이드를 확인할 수 있습니다. <iframe width="560" height="315" src="https://www.youtube.com/embed/8Z-2wPWGnqE" title="유튜브 비디오 플레이어" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
+연결하기 전에 관련 [조립 지침](https://learn.adafruit.com/adafruit-led-backpack/0-8-8x8-matrix-assembly){:target="_blank"}을 따라야 합니다. LED 어레이의 조립에는 약간의 납땜이 필요하므로 도구를 사용하기 전에 보호자의 허가를 받으십시오. 여기에서 납땜 가이드를 확인할 수 있습니다. <iframe width="560" height="315" src="https://www.youtube.com/embed/8Z-2wPWGnqE" title="YouTube 비디오 플레이어" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
 
 --- /task ---
 
