@@ -40,7 +40,7 @@
 
 --- task ---
 
-Raspberry Pi **시작 메뉴****프로그래밍 메뉴** 아래에 있는 **Thonny**를 엽니다.
+Raspberry Pi **시작 메뉴**, **Programming Menu** 아래에 있는 **Thonny**를 엽니다.
 
  --- /task ---
 
