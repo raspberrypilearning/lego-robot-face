@@ -1,4 +1,4 @@
-## 라즈베리파이 추가
+## Raspberry Pi 추가
 
 이 프로젝트에서는 다음과 같이 Build Plate 요소를 사용하여 이상적으로 Raspberry Pi 및 Build HAT를 마운트해 보도록 하겠습니다:
 
@@ -6,15 +6,15 @@
 
 --- task ---
 
-M2 볼트와 너트를 사용하여 라즈베리 파이를 Build Plate에 장착하고 라즈베리파이가 평평한 면에 있는지 확인합니다.
+M2 볼트와 너트를 사용하여 Raspberry Pi를 Build Plate에 장착하고 Raspberry Pi가 평평한 면에 있는지 확인합니다.
 
  ![마젠타색 LEGO® 빌드 플레이트에 볼트로 고정된 Raspberry Pi.](images/build_11.jpg)
 
 --- /task ---
 
-이런 식으로 라즈베리 파이를 장착하면 향후 포트와 SD 카드 슬롯에 쉽게 액세스할 수 있습니다.
+이런 식으로 Raspberry Pi를 장착하면 향후 포트와 SD 카드 슬롯에 쉽게 액세스할 수 있습니다.
 
-### 카메라 장착 및 HAT 빌드
+### 카메라 장착 및 HAT Build
 
 Build HAT를 추가하기 전에 먼저 카메라 케이블을 Raspberry Pi에 연결하고 Build HAT의 구멍을 통해 연결해야 합니다. 카메라 보드를 Raspberry Pi에 아직 연결하지 않은 경우 다음 지침에 따라 연결할 수 있습니다: [카메라 모듈 시작하기](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera){:target="_blank"}
 
@@ -50,7 +50,7 @@ Build HAT를 Raspberry Pi와 정렬하여 `This way up` 레이블이 보이도�
 
 --- /task ---
 
---- task --- 검은색 스터드를 사용하여 빌드 플레이트를 로봇 얼굴 뒤쪽에 연결합니다. ![로봇 얼굴 후면에 연결된 Maker Plate와 Raspberry Pi의 이미지.](images/build_17.jpg)
+--- task --- 검은색 스터드를 사용하여 Build Plate를 로봇 얼굴 뒤쪽에 연결합니다. ![로봇 얼굴 후면에 연결된 Maker Plate와 Raspberry Pi의 이미지.](images/build_17.jpg)
 
 이 방법으로 Raspberry Pi를 장착하면 포트와 핀에 가장 잘 액세스할 수 있으며 배럴 잭이 로봇 얼굴에 전원을 공급하기 위해 쉽게 연결됩니다.
 
