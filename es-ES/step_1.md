@@ -69,7 +69,7 @@ pip3 install adafruit-circuitpython-ht16k33
 
 ### Descargas
 
-+ [Image classifier test files](https://rpf.io/p/en/lego-robot-face-go){:target="_blank"}
++ [Archivos de prueba del clasificador de imágenes](https://rpf.io/p/en/lego-robot-face-go){:target="_blank"}
 
 --- /collapse ---
 
