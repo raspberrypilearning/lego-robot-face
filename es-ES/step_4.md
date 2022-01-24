@@ -1,4 +1,4 @@
-## Haciendo la cara
+## Hacer una cara
 
 Así es como se verá tu modelo terminado: 
 
