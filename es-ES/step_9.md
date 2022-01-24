@@ -76,7 +76,7 @@ line_numbers: true
 line_number_start: 38
 line_highlights:
 ---
-def cambiar_ojos(izquierda, derecha): 
+def cambiar_ojos(izquierda,derecha): 
     ojo_izquierdo.image(izquierda) 
     ojo_derecho.image(derecha)
 --- /code ---
@@ -91,8 +91,8 @@ Ejecuta tu código y luego usa la **Consola** para probar tu nueva función.
 ---
 language: python 
 filename: 
-
-line_numbers: true line_number_start:
+line_numbers: true 
+line_number_start:
 line_highlights:
 ---
 >>> cambiar_ojos(neutral, neutral) 
