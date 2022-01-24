@@ -2,7 +2,7 @@
 
 This is what your finished model will look like:
 
-<iframe class="responsive-embed__iframe" src="https://sketchfab.com/models/d0e78282ad3c4436a2ac7a5326983d8b/embed?autospin=0.2&amp;autostart=1" width="800" height="800" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://sketchfab.com/models/d0e78282ad3c4436a2ac7a5326983d8b/embed?autospin=0.2&amp;autostart=1" width="600" height="400" frameborder="0"></iframe>
 
 Now that you know which objects will trigger which responses, you need to build a robotic face that can be animated to show the different expressions. In this step, we're going to walk you through an example model, but you can adapt the plan depending on what you have available.
 

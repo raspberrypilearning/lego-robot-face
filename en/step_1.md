@@ -1,5 +1,7 @@
 ## Introduction
 
+[[[camera-bullseye]]]
+
 Over the course of this project you will construct a robot face from a combination of LEGO® and electronic components. You'll then use an existing machine learning model to help your face recognise different objects and react to them. 
 
 ### What you will make
@@ -110,6 +112,7 @@ Mounting the Raspberry Pi this way round enables easy access to the ports as wel
 Line up the Build HAT with the Raspberry Pi, ensuring you can see the `This way up` label. Make sure all the GPIO pins are covered by the HAT, and press down firmly. (The example uses a [stacking header](https://www.adafruit.com/product/2223){:target="_blank"}, which makes the pins longer.)
 
 ![Image of GPIO pins poking through the top of the Build HAT.](images/build_15.jpg)
+![Animation showing Buildhat fitting to Raspberry Pi](images/haton.gif)
 
 --- /task ---
 
@@ -138,7 +141,7 @@ You will also need to install the buildhat python library by following these ins
 
 --- collapse ---
 ---
-title: Install the BuildHAT Python library
+title: Install the buildhat Python library
 ---
 
 Open a terminal window on your Raspberry Pi by pressing <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd>.
