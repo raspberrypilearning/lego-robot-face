@@ -16,10 +16,10 @@ line_highlights:
 ---
 
 caras = { 
-    "neutral": {"boca": 0, "ojo_derecho": neutral, "ojo_izquierdo": neutral, "cejas": 0}, 
-    "feliz": {"boca": 45, "ojo_derecho": abierto, "ojo_izquierdo": abierto, "cejas": 150}, 
-    "enojado": {"boca": - 20, "ojo_derecho": enojado, "ojo_izquierdo": enojado, "cejas": - 150}, 
-    "triste": {"boca": - 45,"ojo_derecho": mirar_abajo,"ojo_izquierdo": mirar_abajo,"cejas": - 40} 
+    "neutral": {"boca":0, "ojo_derecho":neutral, "ojo_izquierdo":neutral, "cejas":0}, 
+    "feliz": {"boca":45, "ojo_derecho":abierto, "ojo_izquierdo":abierto, "cejas":150}, 
+    "enojado": {"boca":-20, "ojo_derecho":enojado, "ojo_izquierdo":enojado, "cejas":-150}, 
+    "triste": {"boca":-45,"ojo_derecho":mirar_abajo,"ojo_izquierdo":mirar_abajo,"cejas":-40} 
     }
 --- /code ---
 
@@ -38,9 +38,9 @@ line_number_start: 50
 line_highlights:
 ---
 def fijar_cara(cara): 
-    cambiar_ojos (cara ["ojo_derecho"], cara ["ojo_izquierdo"]) 
-    mover_boca(cara ["boca"]) 
-    mover_cejas (cara ["cejas"]) 
+    cambiar_ojos(cara["ojo_derecho"],cara["ojo_izquierdo"]) 
+    mover_boca(cara["boca"]) 
+    mover_cejas(cara["cejas"]) 
 
 --- /code ---
 
@@ -58,10 +58,10 @@ line_numbers: true
 line_number_start:
 line_highlights:
 ---
-> > > fijar_cara(caras ['enojado']) 
-> > > fijar_cara(caras ['feliz']) 
-> > > fijar_cara(caras ['neutral']) 
-> > > fijar_cara(caras ['triste'])
+>>> fijar_cara(caras['enojado']) 
+>>> fijar_cara(caras['feliz']) 
+>>> fijar_cara(caras['neutral']) 
+>>> fijar_cara(caras['triste'])
 --- /code ---
 
 --- /task ---

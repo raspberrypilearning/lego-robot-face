@@ -94,9 +94,9 @@ line_numbers: false
 line_number_start:
 line_highlights:
 ---
-> > > mover_cejas(-150) 
-> > > mover_cejas(150) 
-> > > mover_cejas(0)
+>>> mover_cejas(-150) 
+>>> mover_cejas(150) 
+>>> mover_cejas(0)
 --- /code ---
 
 --- /task ---

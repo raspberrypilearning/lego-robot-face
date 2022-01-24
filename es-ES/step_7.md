@@ -2,7 +2,7 @@
 
 --- task ---
 
-Abre **Thonny** desde el menú de programación y guarda un nuevo archivo llamado `robot_face.py`, y asegúrate de guardarlo en el mismo directorio que `classifier.py`, `labels.txt`y las imágenes pixel art de 8 × 8.
+Abre **Thonny** desde el menú de programación y guarda un nuevo archivo llamado `robot_face.py`, y asegúrate de guardarlo en el mismo directorio que `classifier.py`, `labels.txt` y las imágenes pixel art de 8 × 8.
 
 ![Estructura de archivo que muestra dónde debe almacenarse robot_face.py.](images/file_structure.png)
 
@@ -39,7 +39,8 @@ line_highlights: 3,4
 ---
 from buildhat import Motor
 
-boca_d = Motor ('A') boca_i = Motor ('B')
+boca_d = Motor ('A') 
+boca_i = Motor ('B')
 --- /code ---
 
 --- /task ---
@@ -94,8 +95,8 @@ line_numbers: false
 line_number_start:
 line_highlights:
 ---
-> > > mover_boca(45) 
-> > > mover_boca(0)
+>>> mover_boca(45) 
+>>> mover_boca(0)
 --- /code ---
 
 Si tus motores se mueven en la dirección incorrecta, intenta cambiar los puertos.

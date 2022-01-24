@@ -1,4 +1,4 @@
-## Respuestas emocionales a los objetos.
+## Respuestas emocionales a los objetos
 
 Para finalizar el proyecto, puedes hacer que la cara del robot muestre diferentes expresiones en función de lo que ve la cámara.
 
