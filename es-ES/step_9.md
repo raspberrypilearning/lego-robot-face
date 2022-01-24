@@ -15,8 +15,9 @@ line_number_start:
 line_highlights: 2-4
 ---
 from buildhat import Motor 
-import board from adafruit_ht16k33.matrix 
-import Matrix8x8 from PIL import Image
+import board 
+from adafruit_ht16k33.matrix import Matrix8x8 
+from PIL import Image
 
 --- /code ---
 
@@ -36,7 +37,7 @@ line_highlights:
 ---
 
 i2c = board.I2C() 
-ojo_izquierdo= Matrix8x8(i2c, address=0x70) 
+ojo_izquierdo = Matrix8x8(i2c, address=0x70) 
 ojo_derecho = Matrix8x8(i2c, address=0x71)
 --- /code ---
 
@@ -76,8 +77,8 @@ line_number_start: 38
 line_highlights:
 ---
 def cambiar_ojos(izquierda, derecha): 
-    ojo_izquierdo.image (izquierda) 
-    ojo_derecho.image (derecha)
+    ojo_izquierdo.image(izquierda) 
+    ojo_derecho.image(derecha)
 --- /code ---
 
 --- /task ---
@@ -94,9 +95,9 @@ filename:
 line_numbers: true line_number_start:
 line_highlights:
 ---
-> > > cambiar_ojos(neutral, neutral) 
-> > > cambiar_ojos(abierto, abierto) 
-> > > cambiar_ojos(enojado, enojado)
+>>> cambiar_ojos(neutral, neutral) 
+>>> cambiar_ojos(abierto, abierto) 
+>>> cambiar_ojos(enojado, enojado)
 --- /code ---
 
 --- /task ---
