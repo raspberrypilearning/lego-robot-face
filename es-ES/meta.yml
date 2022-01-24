@@ -1,0 +1,21 @@
+---
+title: Cara de robot LEGO®
+hero_image: images/banner.png
+description: Construye una cara de robot que reaccione a lo que puede ver con LEGO® y Build HAT
+version: 4
+listed: true
+copyedit: true
+last_tested: "2020-02-26"
+steps:
+  - title: Introducción
+  - title: Prueba tu modelo de aprendizaje automático
+  - title: Usa emoji para tu cara de robot
+  - title: Hacer una cara
+  - title: Agrega los ojos
+  - title: Agrega la Raspberry Pi
+  - title: Motoriza la boca
+  - title: Programa las cejas
+  - title: Programa los ojos
+  - title: Cambiando caras
+  - title: Respuestas emocionales a los objetos
+  - title: '¿Qué sigue?'
