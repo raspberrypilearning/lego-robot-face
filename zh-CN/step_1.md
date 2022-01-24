@@ -38,7 +38,7 @@
 + 12支公对母跳线（20厘米长）
 + 2块[Adafruit 8×8 LED 矩阵](https://www.adafruit.com/product/1049) （或者类似的产品 — 组装和修改需要焊接）
 + 超长的堆叠排针
-+ 各种乐高（LEGO®）组件（我们使用从 [LEGO® SPIKE™ Prime 套件](https://education.lego.com/en-gb/product/spike-prime)中选择了一些）
++ 各种乐高（LEGO®）组件（我们从 [LEGO® SPIKE™ Prime 套件](https://education.lego.com/en-gb/product/spike-prime)中选择了一些）
 + 20 毫米母对公接头扩展器。
 + 焊接套件
 
@@ -99,9 +99,9 @@ pip3 install adafruit-circuitpython-ht16k33
 
 ---任务---
 
-使用 M2 螺栓和螺母将您的 Raspberry Pi 安装到乐高(LEGO)积木板上，请确保 将Raspberry Pi 置于没有“边缘”的一侧：
+使用 M2 螺栓和螺母将您的 Raspberry Pi 安装到乐高（LEGO®）Build Plate上，请确保 将Raspberry Pi 置于没有“边缘”的一侧：
 
- ![通过螺栓固定在洋红色乐高(LEGO)积木板上的Raspberry Pi。](images/build_11.jpg)
+ ![通过螺栓固定在洋红色乐高(LEGO®) Build Plate上的Raspberry Pi。](images/build_11.jpg)
 
 --- /任务---
 
