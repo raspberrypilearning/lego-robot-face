@@ -1,4 +1,4 @@
-## ¿Qué hacer a continuación?
+## ¿Qué sigue?
 
 Hay muchas formas de ampliar su proyecto de cara de robot. Puedes agregar más objetos que la cara pueda reconocer y agregar más expresiones alterando la rotación de los motores y las imágenes que se muestran en las matrices de LED.
 
