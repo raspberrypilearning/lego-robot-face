@@ -28,7 +28,7 @@ title: Lo que necesitarás
 ---
 ### Hardware
 
-+ Una computadora Raspberry Pi
++ Un ordenador Raspberry Pi
 + Un Build HAT Raspberry Pi
 + Un módulo de cámara Raspberry Pi
 + Un cable plano para cámara Raspberry Pi de 30 cm
@@ -140,7 +140,7 @@ También necesitarás instalar la biblioteca buildhat de python siguiendo estas 
 
 --- collapse ---
 ---
-title: Instale la biblioteca buildhat Python
+title: Instala la biblioteca buildhat Python
 ---
 
 Abre una ventana de terminal en tu Raspberry Pi presionando <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd>.
