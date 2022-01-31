@@ -22,7 +22,7 @@ En este proyecto, puedes usar estos cuatro emojis para representar ojos:
 
 
 
-Sin embargo, si deseas crear sus propios emojis, puedes usar [piskel](https://www.piskelapp.com) para crear tu propio emoji de 8 x 8. Utilice únicamente píxeles en blanco y negro.
+Sin embargo, si deseas crear sus propios emojis, puedes usar [piskel](https://www.piskelapp.com) para crear tu propio emoji de 8 x 8. Utiliza únicamente píxeles en blanco y negro.
 
 
 ### Conecta objetos a las expresiones
