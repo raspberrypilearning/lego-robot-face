@@ -1,6 +1,6 @@
 ## Agrega la Raspberry Pi
 
-Para este proyecto, idealmente querrás usar el elemento Build Plate (placa de construcción) para montar su Raspberry Pi y Build HAT:
+Para este proyecto, idealmente querrás usar el elemento Maker Plate (placa de construcción) para montar su Raspberry Pi y Build HAT:
 
 ![Imagen que muestra una placa de construcción LEGO® magenta.](images/build_10.png)
 
