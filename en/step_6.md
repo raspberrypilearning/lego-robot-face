@@ -1,14 +1,14 @@
 ## Add the Raspberry Pi
 
-For this project you'll ideally want to use the Maker Plate element to mount your Raspberry Pi and Build HAT:
+For this project you'll ideally want to use the Build Plate element to mount your Raspberry Pi and Build HAT:
 
-![Image showing a magenta LEGO® Maker plate.](images/build_10.png)
+![Image showing a magenta LEGO® build plate.](images/build_10.png)
 
 --- task ---
 
-Mount your Raspberry Pi onto the Maker Plate using M2 bolts and nuts, making sure the Pi is on the flat side:
+Mount your Raspberry Pi onto the Build Plate using M2 bolts and nuts, making sure the Pi is on the flat side:
 
- ![Raspberry Pi bolted to a magenta LEGO® Maker plate.](images/build_11.jpg)
+ ![Raspberry Pi bolted to a magenta LEGO® build plate.](images/build_11.jpg)
 
 --- /task ---
 
@@ -53,7 +53,7 @@ Re-attach the camera to the end of the ribbon cable, making sure it isn't twiste
 --- /task ---
 
 --- task ---
-Connect the Maker Plate to the back of your robot face using some black studs.
+Connect the Build Plate to the back of your robot face using some black studs.
 ![Image of a Maker Plate and Raspberry Pi connected to the rear of the robot face.](images/build_17.jpg)
 
 Mounting the Raspberry Pi this way gives the best access to ports and pins, and means your barrel jack is easily connected to power the robot face. 

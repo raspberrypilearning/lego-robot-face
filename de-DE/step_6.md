@@ -1,6 +1,6 @@
 ## Füge den Raspberry Pi hinzu
 
-Für dieses Projekt solltest du idealerweise das Maker Plate-Element verwenden, um deinen Raspberry Pi und das Build HAT zu montieren:
+Für dieses Projekt solltest du idealerweise das Build Plate-Element verwenden, um deinen Raspberry Pi und das Build HAT zu montieren:
 
 ![Bild einer magentafarbenen LEGO® Bauplatte.](images/build_10.png)
 
