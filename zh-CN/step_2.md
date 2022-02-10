@@ -4,7 +4,7 @@
 
 在开始之前，您需要设置 Raspberry Pi 计算机并连接 Raspberry Pi 相机。 您可以在以下指南中找到有关如何执行这两项操作的说明：
 
---- 任务 --- 按照以下说明将 Raspberry Pi 相机模块连接到您的 Raspberry Pi：
+--- task --- 按照以下说明将 Raspberry Pi 相机模块连接到您的 Raspberry Pi：
 
 [开始使用相机模块](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera){:target="_blank"}
 
