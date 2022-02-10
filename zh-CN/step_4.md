@@ -5,7 +5,7 @@
 现在您知道哪些对象会触发哪些响应，您需要构建一个可以动画显示不同表情的机器人脸。 在这一步中，我们将引导您完成一个示例模型，但您可以根据现有资源调整计划。
 
 ## 设备
-为了构建这个机器人脸，我们使用了 [SPIKE™ Prime](https://education.lego.com/en-gb/product/spike-prime){:target="_blank"} 和 [SPIKE™ Expansion](https://education.lego.com/en-gb/products/lego-education-spike-prime-expansion-set/45680){:target="_blank"} 套件中的部件。 但是大多数零件都可以在许多现有的乐高(LEGO)套装中找到。
+为了构建这个机器人脸，我们使用了乐高（LEGO®） [SPIKE™ Prime](https://education.lego.com/en-gb/product/spike-prime){:target="_blank"} 和 [SPIKE™ Expansion](https://education.lego.com/en-gb/products/lego-education-spike-prime-expansion-set/45680){:target="_blank"} 套件中的部件。 但是大多数零件都可以在许多现有的乐高(LEGO®)套装中找到。
 
 ## 构建
 要构建此模型，或激发您自己的灵感，请按照我们在此处的方便构建指南进行操作，或在 [此处](images/robot_face.pdf)下载。
