@@ -8,15 +8,15 @@ LED 矩阵的显示器上可以显示 8×8 像素的图像。 这些可用于显
 
 --- code ---
 ---
-language: python 
-filename: robot_face.py 
-line_numbers: true 
+language: python
+filename: robot_face.py
+line_numbers: true
 line_number_start:
 line_highlights: 2-4
 ---
-from buildhat import Motor 
-import board 
-from adafruit_ht16k33.matrix import Matrix8x8 
+from buildhat import Motor
+import board
+from adafruit_ht16k33.matrix import Matrix8x8
 from PIL import Image
 
 --- /code ---
@@ -29,16 +29,16 @@ from PIL import Image
 
 --- code ---
 ---
-language: python 
-filename: robot_face.py 
-line_numbers: true 
-line_number_start: 13
+language: python
+filename: robot_face.py
+line_numbers: true
+line_number_start: 1
 line_highlights:
 ---
 
-i2c = board.I2C() 
-left_eye = Matrix8x8(i2c, address=0x70) 
-right_eye = Matrix8x8(i2c, address=0x71) 
+i2c = board.I2C()
+left_eye = Matrix8x8(i2c, address=0x70)
+right_eye = Matrix8x8(i2c, address=0x71)
 --- /code ---
 
 --- /task ---
@@ -49,16 +49,17 @@ right_eye = Matrix8x8(i2c, address=0x71)
 
 --- code ---
 ---
-language: python 
-filename: line_numbers: 
+language: python
+filename:
+line_numbers:
 true line_number_start: 17
 line_highlights:
 ---
 
-neutral = Image.open("neutral.png").rotate(90) 
-wide = Image.open("wide.png").rotate(90) 
-angry = Image.open("angry.png").rotate(90) 
-look_down = Image.open("look_down.png").rotate(90) 
+neutral = Image.open("neutral.png").rotate(90)
+wide = Image.open("wide.png").rotate(90)
+angry = Image.open("angry.png").rotate(90)
+look_down = Image.open("look_down.png").rotate(90)
 --- /code ---
 
 --- /task ---
@@ -69,15 +70,15 @@ look_down = Image.open("look_down.png").rotate(90)
 
 --- code ---
 ---
-language: python 
-filename: robot_face.py 
-line_numbers: true 
+language: python
+filename: robot_face.py
+line_numbers: true
 line_number_start: 38
 line_highlights:
 ---
-def change_eyes(left,right): 
-    left_eye.image(left) 
-    right_eye.image(right) 
+def change_eyes(left,right):
+    left_eye.image(left)
+    right_eye.image(right)
 --- /code ---
 
 --- /task ---
@@ -88,15 +89,15 @@ def change_eyes(left,right):
 
 --- code ---
 ---
-language: python 
-filename: 
-line_numbers: true 
+language: python
+filename:
+line_numbers: true
 line_number_start:
 line_highlights:
 ---
->>> change_eyes(neutral, neutral) 
->>> change_eyes(wide, wide) 
->>> change_eyes(angry, angry) 
+>>> change_eyes(neutral, neutral)
+>>> change_eyes(wide, wide)
+>>> change_eyes(angry, angry)
 --- /code ---
 
 --- /task ---
