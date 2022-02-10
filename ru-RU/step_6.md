@@ -1,14 +1,14 @@
 ## Добавьте Raspberry Pi
 
-Для этого проекта в идеале вы захотите использовать элемент Build Plate для установки Raspberry Pi и Build HAT:
+For this project you'll ideally want to use the Maker Plate element to mount your Raspberry Pi and Build HAT:
 
-![На изображении показана платформа для сборки LEGO® пурпурного цвета.](images/build_10.png)
+![Image showing a magenta LEGO® Maker plate.](images/build_10.png)
 
 --- task ---
 
-Установите Raspberry Pi на монтажную пластину с помощью болтов и гаек M2, убедившись, что Pi находится на плоской стороне:
+Mount your Raspberry Pi onto the Maker Plate using M2 bolts and nuts, making sure the Pi is on the flat side:
 
- ![Raspberry Pi прикручен к пурпурной рабочей пластине LEGO®.](images/build_11.jpg)
+ ![Raspberry Pi bolted to a magenta LEGO® Maker plate.](images/build_11.jpg)
 
 --- /task ---
 
@@ -50,7 +50,7 @@
 
 --- /task ---
 
---- задача --- Присоедините пластину сборки к задней части лица вашего робота, используя несколько черных шпилек. ![Изображение Maker Plate и Raspberry Pi, подключенных к задней части лица робота.](images/build_17.jpg)
+--- task --- Connect the Maker Plate to the back of your robot face using some black studs. ![Изображение Maker Plate и Raspberry Pi, подключенных к задней части лица робота.](images/build_17.jpg)
 
 Установка Raspberry Pi таким образом дает лучший доступ к портам и контактам, а также означает, что ваше цилиндрическое гнездо легко подключается для питания лица робота.
 
