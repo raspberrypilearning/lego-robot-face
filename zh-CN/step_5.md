@@ -1,6 +1,6 @@
 ## 添加眼睛
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">示例中使用的 连接到 Raspberry Pi <span style="color: #0faeb0">I2C</span>的LED 矩阵。 使用 I2C 的设备通过称为地址的特定编号进行连接。 当您使用两个矩阵时，每个矩阵都需要自己的地址。 </p>
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">示例中使用的LED 矩阵通过<span style="color: #0faeb0">I2C</span>连接到 Raspberry Pi。 使用 I2C 的设备通过称为地址的特定编号进行连接。 当您使用两个矩阵时，每个矩阵都需要自己的地址。 </p>
 
 --- task ---
 
