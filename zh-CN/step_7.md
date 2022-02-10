@@ -14,13 +14,13 @@
 
 --- code ---
 ---
-language: python 
-filename: robot_face.py 
-line_numbers: true 
+language: python
+filename: robot_face.py
+line_numbers: true
 line_number_start:
 line_highlights:
 ---
-from buildhat import Motor 
+from buildhat import Motor
 --- /code ---
 
 --- /task ---
@@ -31,16 +31,16 @@ from buildhat import Motor
 
 --- code ---
 ---
-language: python 
-filename: robot_face.py 
-line_numbers: true 
+language: python
+filename: robot_face.py
+line_numbers: true
 line_number_start:
 line_highlights: 3,4
 ---
 from buildhat import Motor
 
-mouth_r = Motor('A') 
-mouth_l = Motor('B') 
+mouth_r = Motor('A')
+mouth_l = Motor('B')
 --- /code ---
 
 --- /task ---
@@ -51,15 +51,15 @@ mouth_l = Motor('B')
 
 --- code ---
 ---
-language: python 
-filename: robot_face.py 
-line_numbers: true 
+language: python
+filename: robot_face.py
+line_numbers: true
 line_number_start: 5
 line_highlights:
 ---
 
-mouth_r.run_to_position(0) 
-mouth_l.run_to_position(0) 
+mouth_r.run_to_position(0)
+mouth_l.run_to_position(0)
 --- /code ---
 
 --- /task ---
@@ -70,15 +70,15 @@ mouth_l.run_to_position(0)
 
 --- code ---
 ---
-language: python 
-filename: robot_face.py 
-line_numbers: true 
+language: python
+filename: robot_face.py
+line_numbers: true
 line_number_start: 8
 line_highlights:
 ---
 def move_mouth (position, speed=100):
-    mouth_l.run_to_position(position * -1, speed, blocking=False) #转向负值 
-    mouth_r.run_to_position(position, speed, blocking=False) #转向正值 
+    mouth_l.run_to_position(position * -1, speed, blocking=False) #转向负值
+    mouth_r.run_to_position(position, speed, blocking=False) #转向正值
 --- /code ---
 
 --- /task ---
@@ -89,14 +89,14 @@ def move_mouth (position, speed=100):
 
 --- code ---
 ---
-language：python 
-filename： 
+language: python
+filename:
 line_numbers：false 
 line_number_start:
 line_highlights:
 ---
->>> move_mouth(45) 
->>> move mouth(0) 
+>>> move_mouth(45)
+>>> move mouth(0)
 --- /code ---
 
 如果您的马达朝错误的方向移动，可以尝试互换它们的端口。
