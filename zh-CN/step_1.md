@@ -99,13 +99,13 @@ title: 为教育者提供的额外信息
 
 ---任务---
 
-Mount your Raspberry Pi on to the LEGO Maker Plate using M2 bolts and nuts, making sure the Raspberry Pi is on the side without the 'edge':
+使用 M2 螺栓和螺母将您的 Raspberry Pi 安装到乐高（LEGO®）Maker Plate上，请确保 将Raspberry Pi 置于没有“边缘”的一侧：
 
- ![Raspberry Pi bolted to a magenta LEGO Maker Plate.](images/build_11.jpg)
+ ![通过螺栓固定在洋红色乐高(LEGO®) Maker Plate上的Raspberry Pi。](images/build_11.jpg)
 
 --- /任务---
 
-以这种方式安装 Raspberry Pi 可以轻松访问（Raspberry Pi的）端口和 SD 卡插槽。 The maker Plate will allow you to connect the Raspberry Pi to the main structure of your dashboard more easily.
+以这种方式安装 Raspberry Pi 可以轻松访问（Raspberry Pi的）端口和 SD 卡插槽。 Maker Plate 可让您更轻松地将 Raspberry Pi 连接到仪表板的主要部件。
 
 ---任务---
 
