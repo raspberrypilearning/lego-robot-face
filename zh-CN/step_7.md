@@ -91,7 +91,7 @@ def move_mouth (position, speed=100):
 ---
 language: python
 filename:
-line_numbers：false 
+line_numbers:false 
 line_number_start:
 line_highlights:
 ---
