@@ -1,14 +1,14 @@
 ## 安装Raspberry Pi
 
-For this project you'll ideally want to use the Maker Plate element to mount your Raspberry Pi and Build HAT:
+在本项目中，您最好使用Maker Plate 的元件来安装 Raspberry Pi 和 Build HAT：
 
-![Image showing a magenta LEGO® Maker plate.](images/build_10.png)
+![显示洋红色乐高（LEGO®）Maker Plate 的图片。](images/build_10.png)
 
 --- task ---
 
-Mount your Raspberry Pi onto the Maker Plate using M2 bolts and nuts, making sure the Pi is on the flat side:
+使用 M2 螺栓和螺母将 Raspberry Pi 安装到Maker Plate 上，请确保 Raspberry Pi 位于平坦的一侧：
 
- ![Raspberry Pi bolted to a magenta LEGO® Maker plate.](images/build_11.jpg)
+ ![通过螺栓固定在洋红色乐高(LEGO®) Maker Plate上的Raspberry Pi。](images/build_11.jpg)
 
 --- /task ---
 
@@ -50,7 +50,7 @@ Mount your Raspberry Pi onto the Maker Plate using M2 bolts and nuts, making sur
 
 --- /task ---
 
---- task --- Connect the Maker Plate to the back of your robot face using some black studs. ![显示Maker Plate 和 Raspberry Pi 连接到机器人脸背面的图片。](images/build_17.jpg)
+--- task --- 用黑色螺栓将构建板连接到机器人脸的背面。![显示Maker Plate 和 Raspberry Pi 连接到机器人脸背面的图片。](images/build_17.jpg)
 
 以这种方式安装 Raspberry Pi 可以最好地访问（Raspberry Pi的）端口和引脚，这意味着您的桶形插孔可以轻松连接到机器人脸并为其供电。
 
