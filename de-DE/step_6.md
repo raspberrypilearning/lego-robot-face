@@ -1,6 +1,6 @@
 ## Füge den Raspberry Pi hinzu
 
-Für dieses Projekt solltest du idealerweise das Build Plate-Element verwenden, um deinen Raspberry Pi und das Build HAT zu montieren:
+Für dieses Projekt solltest du idealerweise das Maker Plate-Element verwenden, um deinen Raspberry Pi und das Build HAT zu montieren:
 
 ![Bild einer magentafarbenen LEGO® Bauplatte.](images/build_10.png)
 
@@ -50,7 +50,7 @@ Richte den Build HAT mit dem Raspberry Pi aus und stelle sicher, dass du das Eti
 
 --- /task ---
 
---- Aufgabe --- Montiere die Bauplatte mit einigen schwarzen Bolzen an der Rückseite deines Robotergesichts. ![Bild einer Maker Plate und eines Raspberry Pi, die mit der Rückseite des Robotergesichts verbunden sind.](images/build_17.jpg)
+--- task --- Montiere die Bauplatte mit einigen schwarzen Bolzen an der Rückseite deines Robotergesichts. ![Bild einer Maker Plate und eines Raspberry Pi, die mit der Rückseite des Robotergesichts verbunden sind.](images/build_17.jpg)
 
 Die Montage des Raspberry Pi auf diese Weise bietet den besten Zugang zu Steckern und Pins. Das bewirkt, dass deine Hohlstecker-Buchse einfach erreichbar ist, um darüber das Robotergesicht mit Strom zu versorgen.
 
