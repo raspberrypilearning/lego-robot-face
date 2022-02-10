@@ -75,7 +75,7 @@ pip3 install adafruit-circuitpython-ht16k33
 
 --- collapse ---
 ---
-title：您将学到什么
+title: 您将学到什么
 ---
 
 + 使用乐高（LEGO®）构建更复杂的机制
