@@ -13,7 +13,7 @@ steps:
   - title: 做个鬼脸
   - title: 添加眼睛
   - title: 添加树莓派(Raspberry Pi)
-  - title: 用马达控制嘴巴
+  - title: 控制嘴巴的移动
   - title: 编写眉毛的程序
   - title: 编写眼睛的程序
   - title: 变脸
