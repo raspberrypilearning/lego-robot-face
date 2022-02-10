@@ -1,14 +1,14 @@
 ## ラズベリーパイを追加する
 
-このプロジェクトでは、理想的には、ビルドプレート要素を使用してラズベリーパイをマウントし、HATをビルドする必要があります。
+For this project you'll ideally want to use the Maker Plate element to mount your Raspberry Pi and Build HAT:
 
-![マゼンタのLEGO®ビルドプレートを示す画像。](images/build_10.png)
+![Image showing a magenta LEGO® Maker plate.](images/build_10.png)
 
 --- task ---
 
-M2ボルトとナットを使用してRaspberryPiをビルドプレートに取り付け、Piが平らな側にあることを確認します。
+Mount your Raspberry Pi onto the Maker Plate using M2 bolts and nuts, making sure the Pi is on the flat side:
 
- ![マゼンタのLEGO®ビルドプレートにボルトで固定されたラズベリーパイ。](images/build_11.jpg)
+ ![Raspberry Pi bolted to a magenta LEGO® Maker plate.](images/build_11.jpg)
 
 --- /task ---
 
@@ -50,7 +50,7 @@ Build HATの下側からリボンを突き出し、上部からリボンを突�
 
 --- /task ---
 
----タスク--- いくつかの黒いスタッドを使用して、ビルドプレートをロボット面の背面に接続します。 ![ロボットの顔の背面に接続されたメーカープレートとラズベリーパイの画像。](images/build_17.jpg)
+--- task --- Connect the Maker Plate to the back of your robot face using some black studs. ![ロボットの顔の背面に接続されたメーカープレートとラズベリーパイの画像。](images/build_17.jpg)
 
 この方法でRaspberryPiを取り付けると、ポートとピンへのアクセスが最適になり、バレルジャックを簡単に接続してロボットの顔に電力を供給することができます。
 
