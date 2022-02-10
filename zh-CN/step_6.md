@@ -1,4 +1,4 @@
-## 安装Raspberry Pi
+## 安装(Raspberry Pi)
 
 在本项目中，您最好使用Maker Plate 的元件来安装 Raspberry Pi 和 Build HAT：
 
