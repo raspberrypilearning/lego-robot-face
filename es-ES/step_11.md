@@ -2,7 +2,7 @@
 
 Para finalizar el proyecto, puedes hacer que la cara del robot muestre diferentes expresiones en función de lo que ve la cámara.
 
-![Código a la izquierda con la vista de la cámara que muestra diferentes imágenes que se sostienen frente a la cámara. A la derecha, la cara del robot reacciona a las imágenes.](images/completed_project.gif)
+![Programa a la izquierda con la vista de la cámara que muestra diferentes imágenes que se sostienen frente a la cámara. A la derecha, la cara del robot reacciona a las imágenes.](images/completed_project.gif)
 
 --- task ---
 
