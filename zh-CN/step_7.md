@@ -76,7 +76,7 @@ line_numbers: true
 line_number_start: 8
 line_highlights:
 ---
-def move_mouth (position, speed=100): 
+def move_mouth (position, speed=100):
     mouth_l.run_to_position(position * -1, speed, blocking=False) #转向负值 
     mouth_r.run_to_position(position, speed, blocking=False) #转向正值 
 --- /code ---
