@@ -12,7 +12,7 @@
 
 ![有关一个具有 LED 眼睛和持续变化表情的乐高  (LEGO®) 机器人脸的视频。](images/robot_face.gif)
 
-您可以使用任何现有的乐高（ LEGO®） 组件和其他材料来制作您的机器人脸。 我们使用 [LEGO® SPIKE™ Prime 套件](https://education.lego.com/en-gb/product/spike-prime)。
+您可以使用任何现有的乐高（ LEGO®） 组件和其他材料来制作您的机器人脸。 我们使用 [乐高LEGO® SPIKE™ Prime 套件](https://education.lego.com/en-gb/product/spike-prime)。
 
 --- /no-print ---
 
@@ -24,7 +24,7 @@
 
 --- 折叠 ---
 ---
-标题: 您需要准备的材料
+title: 您需要准备的材料
 ---
 ### 硬件
 
@@ -69,13 +69,13 @@ pip3 install adafruit-circuitpython-ht16k33
 
 ### 下载
 
-+ [Image classifier test files](https://rpf.io/p/en/lego-robot-face-go){:target="_blank"}
++ [图像分类测试文件](https://rpf.io/p/en/lego-robot-face-go){:target="_blank"}
 
 --- /折叠 ---
 
 --- 折叠 ---
 ---
-标题：您将学到什么
+title：您将学到什么
 ---
 
 + 使用乐高（LEGO®）构建更复杂的机制
@@ -86,12 +86,12 @@ pip3 install adafruit-circuitpython-ht16k33
 
 --- 折叠 ---
 ---
-标题: 为教育者提供的额外信息
+title: 为教育者提供的额外信息
 ---
 
 如果您需要打印此项目，请使用[适合打印的版本](https://projects.raspberrypi.org/en/projects/robot-face/print){:target="_blank"}.
 
-[Here is a link to the resources for this project](https://rpf.io/p/en/lego-robot-face-go){:target="_blank"}.
+[这里是本项目资源的链接](https://rpf.io/p/en/lego-robot-face-go){:target="_blank"}.
 
 --- /折叠 ---
 
@@ -99,13 +99,13 @@ pip3 install adafruit-circuitpython-ht16k33
 
 ---任务---
 
-使用 M2 螺栓和螺母将您的 Raspberry Pi 安装到乐高（LEGO®）Build Plate上，请确保 将Raspberry Pi 置于没有“边缘”的一侧：
+Mount your Raspberry Pi on to the LEGO Maker Plate using M2 bolts and nuts, making sure the Raspberry Pi is on the side without the 'edge':
 
- ![通过螺栓固定在洋红色乐高(LEGO®) Build Plate上的Raspberry Pi。](images/build_11.jpg)
+ ![Raspberry Pi bolted to a magenta LEGO Maker Plate.](images/build_11.jpg)
 
 --- /任务---
 
-以这种方式安装 Raspberry Pi 可以轻松访问（Raspberry Pi的）端口和 SD 卡插槽。 Build Plate 可让您更轻松地将 Raspberry Pi 连接到仪表板的主要部件。
+以这种方式安装 Raspberry Pi 可以轻松访问（Raspberry Pi的）端口和 SD 卡插槽。 The maker Plate will allow you to connect the Raspberry Pi to the main structure of your dashboard more easily.
 
 ---任务---
 
@@ -139,7 +139,7 @@ Raspberry Pi 启动后，单击 Raspberry 菜单按钮，然后选择“首选�
 
 --- 折叠 ---
 ---
-标题：安装 buildhat Python 库
+title：安装 buildhat Python 库
 ---
 
 按下<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd>，在 Raspberry Pi 上打开一个终端窗口。
