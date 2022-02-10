@@ -6,4 +6,4 @@
 
 您或许可以利用您在这个项目中学到的所有知识，来创造一些新颖的东西！
 
-如果您已经完成了所有乐高（LEGO）Spark 项目并希望在探索 Python 时获得更多乐趣，那么您可以尝试 [这些项目](https://projects.raspberrypi.org/en/projects?software%5B%5D=python)。
+如果您已经完成了所有乐高（LEGO®）Spark 项目并希望在探索 Python 时获得更多乐趣，那么您可以尝试 [这些项目](https://projects.raspberrypi.org/en/projects?software%5B%5D=python)。
