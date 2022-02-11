@@ -10,6 +10,7 @@
 为了构建这个机器人脸，我们使用了乐高（LEGO®） [SPIKE™ Prime](https://education.lego.com/en-gb/product/spike-prime){:target="_blank"} 和 [SPIKE™ Expansion](https://education.lego.com/en-gb/products/lego-education-spike-prime-expansion-set/45680){:target="_blank"} 套件中的部件。 但是大多数零件都可以在许多现有的乐高(LEGO®)套装中找到。
 
 ## 构建
-要构建此模型，或激发您自己的灵感，请按照我们在此处的方便构建指南进行操作，或在 [此处 下载。](images/robot_face.pdf)<embed src="images/robot_face.pdf" width="800"  height="800" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
+要构建此模型，或激发您自己的灵感，请按照我们在此处的方便构建指南进行操作，或在 [此处 下载。](images/robot_face.pdf)
+<embed src="images/robot_face.pdf" width="800"  height="800" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
 
 下一步，您将构建眼睛并连接 LED 阵列。
