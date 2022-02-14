@@ -101,7 +101,7 @@ title: 교육자를 위한 추가 정보
 
 Mount your Raspberry Pi on to the LEGO Maker Plate using M2 bolts and nuts, making sure the Raspberry Pi is on the side without the 'edge':
 
- ![Raspberry Pi bolted to a magenta LEGO Maker Plate.](images/build_11.jpg)
+ ![마젠타색 LEGO Maker Plate에 볼트로 고정된 Raspberry Pi](images/build_11.jpg)
 
 --- /task ---
 
