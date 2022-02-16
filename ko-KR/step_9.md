@@ -95,9 +95,9 @@ line_numbers: true
 line_number_start:
 line_highlights:
 ---
-> > > change_eyes(neutral, neutral) 
-> > > change_eyes(wide, wide) 
-> > > change_eyes(angry, angry)
+>>> change_eyes(neutral, neutral) 
+>>> change_eyes(wide, wide) 
+>>> change_eyes(angry, angry)
 --- /code ---
 
 --- /task ---

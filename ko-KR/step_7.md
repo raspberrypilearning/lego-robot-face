@@ -95,8 +95,8 @@ line_numbers: false
 line_number_start:
 line_highlights:
 ---
-> > > move_mouth(45) 
-> > > move mouth(0)
+>>> move_mouth(45) 
+>>> move mouth(0)
 --- /code ---
 
 모터가 잘못된 방향으로 움직이면 포트를 전환해 보세요.

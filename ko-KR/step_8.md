@@ -94,9 +94,9 @@ line_numbers: false
 line_number_start:
 line_highlights:
 ---
-> > > move_eyebrows(-150) 
-> > > move_eyebrows(150) 
-> > > move_eyebrows(0)
+>>> move_eyebrows(-150) 
+>>> move_eyebrows(150) 
+>>> move_eyebrows(0)
 --- /code ---
 
 --- /task ---

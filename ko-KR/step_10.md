@@ -57,10 +57,10 @@ line_numbers: true
 line_number_start:
 line_highlights:
 ---
-> > > set_face(faces['angry']) 
-> > > set_face(faces['happy']) 
-> > > set_face(faces['neutral']) 
-> > > set_face(faces['sad'])
+>>> set_face(faces['angry']) 
+>>> set_face(faces['happy']) 
+>>> set_face(faces['neutral']) 
+>>> set_face(faces['sad'])
 --- /code ---
 
 --- /task ---

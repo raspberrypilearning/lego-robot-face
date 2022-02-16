@@ -140,7 +140,7 @@ Raspberry Pi가 부팅되면 Raspberry 메뉴 버튼을 클릭하고 "기본 설
 
 --- collapse ---
 ---
-제목: buildhat Python 라이브러리 설치
+title: buildhat Python 라이브러리 설치
 ---
 
 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd>를 눌러 Raspberry Pi에서 터미널 창을 엽니다.
