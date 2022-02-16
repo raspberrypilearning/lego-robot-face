@@ -1,12 +1,12 @@
 ## Raspberry Pi 추가
 
-For this project you'll ideally want to use the Maker Plate element to mount your Raspberry Pi and Build HAT:
+이 프로젝트에서는 다음과 같이 Maker Plate 요소를 사용하여 이상적으로 Raspberry Pi 및 Build HAT를 마운트해 보도록 하겠습니다:
 
 ![Image showing a magenta LEGO® Maker plate.](images/build_10.png)
 
 --- task ---
 
-Mount your Raspberry Pi onto the Maker Plate using M2 bolts and nuts, making sure the Pi is on the flat side:
+M2 볼트와 너트를 사용하여 Raspberry Pi를 Maker Plate에 장착하고 Raspberry Pi가 평평한 면에 있는지 확인합니다:
 
  ![Raspberry Pi bolted to a magenta LEGO® Maker plate.](images/build_11.jpg)
 
@@ -50,7 +50,7 @@ Build HAT를 Raspberry Pi와 정렬하여 `This way up` 레이블이 보이도�
 
 --- /task ---
 
---- task --- Connect the Maker Plate to the back of your robot face using some black studs. ![로봇 얼굴 후면에 연결된 Maker Plate와 Raspberry Pi의 이미지.](images/build_17.jpg)
+--- task --- 검은색 스터드를 사용하여 Maker Plate를 로봇 얼굴 뒤쪽에 연결합니다. ![로봇 얼굴 후면에 연결된 Maker Plate와 Raspberry Pi의 이미지.](images/build_17.jpg)
 
 이 방법으로 Raspberry Pi를 장착하면 포트와 핀에 가장 잘 액세스할 수 있으며 배럴 잭이 로봇 얼굴에 전원을 공급하기 위해 쉽게 연결됩니다.
 
