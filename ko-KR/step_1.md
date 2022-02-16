@@ -99,13 +99,13 @@ title: 교육자를 위한 추가 정보
 
 --- task ---
 
-Mount your Raspberry Pi on to the LEGO Maker Plate using M2 bolts and nuts, making sure the Raspberry Pi is on the side without the 'edge':
+M2 볼트와 너트를 사용하여 LEGO Maker Plate에 Raspberry Pi를 장착하고 Raspberry Pi가 '가장자리' 쪽에 없는지 꼭 확인합니다.
 
  ![마젠타색 LEGO Maker Plate에 볼트로 고정된 Raspberry Pi](images/build_11.jpg)
 
 --- /task ---
 
-이런 식으로 Raspberry Pi를 장착하면 향후 포트와 SD 카드 슬롯에 쉽게 액세스할 수 있습니다. The maker Plate will allow you to connect the Raspberry Pi to the main structure of your dashboard more easily.
+이런 식으로 Raspberry Pi를 장착하면 향후 포트와 SD 카드 슬롯에 쉽게 액세스할 수 있습니다. Maker Plate를 사용하면 Raspberry Pi를 대시보드에 더 쉽게 연결할 수 있습니다.
 
 --- task ---
 
