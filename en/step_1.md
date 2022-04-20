@@ -35,11 +35,11 @@ title: What you will need
 + 2× Small LEGO® Technic™ motors
 + 1× Large LEGO® Technic™ motor
 + 1× Mini breadboard
-+ 12× Male-to-female jumper wires (20cm)
++ 12× Pin-to-socket jumper wires (20cm)
 + 2× [Adafruit 8×8 LED matrices](https://www.adafruit.com/product/1049) (or similar — requires some soldering to assemble and modify)
 + Extra long stacking header pins
 + Assortment of LEGO® (we used a selection from the [LEGO® SPIKE™ Prime kit](https://education.lego.com/en-gb/product/spike-prime))
-+ 20mm F-M header extender.
++ 20mm pin-to-socket header extender.
 + Soldering kit
 
 ### Software
