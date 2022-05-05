@@ -35,11 +35,11 @@ title: Что тебе понадобится
 + 2 × маленьких мотора LEGO® Technic ™
 + 1 × Большой мотор LEGO® Technic ™
 + 1 × мини-макет
-+ 12 перемычек между мужчинами и женщинами (20 см)
++ 12× Pin-to-socket jumper wires (20cm)
 + 2 × [Светодиодные матрицы Adafruit 8 × 8](https://www.adafruit.com/product/1049) (или аналогичные - для сборки и модификации требуется пайка)
 + Удлиненные пальцы жатки штабелирования
 + Ассортимент LEGO® (мы использовали выбор из [LEGO® SPIKE ™ Prime](https://education.lego.com/en-gb/product/spike-prime))
-+ Удлинитель FM-заголовка 20 мм.
++ 20mm pin-to-socket header extender.
 + Набор для пайки
 
 ### Программное обеспечение
