@@ -22,7 +22,7 @@ El resultado final de este proceso se llama <span style="color: #0faeb0">modelo<
 
 --- task ---
 
- Para comenzar, descarga los recursos para este proyecto en tu Raspberry Pi [haciendo clic aquí](http://rpf.io/p/en/robot-face-go){: target = "_ blank"}.
+ Para comenzar, descarga los recursos para este proyecto en tu Raspberry Pi [haciendo clic aquí](http://rpf.io/p/es-ES/robot-face-go){:target="_blank"}.
 
  --- /task ---
 
