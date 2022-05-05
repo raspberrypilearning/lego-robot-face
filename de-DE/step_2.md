@@ -22,7 +22,7 @@ Das Endergebnis dieses Prozesses wird als <span style="color: #0faeb0">Modell</s
 
 --- task ---
 
- Lade zunächst die Ressourcen für dieses Projekt auf deinen Raspberry Pi [herunter, indem du hier](http://rpf.io/p/en/robot-face-go){:target="_blank"} klickst.
+ Lade zunächst die Ressourcen für dieses Projekt auf deinen Raspberry Pi [herunter, indem du hier](http://rpf.io/p/de-DE/robot-face-go){:target="_blank"} klickst.
 
  --- /task ---
 
