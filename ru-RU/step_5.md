@@ -4,7 +4,9 @@
 
 --- task ---
 
-Перед их подключением необходимо выполнить соответствующие [инструкции по сборке](https://learn.adafruit.com/adafruit-led-backpack/0-8-8x8-matrix-assembly){: target = "_ blank"}. Сборка светодиодных матриц требует некоторой пайки, поэтому перед использованием каких-либо инструментов получите разрешение взрослого. Вы можете следовать нашему руководству по пайке здесь. <iframe width="560" height="315" src="https://www.youtube.com/embed/8Z-2wPWGnqE" title="Видеопроигрыватель YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
+Перед их подключением необходимо выполнить соответствующие [инструкции по сборке](https://learn.adafruit.com/adafruit-led-backpack/0-8-8x8-matrix-assembly){: target = "_ blank"}. Сборка светодиодных матриц требует некоторой пайки, поэтому перед использованием каких-либо инструментов получите разрешение взрослого. Вы можете следовать нашему руководству по пайке здесь.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8Z-2wPWGnqE" title="Видеопроигрыватель YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 --- /task ---
 
