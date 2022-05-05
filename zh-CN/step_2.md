@@ -22,7 +22,7 @@
 
 --- task ---
 
- 首先，单击[此处](http://rpf.io/p/en/robot-face-go){:target="_blank"} 将本项目的资源下载到您的 Raspberry Pi
+ 首先，单击[此处](http://rpf.io/p/zh-CN/robot-face-go){:target="_blank"} 将本项目的资源下载到您的 Raspberry Pi
 
  --- /task ---
 
