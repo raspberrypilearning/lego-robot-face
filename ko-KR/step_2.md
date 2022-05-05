@@ -22,7 +22,7 @@
 
 --- task ---
 
- 프로젝트를 시작하려면, [여기](http://rpf.io/p/en/robot-face-go){:target="_blank"}를 눌러 Raspberry Pi에 필요한 리소스를 다운로드 받으세요.
+ 프로젝트를 시작하려면, [여기](http://rpf.io/p/ko-KR/robot-face-go){:target="_blank"}를 눌러 Raspberry Pi에 필요한 리소스를 다운로드 받으세요.
 
  --- /task ---
 
