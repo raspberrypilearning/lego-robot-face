@@ -1,0 +1,21 @@
+---
+title: LEGO® ロボットの顔
+hero_image: images/banner.png
+description: LEGO® と Build HAT で見えたものに反応するロボットの顔を作る
+version: 4
+listed: true
+copyedit: true
+last_tested: "2020-02-26"
+steps:
+  - title: はじめに
+  - title: 機械学習モデルをテストする
+  - title: ロボットの顔に絵文字を使用する
+  - title: 顔を作る
+  - title: 目を追加する
+  - title: Raspberry Pi を追加する
+  - title: モーターで口を動かす
+  - title: 眉毛のプログラムを作る
+  - title: 目のプログラムを作る
+  - title: 顔を変える
+  - title: 物に表情で反応させる
+  - title: 次は何をしますか？
