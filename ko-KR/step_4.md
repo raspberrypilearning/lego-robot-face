@@ -1,6 +1,8 @@
 ## 얼굴 만들기
 
-완성된 모델은 다음과 같습니다: <iframe src="https://sketchfab.com/models/d0e78282ad3c4436a2ac7a5326983d8b/embed?autospin=0.2&amp;autostart=1" width="600" height="400" frameborder="0" mark="crwd-mark"></iframe>
+완성된 모델은 다음과 같습니다:
+
+<iframe src="https://sketchfab.com/models/d0e78282ad3c4436a2ac7a5326983d8b/embed?autospin=0.2&amp;autostart=1" width="600" height="400" frameborder="0"></iframe>
 
 이제 어떤 객체가 어떤 응답을 주는지 알았으므로 다양한 표정을 보여주기 위해 애니메이션을 보여줄 수 있는 로봇 얼굴을 만들어야 합니다. 이 단계에서는 예제 모델을 안내하지만 사용 가능한 항목에 따라 프로그램 계획은 조정할 수 있습니다.
 
