@@ -4,7 +4,9 @@
 
 --- task ---
 
-Antes de conectarlos, debes seguir las [instrucciones de montaje](https://learn.adafruit.com/adafruit-led-backpack/0-8-8x8-matrix-assembly){: target = "_ blank"}. El ensamblaje de las matrices de LED requiere algo de soldadura, así que pide permiso a un adulto antes de usar cualquier herramienta. Puedes seguir nuestra guía de soldadura aquí. <iframe width="560" height="315" src="https://www.youtube.com/embed/8Z-2wPWGnqE" title="Reproductor de video de YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
+Antes de conectarlos, debes seguir las [instrucciones de montaje](https://learn.adafruit.com/adafruit-led-backpack/0-8-8x8-matrix-assembly){: target = "_ blank"}. El ensamblaje de las matrices de LED requiere algo de soldadura, así que pide permiso a un adulto antes de usar cualquier herramienta. Puedes seguir nuestra guía de soldadura aquí.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8Z-2wPWGnqE" title="Reproductor de video de YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 --- /task ---
 
