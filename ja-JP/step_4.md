@@ -12,8 +12,6 @@
 ## 組み立て
 このモデルを同じように構築する、または自分でアレンジしながら作るには、次の構築ガイドを参照してください。ダウンロードする場合は[こちらです](images/robot_face.pdf)。
 <embed src="images/robot_face.pdf" width="800"  height="800" alt="pdf" pluginspage="http://www.adobe.com/products/acrobat/readstep2.html">
-  </p> 
-  
-  <p spaces-before="0">
-    次のステップでは、目のためのLEDアレイを構築して接続します。
-  </p>
+
+次のステップでは、目のためのLEDアレイを構築して接続します。
+
