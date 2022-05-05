@@ -1,6 +1,8 @@
 ## Ein Gesicht machen
 
-So sieht dein fertiges Modell aus: <iframe src="https://sketchfab.com/models/d0e78282ad3c4436a2ac7a5326983d8b/embed?autospin=0.2&amp;autostart=1" width="600" height="400" frameborder="0" mark="crwd-mark"></iframe>
+So sieht dein fertiges Modell aus:
+
+<iframe src="https://sketchfab.com/models/d0e78282ad3c4436a2ac7a5326983d8b/embed?autospin=0.2&amp;autostart=1" width="600" height="400" frameborder="0"></iframe>
 
 Da du nun weißt, welche Objekte welche Reaktionen auslösen, musst du ein Robotergesicht erstellen, das animiert werden kann, um die verschiedenen Gesichtsausdrücke zu zeigen. In diesem Schritt führen wir dich durch ein Beispielmodell, aber du kannst den Plan je nach Verfügbarkeit anpassen.
 
