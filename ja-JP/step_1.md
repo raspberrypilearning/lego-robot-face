@@ -35,11 +35,11 @@ title: 必要なもの
 + 2つの LEGO® Technic™ モーター
 + 1つの LEGO® Technic™ モーター
 + 1つの ミニブレッドボード
-+ 12× Pin-to-socket jumper wires (20cm)
++ 12 本のオス-メスジャンパー線 (20cm)
 + 2つの [Adafruit 8×8 LEDマトリックス](https://www.adafruit.com/product/1049) （または同様のもの - 組立や変更にはんだ付けが必要です）
 + 非常に長いスタッキングヘッダーピン
 + LEGO® 製品 (本項では [LEGO® SPIKE™ プライムキット](https://education.lego.com/en-gb/product/spike-prime) を使用することを前提とします)
-+ 20mm pin-to-socket header extender.
++ 20mm のピン-ソケット ヘッダーエクステンダー
 + はんだ付けキット
 
 ### ソフトウェア
@@ -121,7 +121,7 @@ M2のボルトとナットを使用して、 LEGO メーカープレートの上
 
 まだRaspberry Piのセットアップが済んでいない場合は、次の手順に従ってセットアップしてください:
 
-[Setting up your Raspberry Pi](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up){:target="_blank"}
+[Raspberry Piのセットアップ](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up){:target="_ blank"}
 
 --- /task ---
 
