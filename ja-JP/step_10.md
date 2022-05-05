@@ -4,7 +4,7 @@
 
 --- task ---
 
-まず、使用したいさまざまな表情を保存するための辞書を作成する必要があります。 これにより、口のモーター、眉のモーター、および目の値が得られます。
+まず、使用したいさまざまな表情を保存するための辞書を作成する必要があります。 これによって、口のモーター、眉のモーター、目のための値を得ることができます。
 
 --- code ---
 ---
@@ -12,33 +12,33 @@ language: python filename: robot_face.py line_numbers: true line_number_start: 2
 line_highlights:
 ---
 
-顔= { "neutral"：{"mouth"：0、 "right_eye"：neutral、 "left_eye"：neutral、 "eyebrows"：0}、 "happy"：{"mouth"：45、 "right_eye"： wide、 "left_eye"：wide、 "eyebrows"：150}、 "angry"：{"mouth"：-20、 "right_eye"：angry、 "left_eye"：angry、 "eyebrows"：-150}、 "悲しい "：{"口 "：-45、" right_eye "：look_down、" left_eye "：look_down、"眉毛 "：-40} } --- / code ---
+faces = { "neutral":{"mouth":0, "right_eye":neutral, "left_eye":neutral, "eyebrows":0}, "happy":{"mouth":45, "right_eye":wide, "left_eye":wide, "eyebrows":150}, "angry":{"mouth":-20, "right_eye":angry, "left_eye":angry, "eyebrows":-150}, "sad":{"mouth":-45, "right_eye":look_down, "left_eye":look_down, "eyebrows":-40} } --- /code ---
 
 --- /task ---
 
 --- task ---
 
-次に、口、眉、目を設定する関数を作成します。
+口、眉、目を設定する関数を作成しましょう。
 
 --- code ---
 ---
 language: python filename: robot_face.py line_numbers: true line_number_start: 50
 line_highlights:
 ---
-def set_face（face）： change_eyes（face ["right_eye"]、face ["left_eye"]） move_mouth（face ["mouth"]） move_eyebrows（face ["eyebrows"]） --- / code- -
+def set_face (face): change_eyes(face["right_eye"],face["left_eye"]) move_mouth(face["mouth"]) move_eyebrows(face["eyebrows"]) --- /code ---
 
 --- /task ---
 
 --- task ---
 
-あなたのコードを実行し、その後、使用 **シェル** 、あなたの新しい機能をテストします。
+コードを実行し、**シェル**を使って新しい関数をテストしましょう。
 
 --- code ---
 ---
 language: python filename: line_numbers: true line_number_start:
 line_highlights:
 ---
-> > > set_face（faces ['angry']） set_face（faces ['happy']） set_face（faces ['neutral']） set_face（faces ['sad']） --- / code ---
+> > > set_face(faces['angry']) set_face(faces['happy']) set_face(faces['neutral']) set_face(faces['sad']) --- /code ---
 
 --- /task ---
 
