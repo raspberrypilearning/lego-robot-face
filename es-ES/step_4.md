@@ -1,6 +1,8 @@
 ## Haciendo la cara
 
-Así es como se verá tu modelo terminado: <iframe src="https://sketchfab.com/models/d0e78282ad3c4436a2ac7a5326983d8b/embed?autospin=0.2&amp;autostart=1" width="600" height="400" frameborder="0" mark="crwd-mark"></iframe>
+Así es como se verá tu modelo terminado:
+
+<iframe src="https://sketchfab.com/models/d0e78282ad3c4436a2ac7a5326983d8b/embed?autospin=0.2&amp;autostart=1" width="600" height="400" frameborder="0"></iframe>
 
 Ahora que sabes qué objetos activarán qué respuestas, debes construir una cara robótica que pueda animarse para mostrar las diferentes expresiones. En este paso, te guiaremos a través de un modelo de ejemplo, pero puedes adaptar el plan según lo que tengas disponible.
 
