@@ -2,23 +2,23 @@
 
 [[[camera-bullseye]]]
 
-Over the course of this project you will construct a robot face from a combination of LEGO® and electronic components. You'll then use an existing machine learning model to help your face recognise different objects and react to them.
+このプロジェクトでは、 LEGO® と電子部品を組み合わせて、ロボットの顔を組み立てます。 それから既存の機械学習モデルを使用し、ロボットの顔がさまざまな物を認識して反応できるようにします。
 
 ### 作るもの
 
 --- no-print ---
 
-Your robot face will be able to recognise and react to a range of objects. Here you can see our example of a robot face.
+ロボットの顔は、さまざまな物を認識して反応することができます。 これがロボットの顔の例です。
 
-![Video of a robot face made out of LEGO® with LED eyes and changing expressions.](images/robot_face.gif)
+![LED の目と変化する表情をもつ、 LEGO® で作られたロボットの顔のビデオ。](images/robot_face.gif)
 
-You should build your robot face using whatever LEGO® and other materials you have available. We used the [LEGO® SPIKE™ Prime kit](https://education.lego.com/en-gb/product/spike-prime).
+LEGO® やその他の入手可能な素材を使って、ロボットの顔を作成していきましょう。 本項では [LEGO® SPIKE™ プライムキット](https://education.lego.com/en-gb/product/spike-prime) を使用します。
 
 --- /no-print ---
 
 --- print-only ---
 
-![Picture of the completed project: a robot face made out of LEGO® with LED eyes and a smiling expression.](images/robot_face.jpg)
+![完成したプロジェクトの写真: LED の目と笑顔の表情をもつ、 LEGO® で作られたロボットの顔。](images/robot_face.jpg)
 
 --- /print-only ---
 
@@ -28,31 +28,31 @@ title: 必要なもの
 ---
 ### ハードウェア
 
-+ RaspberryPiコンピューター
-+ ラズベリーパイビルドHAT
-+ RaspberryPiカメラモジュール
-+ 30cm RaspberryPiカメラリボンケーブル
-+ 2×小型LEGO®Technic™モーター
-+ 1×大型LEGO®Technic™モーター
-+ 1×ミニブレッドボード
-+ 12×オス-メスジャンパー線（20cm）
-+ 2× [Adafruitは、8×8 LEDマトリックス](https://www.adafruit.com/product/1049) （または同様の-アセンブルおよび変更するために、いくつかのはんだ付けを必要とします）
++ Raspberry Pi コンピューター
++ Raspberry Pi Build HAT
++ Raspberry Pi カメラモジュール
++ 30cmの Raspberry Pi カメラリボンケーブル
++ 2つの LEGO® Technic™ モーター
++ 1つの LEGO® Technic™ モーター
++ 1つの ミニブレッドボード
++ 12× Pin-to-socket jumper wires (20cm)
++ 2つの [Adafruit 8×8 LEDマトリックス](https://www.adafruit.com/product/1049) （または同様のもの - 組立や変更にはんだ付けが必要です）
 + 非常に長いスタッキングヘッダーピン
-+ レゴの品揃え（私たちはから選択を使用 [レゴSPIKE™プライムキット](https://education.lego.com/en-gb/product/spike-prime)）
-+ 20mmFMヘッダーエクステンダー。
++ LEGO® 製品 (本項では [LEGO® SPIKE™ プライムキット](https://education.lego.com/en-gb/product/spike-prime) を使用することを前提とします)
++ 20mm pin-to-socket header extender.
 + はんだ付けキット
 
 ### ソフトウェア
 
-Open a terminal and use the following commands to install the needed libraries:
+ターミナルを開き、次のコマンドを使用して必要なライブラリをインストールします。
 
-+ BuildHATを制御するためのBuildHATPythonライブラリ
++ Build HAT を制御するための Build HAT Python ライブラリ
 
 ```
 sudo pip3 install buildhat
 ```
 
-+ TensorFlowLiteライブラリとサンプルモデルおよびラベル
++ TensorFlow Liteライブラリとサンプルモデルおよびラベル
 
 ```
 echo "deb https://packages.cloud.google.com/apt coral-edgetpu-stable main" | sudo tee /etc/apt/sources.list.d/coral-edgetpu.list
@@ -61,7 +61,7 @@ sudo apt-get update
 sudo apt-get install python3-tflite-runtime
 ```
 
-+ AdafruitLEDマトリックスライブラリ
++ Adafruit LED マトリックスライブラリ
 
 ```
 pip3 install adafruit-circuitpython-ht16k33
@@ -69,7 +69,7 @@ pip3 install adafruit-circuitpython-ht16k33
 
 ### ダウンロード
 
-+ [Image classifier test files](https://rpf.io/p/en/lego-robot-face-go){:target="_blank"}
++ [画像分類器のテストファイル](https://rpf.io/p/en/lego-robot-face-go){:target="_blank"}
 
 --- /collapse ---
 
@@ -78,9 +78,9 @@ pip3 install adafruit-circuitpython-ht16k33
 title: 学習すること
 ---
 
-+ LEGO®を使用してより複雑なメカニズムを構築するには
++ LEGO® を使用してより複雑なメカニズムを構築する
 + 機械学習ライブラリを使用して画像を認識する
-+ 辞書のデータ構造を使用して顔の表情を制御するには
++ 辞書のデータ構造を使用して顔の表情を制御する
 
 --- /collapse ---
 
@@ -89,37 +89,37 @@ title: 学習すること
 title: 教育者向けの追加情報
 ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/robot-face/print){:target="_blank"}.
+このプロジェクトを印刷する必要がある場合は、 [印刷用バージョン](https://projects.raspberrypi.org/en/projects/robot-face/print){:target="_ blank"}を使用してください。
 
-[Here is a link to the resources for this project](https://rpf.io/p/en/lego-robot-face-go){:target="_blank"}.
+[プロジェクトのリソースはこちら](https://rpf.io/p/en/lego-robot-face-go){:target="_blank"}にあります。
 
 --- /collapse ---
 
-Before you begin, you'll need to have set up your Raspberry Pi computer and attached your Build HAT:
+開始する前に、Raspberry Piのセットアップと、Build HATの装着をしてください:
 
 --- task ---
 
-Mount your Raspberry Pi on to the LEGO Maker Plate using M2 bolts and nuts, making sure the Raspberry Pi is on the side without the 'edge':
+M2のボルトとナットを使用して、 LEGO メーカープレートの上にRaspberry Piを取り付けます。 Raspberry Piはふちがない方の面に載せます:
 
- ![Raspberry Pi bolted to a magenta LEGO Maker Plate.](images/build_11.jpg)
+ ![Raspberry Pi が赤い LEGO メイカープレートに固定された様子](images/build_11.jpg)
 
 --- /task ---
 
-Mounting the Raspberry Pi this way round enables easy access to the ports as well as the SD card slot. The maker Plate will allow you to connect the Raspberry Pi to the main structure of your dashboard more easily.
+写真のとおりにRaspberry Piを固定することで、SDカードスロットが扱いやすくなります。 メイカープレートを使うことで、ダッシュボードのおもな構造に、より簡単に接続できます。
 
 --- task ---
 
-Line up the Build HAT with the Raspberry Pi, ensuring you can see the `This way up` label. Make sure all the GPIO pins are covered by the HAT, and press down firmly. (The example uses a [stacking header](https://www.adafruit.com/product/2223){:target="_blank"}, which makes the pins longer.)
+`This way up` の文字が見えるようにBuild HATをRaspberry Piと並べます。 全部のGPIOピンがHATにかぶるよう合わせて、しっかり押し下げてください。 (例ではピンが長くなる [スタッキングヘッダー](https://www.adafruit.com/product/2223){:target="_blank"} を使用しています。)
 
-![Image of GPIO pins poking through the top of the Build HAT.](images/build_15.jpg) ![Animation showing Buildhat fitting to Raspberry Pi](images/haton.gif)
+![GPIOピンがBuild HATから突き抜けている画像](images/build_15.jpg) ![Raspberry PiにBuildhatを搭載するアニメーション](images/haton.gif)
 
 --- /task ---
 
-You should now power your Raspberry Pi using the 7.5V barrel jack on the Build HAT, which will allow you to use the motors.
+モーターを使用するためには、Build HAT上のバレルジャックに7.5Vの電源を接続してRaspberry Piに電源を供給する必要があります。
 
 --- task ---
 
-If you have not already done so, set up your Raspberry Pi by following these instructions:
+まだRaspberry Piのセットアップが済んでいない場合は、次の手順に従ってセットアップしてください:
 
 [Setting up your Raspberry Pi](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up){:target="_blank"}
 
@@ -127,26 +127,26 @@ If you have not already done so, set up your Raspberry Pi by following these ins
 
 --- task ---
 
-Once the Raspberry Pi has booted, open the Raspberry Pi Configuration tool by clicking on the Raspberry Menu button and then selecting “Preferences” and then “Raspberry Pi Configuration”.
+Raspberry Piが起動したら、Raspberry Piメニューをクリックして“Preferences”と “Raspberry Pi Configuration”の順に選択して、Raspberry Pi Configuration toolを起動します。
 
-Click on the “interfaces” tab and adjust the Serial settings as shown below:
+“interfaces”タブをクリックして、シリアルの設定を以下のとおりに設定します:
 
-![Image showing Raspberry Pi OS config screen with serial port enabled and serial console disabled](images/configshot.jpg)
+![Raspberry Pi OS設定画面で、シリアルポートを有効にして、シリアルコンソールを無効にしている様子](images/configshot.jpg)
 
 --- /task ---
 
---- task --- You will also need to install the buildhat python library by following these instructions:
+--- task --- また、以下の手順に従って、buildhat pythonのインストールも必要になります。
 
 --- collapse ---
 ---
-タイトル：buildhatPythonライブラリをインストールします
+title: buildhat Python ライブラリのインストール
 ---
 
-Open a terminal window on your Raspberry Pi by pressing <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd>.
+<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd> を押して、Raspberry Pi上でターミナルウィンドウを開きます。
 
-At the prompt type: `sudo pip3 install buildhat`
+プロンプトで次の通りに入力します: `sudo pip3 install buildhat`
 
-Press <kbd>Enter</kbd> and wait for the "installation completed" message.
+<kbd>Enter</kbd> キーを入力して "installation completed" のメッセージが表示されるまで待ちます。
 
 --- /collapse ---
 
