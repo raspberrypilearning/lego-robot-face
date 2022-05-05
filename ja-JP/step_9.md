@@ -1,17 +1,17 @@
-## 目をプログラムする
+## 目のプログラムを作る
 
-LEDマトリックスは、ディスプレイに8×8ピクセルの画像を表示できます。 これらは、目のさまざまな動きを表示するために使用できます。
+LEDマトリックスは、ディスプレイ上に8×8ピクセルの画像を表示できます。 これらは、さまざまな目の動きを表示するために使用できます。
 
 --- task ---
 
-LEDディスプレイに画像を表示できるように、3つの新しいライブラリを追加します。
+LEDディスプレイに画像を表示できるように、新しいライブラリを3つ追加します。
 
 --- code ---
 ---
 language: python filename: robot_face.py line_numbers: true line_number_start:
 line_highlights: 2-4
 ---
-buildhat輸入モーターから 輸入盤 adafruit_ht16k33.matrixインポートMatrix8x8から PILインポートイメージから
+from buildhat import Motor import board from adafruit_ht16k33.matrix import Matrix8x8 from PIL import Image
 
 --- /code ---
 
@@ -19,7 +19,7 @@ buildhat輸入モーターから 輸入盤 adafruit_ht16k33.matrixインポー�
 
 --- task ---
 
-左目と右目を使用するようにオブジェクトを設定します。 `A0` パッドをはんだ付けしたものに応じて、異なるディスプレイで異なる画像を使用する場合は、後でコードを調整できます。
+左目と右目を使用するようにオブジェクトを設定します。 今のところ、それぞれの目の画像は同じですが、 異なるディスプレイに異なる画像を使いたい場合は、`A0` パッドをはんだ付けしたほうに応じて、後でコードを調整できます。
 
 --- code ---
 ---
@@ -27,13 +27,13 @@ language: python filename: robot_face.py line_numbers: true line_number_start: 1
 line_highlights:
 ---
 
-i2c = board.I2C（） left_eye = Matrix8x8（i2c、address = 0x70） right_eye = Matrix8x8（i2c、address = 0x71） --- / code ---
+i2c = board.I2C() left_eye = Matrix8x8(i2c, address=0x70) right_eye = Matrix8x8(i2c, address=0x71) --- /code ---
 
 --- /task ---
 
 --- task ---
 
-PILライブラリを使用すると、一部の画像を開いて保存できます。
+PIL ライブラリを使用して、いくつかの画像を開いて格納します。
 
 --- code ---
 ---
@@ -41,33 +41,33 @@ language: python filename: line_numbers: true line_number_start: 17
 line_highlights:
 ---
 
-ニュートラル= Image.open（ "neutral.png"）。rotate（90） wide = Image.open（ "wide.png"）。rotate（90） angry = Image.open（ "angry.png"）。rotate （90） look_down = Image.open（ "look_down.png"）。rotate（90） --- / code ---
+neutral = Image.open("neutral.png").rotate(90) wide = Image.open("wide.png").rotate(90) angry = Image.open("angry.png").rotate(90) look_down = Image.open("look_down.png").rotate(90) --- /code ---
 
 --- /task ---
 
 --- task ---
 
-LEDに表示される目を変更する新しい関数を記述します。
+LEDに表示される目を変更するために、新しい関数を記述しましょう。
 
 --- code ---
 ---
 language: python filename: robot_face.py line_numbers: true line_number_start: 38
 line_highlights:
 ---
-def change_eyes（left、right）： left_eye.image（left） right_eye.image（right） --- / code ---
+def change_eyes(left,right): left_eye.image(left) right_eye.image(right) --- /code ---
 
 --- /task ---
 
 --- task ---
 
-あなたのコードを実行し、その後、使用 **シェル** 、あなたの新しい機能をテストします。
+コードを実行し、**シェル**を使って新しい関数をテストしましょう。
 
 --- code ---
 ---
 language: python filename: line_numbers: true line_number_start:
 line_highlights:
 ---
-> > > change_eyes（ニュートラル、ニュートラル） change_eyes（ワイド、ワイド） change_eyes（怒り、怒り） --- / code ---
+> > > change_eyes(neutral, neutral) change_eyes(wide, wide) change_eyes(angry, angry) --- /code ---
 
 --- /task ---
 
