@@ -1,6 +1,8 @@
 ## 做鬼脸
 
-这是您将要完成的模型的外观： <iframe src="https://sketchfab.com/models/d0e78282ad3c4436a2ac7a5326983d8b/embed?autospin=0.2&amp;autostart=1" width="600" height="400" frameborder="0" mark="crwd-mark"></iframe>
+这是您将要完成的模型的外观：
+
+<iframe src="https://sketchfab.com/models/d0e78282ad3c4436a2ac7a5326983d8b/embed?autospin=0.2&amp;autostart=1" width="600" height="400" frameborder="0"></iframe>
 
 现在您知道哪些对象会触发哪些响应，您需要构建一个可以动画显示不同表情的机器人脸。 在这一步中，我们将引导您完成一个示例模型，但您可以根据现有资源调整计划。
 
