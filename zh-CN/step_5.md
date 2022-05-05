@@ -4,7 +4,9 @@
 
 --- task ---
 
-在将它们连接起来之前，您需要遵循相关的 [组装说明](https://learn.adafruit.com/adafruit-led-backpack/0-8-8x8-matrix-assembly){:target="_blank"}。 组装LED 阵列需要一些焊接工作。在使用任何工具之前，请先获得成年人的许可。 您可以按照我们此处的焊接指南进行操作。 <iframe width="560" height="315" src="https://www.youtube.com/embed/8Z-2wPWGnqE" title="YouTube 视频播放器" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen mark="crwd-mark"></iframe>
+在将它们连接起来之前，您需要遵循相关的 [组装说明](https://learn.adafruit.com/adafruit-led-backpack/0-8-8x8-matrix-assembly){:target="_blank"}。 组装LED 阵列需要一些焊接工作。在使用任何工具之前，请先获得成年人的许可。 您可以按照我们此处的焊接指南进行操作。
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8Z-2wPWGnqE" title="YouTube 视频播放器" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 --- /task ---
 
