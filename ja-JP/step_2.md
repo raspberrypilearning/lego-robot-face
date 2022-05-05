@@ -22,7 +22,7 @@
 
 --- task ---
 
- To get started, download the resources for this project to your Raspberry Pi [by clicking here](http://rpf.io/p/en/lego-robot-face-go){:target="_blank"}.
+ 始めるには、 [ここをクリックして](http://rpf.io/p/en/lego-robot-face-go){:target="_blank"} Raspberry Pi にこのプロジェクト用のリソースをダウンロードします。
 
  --- /task ---
 
