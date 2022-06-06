@@ -5,17 +5,21 @@ description: LEGO®와 Build HAT로 보이는 것에 반응하는 로봇 얼굴�
 version: 4
 listed: true
 copyedit: true
-last_tested: "2020-02-26"
+last_tested: '2020-02-26'
 steps:
-  - title: 소개
-  - title: 기계 학습 모델 테스트
-  - title: 로봇 얼굴에 이모티콘 사용
-  - title: 얼굴 만들기
-  - title: 눈 추가하기
-  - title: Raspberry Pi 추가
-  - title: 입 움직이기
-  - title: 눈썹 프로그래밍
-  - title: 눈 프로그래밍
-  - title: 얼굴 바꾸기
-  - title: 사물에 대한 감정적 반응
-  - title: 더 나아가기
+- title: 소개
+- title: 기계 학습 모델 테스트
+- title: 로봇 얼굴에 이모티콘 사용
+  completion:
+  - engaged
+- title: 얼굴 만들기
+- title: 눈 추가하기
+- title: Raspberry Pi 추가
+- title: 입 움직이기
+- title: 눈썹 프로그래밍
+- title: 눈 프로그래밍
+- title: 얼굴 바꾸기
+- title: 사물에 대한 감정적 반응
+  completion:
+  - internal
+- title: 더 나아가기
