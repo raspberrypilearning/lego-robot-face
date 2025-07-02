@@ -23,6 +23,5 @@ steps:
 - title: Emotional responses to objects
   completion:
   - internal
-- title: What next?
   completion:
   - external
